@@ -6,14 +6,13 @@
   "publisher": "GLYSK OÜ",
   "copyright": "© 2026 GLYSK OÜ. Reference data for the AnglerBook application.",
   "structure": "kind -> brand -> model -> variant(specs)",
-  "disclaimer": "Seed catalog of real products. Rod variants for Sage R8 Core and Orvis Helios are verified against manufacturer/retailer listings; other entries are real models with specs normalized to structured fields. Verify exact SKU codes, current availability, and per-unit measurements against manufacturer sources before production use. Flies are pattern-based: brand denotes the commercial tying house.",
   "counts": {
     "kinds": 14,
     "brands": 42,
-    "models": 86,
-    "variants": 261,
+    "models": 107,
+    "variants": 408,
     "byKind": {
-      "rod": 42,
+      "rod": 189,
       "reel": 22,
       "line": 38,
       "backing": 6,
@@ -44,12 +43,164 @@
           "brand": "Sage",
           "models": [
             {
+              "model": "X",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "all-water",
+              "series": "flagship",
+              "years": "2016–2022",
+              "note": "KonneticHD fast-action flagship that replaced the ONE/Method; succeeded by the R8 Core.",
+              "variants": [
+                {
+                  "id": "rod-sage-x-390-4",
+                  "code": "390-4",
+                  "label": "390-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-486-4",
+                  "code": "486-4",
+                  "label": "486-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-490-4",
+                  "code": "490-4",
+                  "label": "490-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-586-4",
+                  "code": "586-4",
+                  "label": "586-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-597-4",
+                  "code": "597-4",
+                  "label": "597-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-691-4",
+                  "code": "691-4",
+                  "label": "691-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-896-4",
+                  "code": "896-4",
+                  "label": "896-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-1190-4",
+                  "code": "1190-4",
+                  "label": "1190-4",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
               "model": "R8 Core",
               "action": "fast",
               "material": "graphite",
               "waterType": "all-water",
               "series": "flagship",
-              "note": "Replaced the Sage X. 3wt-9wt, 8'6\"-10'0\".",
+              "years": "2022–present",
+              "note": "Revolution 8 flagship single-hand series that replaced the X, with a more fishable feel and Two-Way Feedback Loop blank.",
               "variants": [
                 {
                   "id": "rod-sage-r8-core-390-4",
@@ -58,6 +209,16 @@
                   "specs": {
                     "lineWeight": 3,
                     "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-r8-core-4100-4",
+                  "code": "4100-4",
+                  "label": "4100-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "10'0\"",
                     "pieces": 4
                   }
                 },
@@ -98,8 +259,7 @@
                   "specs": {
                     "lineWeight": 5,
                     "length": "10'0\"",
-                    "pieces": 4,
-                    "fightingButt": true
+                    "pieces": 4
                   }
                 },
                 {
@@ -119,8 +279,27 @@
                   "specs": {
                     "lineWeight": 6,
                     "length": "9'0\"",
-                    "pieces": 4,
-                    "fightingButt": true
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-r8-core-696-4fb",
+                  "code": "696-4FB",
+                  "label": "696-4FB",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-r8-core-6100-4fb",
+                  "code": "6100-4FB",
+                  "label": "6100-4FB",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "10'0\"",
+                    "pieces": 4
                   }
                 },
                 {
@@ -174,22 +353,1542 @@
                   }
                 },
                 {
-                  "id": "rod-sage-r8-core-810-4",
-                  "code": "810-4",
-                  "label": "810-4",
-                  "specs": {
-                    "lineWeight": 8,
-                    "length": "10'0\"",
-                    "pieces": 4
-                  }
-                },
-                {
                   "id": "rod-sage-r8-core-990-4",
                   "code": "990-4",
                   "label": "990-4",
                   "specs": {
                     "lineWeight": 9,
                     "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Igniter",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "all-water",
+              "series": "performance",
+              "years": "2019–present",
+              "note": "Ultra-fast, high-line-speed single-hand series built for distance and casting into wind.",
+              "variants": [
+                {
+                  "id": "rod-sage-igniter-490-4",
+                  "code": "490-4",
+                  "label": "490-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-691-4",
+                  "code": "691-4",
+                  "label": "691-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Sonic",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "all-water",
+              "series": "mid",
+              "years": "2019–present",
+              "note": "Mid-priced fast-action all-water rod on Konnetic Technology covering dry fly through streamers.",
+              "variants": [
+                {
+                  "id": "rod-sage-sonic-376-4",
+                  "code": "376-4",
+                  "label": "376-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "7'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-486-4",
+                  "code": "486-4",
+                  "label": "486-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-490-4",
+                  "code": "490-4",
+                  "label": "490-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-586-4",
+                  "code": "586-4",
+                  "label": "586-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-596-4",
+                  "code": "596-4",
+                  "label": "596-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-691-4",
+                  "code": "691-4",
+                  "label": "691-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-697-4",
+                  "code": "697-4",
+                  "label": "697-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-7100-4",
+                  "code": "7100-4",
+                  "label": "7100-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-896-4",
+                  "code": "896-4",
+                  "label": "896-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-8100-4",
+                  "code": "8100-4",
+                  "label": "8100-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Motive",
+              "action": "medium-fast",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "series": "value",
+              "years": "2013–2019",
+              "note": "Affordable USA-built dedicated saltwater rod (Graphite IIIe); later superseded by the Maverick.",
+              "variants": [
+                {
+                  "id": "rod-sage-motive-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-motive-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-motive-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-motive-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-motive-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-motive-1190-4",
+                  "code": "1190-4",
+                  "label": "1190-4",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-motive-1290-4",
+                  "code": "1290-4",
+                  "label": "1290-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Trout LL",
+              "action": "medium",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "presentation",
+              "years": "2019–present",
+              "note": "Presentation-focused dry-fly trout rod (Konnetic HD); a modern revival of Sage's classic Light Line rods.",
+              "variants": [
+                {
+                  "id": "rod-sage-trout-ll-379-4",
+                  "code": "379-4",
+                  "label": "379-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "7'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-ll-389-4",
+                  "code": "389-4",
+                  "label": "389-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "8'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-ll-486-4",
+                  "code": "486-4",
+                  "label": "486-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-ll-490-4",
+                  "code": "490-4",
+                  "label": "490-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-ll-586-4",
+                  "code": "586-4",
+                  "label": "586-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-ll-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-ll-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Salt HD",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "series": "premium",
+              "years": "2017–2023",
+              "note": "Premium dedicated saltwater rod, each weight purpose-built for a fishery; replaced by the Salt R8 in 2023.",
+              "variants": [
+                {
+                  "id": "rod-sage-salt-hd-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-1190-4",
+                  "code": "1190-4",
+                  "label": "1190-4",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-1191-4",
+                  "code": "1191-4",
+                  "label": "1191-4",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-1290-4",
+                  "code": "1290-4",
+                  "label": "1290-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-1291-4",
+                  "code": "1291-4",
+                  "label": "1291-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-1386-4",
+                  "code": "1386-4",
+                  "label": "1386-4",
+                  "specs": {
+                    "lineWeight": 13,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-hd-1686-4",
+                  "code": "1686-4",
+                  "label": "1686-4",
+                  "specs": {
+                    "lineWeight": 16,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Salt R8",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "series": "flagship",
+              "years": "2023–present",
+              "note": "Current flagship saltwater series on R8 graphite — more pulling power than the Salt HD plus a refined flats taper.",
+              "variants": [
+                {
+                  "id": "rod-sage-salt-r8-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-1190-4",
+                  "code": "1190-4",
+                  "label": "1190-4",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-1290-4",
+                  "code": "1290-4",
+                  "label": "1290-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-1290-4fg",
+                  "code": "1290-4FG",
+                  "label": "1290-4FG",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-salt-r8-1586-4",
+                  "code": "1586-4",
+                  "label": "1586-4",
+                  "specs": {
+                    "lineWeight": 15,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Maverick",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "series": "performance",
+              "years": "2020–present",
+              "note": "Mid-priced fast-action saltwater rod for quick-shot presentations, slotting below the flagship Salt series.",
+              "variants": [
+                {
+                  "id": "rod-sage-maverick-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-maverick-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-maverick-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-maverick-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-maverick-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-maverick-1190-4",
+                  "code": "1190-4",
+                  "label": "1190-4",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-maverick-1290-4",
+                  "code": "1290-4",
+                  "label": "1290-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-maverick-1486-4",
+                  "code": "1486-4",
+                  "label": "1486-4",
+                  "specs": {
+                    "lineWeight": 14,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Payload",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "all-water",
+              "series": "performance",
+              "years": "2019–present",
+              "note": "Short, powerful big-fly rod tuned for heavy sinking lines and oversized streamers in fresh and salt water.",
+              "variants": [
+                {
+                  "id": "rod-sage-payload-689-4",
+                  "code": "689-4",
+                  "label": "689-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "8'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-payload-789-4",
+                  "code": "789-4",
+                  "label": "789-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "8'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-payload-889-4",
+                  "code": "889-4",
+                  "label": "889-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "8'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-payload-989-4",
+                  "code": "989-4",
+                  "label": "989-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "8'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-payload-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-payload-1193-4",
+                  "code": "1193-4",
+                  "label": "1193-4",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "9'3\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Pulse",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "all-water",
+              "series": "value",
+              "years": "2015–2020",
+              "note": "Mid-price fast-action all-water workhorse on Graphite IIIe; replaced the Response and was succeeded by the Sonic.",
+              "variants": [
+                {
+                  "id": "rod-sage-pulse-376-4",
+                  "code": "376-4",
+                  "label": "376-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "7'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-486-4",
+                  "code": "486-4",
+                  "label": "486-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-490-4",
+                  "code": "490-4",
+                  "label": "490-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-586-4",
+                  "code": "586-4",
+                  "label": "586-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-596-4",
+                  "code": "596-4",
+                  "label": "596-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Dart",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "specialist",
+              "years": "2018–present",
+              "note": "Premium fast-action KonneticHD small-water rod for delicate presentations and tight loops on brushy creeks and small still waters.",
+              "variants": [
+                {
+                  "id": "rod-sage-dart-076-3",
+                  "code": "076-3",
+                  "label": "076-3",
+                  "specs": {
+                    "lineWeight": 0,
+                    "length": "7'6\"",
+                    "pieces": 3
+                  }
+                },
+                {
+                  "id": "rod-sage-dart-176-3",
+                  "code": "176-3",
+                  "label": "176-3",
+                  "specs": {
+                    "lineWeight": 1,
+                    "length": "7'6\"",
+                    "pieces": 3
+                  }
+                },
+                {
+                  "id": "rod-sage-dart-276-3",
+                  "code": "276-3",
+                  "label": "276-3",
+                  "specs": {
+                    "lineWeight": 2,
+                    "length": "7'6\"",
+                    "pieces": 3
+                  }
+                },
+                {
+                  "id": "rod-sage-dart-366-3",
+                  "code": "366-3",
+                  "label": "366-3",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "6'6\"",
+                    "pieces": 3
+                  }
+                },
+                {
+                  "id": "rod-sage-dart-376-3",
+                  "code": "376-3",
+                  "label": "376-3",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "7'6\"",
+                    "pieces": 3
+                  }
+                },
+                {
+                  "id": "rod-sage-dart-476-3",
+                  "code": "476-3",
+                  "label": "476-3",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "7'6\"",
+                    "pieces": 3
+                  }
+                }
+              ]
+            },
+            {
+              "model": "ESN",
+              "action": "medium",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "euro-nymph",
+              "years": "2014–present",
+              "note": "Purpose-built tight-line / Euro-nymphing rod with a soft, sensitive tip and low balance point from its down-locking seat.",
+              "variants": [
+                {
+                  "id": "rod-sage-esn-2100-4",
+                  "code": "2100-4",
+                  "label": "2100-4",
+                  "specs": {
+                    "lineWeight": 2,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-esn-3100-4",
+                  "code": "3100-4",
+                  "label": "3100-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-esn-3106-4",
+                  "code": "3106-4",
+                  "label": "3106-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "10'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-esn-4100-4",
+                  "code": "4100-4",
+                  "label": "4100-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Trout Spey HD",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "trout-spey",
+              "years": "2018–present",
+              "note": "Light trout-spey family for swinging soft-hackles and small streamers with 150–400gr heads.",
+              "variants": [
+                {
+                  "id": "rod-sage-trout-spey-hd-1109-4",
+                  "code": "1109-4",
+                  "label": "1109-4",
+                  "specs": {
+                    "lineWeight": 1,
+                    "length": "10'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-spey-hd-2109-4",
+                  "code": "2109-4",
+                  "label": "2109-4",
+                  "specs": {
+                    "lineWeight": 2,
+                    "length": "10'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-spey-hd-3103-4",
+                  "code": "3103-4",
+                  "label": "3103-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "10'3\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-spey-hd-3110-4",
+                  "code": "3110-4",
+                  "label": "3110-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-spey-hd-4113-4",
+                  "code": "4113-4",
+                  "label": "4113-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "11'3\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-trout-spey-hd-5116-4",
+                  "code": "5116-4",
+                  "label": "5116-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "11'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Sonic Spey",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "spey",
+              "years": "2021–present",
+              "note": "Lighter, thinner-profile mid-priced two-hander covering Scandi-to-Skagit swing scenarios.",
+              "variants": [
+                {
+                  "id": "rod-sage-sonic-spey-5126-4",
+                  "code": "5126-4",
+                  "label": "5126-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "12'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-spey-6126-4",
+                  "code": "6126-4",
+                  "label": "6126-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "12'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-spey-7136-4",
+                  "code": "7136-4",
+                  "label": "7136-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "13'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-spey-8136-4",
+                  "code": "8136-4",
+                  "label": "8136-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "13'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-spey-9140-6",
+                  "code": "9140-6",
+                  "label": "9140-6",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "14'0\"",
+                    "pieces": 6
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Sonic Switch",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "switch",
+              "years": "2021–present",
+              "note": "Switch range pairing with the Sonic Spey rods for tighter, smaller-water swing work.",
+              "variants": [
+                {
+                  "id": "rod-sage-sonic-switch-7116-4",
+                  "code": "7116-4",
+                  "label": "7116-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "11'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-sonic-switch-8116-4",
+                  "code": "8116-4",
+                  "label": "8116-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "11'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Igniter Spey",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "spey",
+              "years": "2019–present",
+              "note": "Sage's most powerful, fastest-action two-hander for long lines and heavy winter Skagit setups.",
+              "variants": [
+                {
+                  "id": "rod-sage-igniter-spey-6126-4",
+                  "code": "6126-4",
+                  "label": "6126-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "12'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-spey-7126-4",
+                  "code": "7126-4",
+                  "label": "7126-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "12'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-spey-8136-4",
+                  "code": "8136-4",
+                  "label": "8136-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "13'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-spey-9140-4",
+                  "code": "9140-4",
+                  "label": "9140-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "14'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-spey-9140-6",
+                  "code": "9140-6",
+                  "label": "9140-6",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "14'0\"",
+                    "pieces": 6
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-spey-10150-4",
+                  "code": "10150-4",
+                  "label": "10150-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "15'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Igniter Switch",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "switch",
+              "years": "2021–present",
+              "note": "Ultra-fast switch range for tight-quarters swing water from summer steelhead to big winter runs.",
+              "variants": [
+                {
+                  "id": "rod-sage-igniter-switch-6119-4",
+                  "code": "6119-4",
+                  "label": "6119-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "11'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-switch-7119-4",
+                  "code": "7119-4",
+                  "label": "7119-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "11'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-switch-8119-4",
+                  "code": "8119-4",
+                  "label": "8119-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "11'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-igniter-switch-9119-4",
+                  "code": "9119-4",
+                  "label": "9119-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "11'9\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "X Spey",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "spey",
+              "years": "2017–2022",
+              "note": "KonneticHD all-around spey family spanning Scandi-to-Skagit grain windows; discontinued and replaced by R8.",
+              "variants": [
+                {
+                  "id": "rod-sage-x-spey-5120-4",
+                  "code": "5120-4",
+                  "label": "5120-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "12'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-6120-4",
+                  "code": "6120-4",
+                  "label": "6120-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "12'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-6139-4",
+                  "code": "6139-4",
+                  "label": "6139-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "13'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-7120-4",
+                  "code": "7120-4",
+                  "label": "7120-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "12'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-7130-4",
+                  "code": "7130-4",
+                  "label": "7130-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "13'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-7140-4",
+                  "code": "7140-4",
+                  "label": "7140-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "14'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-8120-4",
+                  "code": "8120-4",
+                  "label": "8120-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "12'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-8130-4",
+                  "code": "8130-4",
+                  "label": "8130-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "13'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-8140-4",
+                  "code": "8140-4",
+                  "label": "8140-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "14'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-spey-9140-4",
+                  "code": "9140-4",
+                  "label": "9140-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "14'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "X Switch",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "switch",
+              "years": "2017–2022",
+              "note": "11' switch range for beach, big trout and steelhead; discontinued with the X series.",
+              "variants": [
+                {
+                  "id": "rod-sage-x-switch-6110-4",
+                  "code": "6110-4",
+                  "label": "6110-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-switch-7110-4",
+                  "code": "7110-4",
+                  "label": "7110-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-x-switch-8110-4",
+                  "code": "8110-4",
+                  "label": "8110-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Pulse Spey",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "spey",
+              "years": "2016–2021",
+              "note": "Graphite IIIe value-priced fast-action spey family for steelhead and salmon; discontinued.",
+              "variants": [
+                {
+                  "id": "rod-sage-pulse-spey-6126-4",
+                  "code": "6126-4",
+                  "label": "6126-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "12'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-spey-7130-4",
+                  "code": "7130-4",
+                  "label": "7130-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "13'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-spey-8136-4",
+                  "code": "8136-4",
+                  "label": "8136-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "13'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Pulse Switch",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "switch",
+              "years": "2016–2021",
+              "note": "Value-priced switch range including a 3-weight trout-spey option; discontinued.",
+              "variants": [
+                {
+                  "id": "rod-sage-pulse-switch-3110-4",
+                  "code": "3110-4",
+                  "label": "3110-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-switch-7114-4",
+                  "code": "7114-4",
+                  "label": "7114-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "11'4\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-sage-pulse-switch-8114-4",
+                  "code": "8114-4",
+                  "label": "8114-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "11'4\"",
                     "pieces": 4
                   }
                 }
