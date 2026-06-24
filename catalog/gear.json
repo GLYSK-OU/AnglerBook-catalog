@@ -1,1 +1,3111 @@
-
+{
+  "schemaVersion": "1.0.0",
+  "catalogVersion": "2026.06.24",
+  "generatedAt": "2026-06-24T00:00:00Z",
+  "app": "AnglerBook",
+  "publisher": "GLYSK OÜ",
+  "copyright": "© 2026 GLYSK OÜ. Reference data for the AnglerBook application.",
+  "counts": {
+    "categories": 14,
+    "gear": 131,
+    "byCategory": {
+      "rod": 14,
+      "reel": 6,
+      "line": 10,
+      "backing": 3,
+      "leader": 7,
+      "tippet": 16,
+      "fly": 35,
+      "waders": 4,
+      "boots": 4,
+      "pack": 6,
+      "net": 3,
+      "tool": 6,
+      "accessory": 12,
+      "apparel": 5
+    }
+  },
+  "categories": [
+    {
+      "id": "rod",
+      "name": "Rods",
+      "description": "Fly rods by line weight, length, and action.",
+      "sortOrder": 1
+    },
+    {
+      "id": "reel",
+      "name": "Reels",
+      "description": "Fly reels by weight class, arbor, and drag.",
+      "sortOrder": 2
+    },
+    {
+      "id": "line",
+      "name": "Fly Lines",
+      "description": "Fly lines by weight, taper, and density.",
+      "sortOrder": 3
+    },
+    {
+      "id": "backing",
+      "name": "Backing",
+      "description": "Reel backing by material and breaking strength.",
+      "sortOrder": 4
+    },
+    {
+      "id": "leader",
+      "name": "Leaders",
+      "description": "Tapered, furled, and poly leaders.",
+      "sortOrder": 5
+    },
+    {
+      "id": "tippet",
+      "name": "Tippet",
+      "description": "Tippet material by X-rating, diameter, and strength.",
+      "sortOrder": 6
+    },
+    {
+      "id": "fly",
+      "name": "Flies",
+      "description": "Patterns: dries, nymphs, emergers, wets, streamers, terrestrials, saltwater.",
+      "sortOrder": 7
+    },
+    {
+      "id": "waders",
+      "name": "Waders",
+      "description": "Chest, waist, and hip waders.",
+      "sortOrder": 8
+    },
+    {
+      "id": "boots",
+      "name": "Wading Boots",
+      "description": "Boots by sole type.",
+      "sortOrder": 9
+    },
+    {
+      "id": "pack",
+      "name": "Packs & Vests",
+      "description": "Sling, chest, hip packs, vests, lanyards.",
+      "sortOrder": 10
+    },
+    {
+      "id": "net",
+      "name": "Nets",
+      "description": "Landing and catch-and-release nets.",
+      "sortOrder": 11
+    },
+    {
+      "id": "tool",
+      "name": "Tools",
+      "description": "Nippers, forceps, hones, knot tools.",
+      "sortOrder": 12
+    },
+    {
+      "id": "accessory",
+      "name": "Accessories",
+      "description": "Floatant, indicators, shot, rings, boxes, optics.",
+      "sortOrder": 13
+    },
+    {
+      "id": "apparel",
+      "name": "Apparel",
+      "description": "Sun protection, gloves, headwear.",
+      "sortOrder": 14
+    }
+  ],
+  "reference": {
+    "lineWeightSystem": [
+      {
+        "weight": 1,
+        "primaryUse": "Tiny streams, micro/panfish, ultra-delicate presentation"
+      },
+      {
+        "weight": 2,
+        "primaryUse": "Small streams, spooky trout, light dries"
+      },
+      {
+        "weight": 3,
+        "primaryUse": "Small streams and creeks, panfish, delicate dry fly"
+      },
+      {
+        "weight": 4,
+        "primaryUse": "Small to medium trout streams, dry fly and light nymphing"
+      },
+      {
+        "weight": 5,
+        "primaryUse": "Most versatile all-around trout weight"
+      },
+      {
+        "weight": 6,
+        "primaryUse": "Larger trout, smallmouth bass, wind, light streamers"
+      },
+      {
+        "weight": 7,
+        "primaryUse": "Bass, steelhead, light saltwater, larger streamers"
+      },
+      {
+        "weight": 8,
+        "primaryUse": "Saltwater (bonefish, redfish), salmon, pike, big bass"
+      },
+      {
+        "weight": 9,
+        "primaryUse": "Saltwater (stripers, permit), salmon, big pike"
+      },
+      {
+        "weight": 10,
+        "primaryUse": "Heavier saltwater, musky, large predators"
+      },
+      {
+        "weight": 11,
+        "primaryUse": "Big saltwater (tarpon), offshore-light"
+      },
+      {
+        "weight": 12,
+        "primaryUse": "Tarpon, GT, heavy saltwater"
+      },
+      {
+        "weight": 13,
+        "primaryUse": "Offshore big game"
+      },
+      {
+        "weight": 14,
+        "primaryUse": "Heavy offshore big game"
+      }
+    ],
+    "tippetSystem": [
+      {
+        "x": "0X",
+        "diameterIn": 0.011,
+        "diameterMm": 0.28,
+        "nominalBreakLb": 15.5,
+        "typicalFlySizes": "2-1/0"
+      },
+      {
+        "x": "1X",
+        "diameterIn": 0.01,
+        "diameterMm": 0.25,
+        "nominalBreakLb": 13.5,
+        "typicalFlySizes": "4-8"
+      },
+      {
+        "x": "2X",
+        "diameterIn": 0.009,
+        "diameterMm": 0.23,
+        "nominalBreakLb": 11.5,
+        "typicalFlySizes": "6-10"
+      },
+      {
+        "x": "3X",
+        "diameterIn": 0.008,
+        "diameterMm": 0.2,
+        "nominalBreakLb": 8.5,
+        "typicalFlySizes": "10-14"
+      },
+      {
+        "x": "4X",
+        "diameterIn": 0.007,
+        "diameterMm": 0.18,
+        "nominalBreakLb": 6.0,
+        "typicalFlySizes": "12-16"
+      },
+      {
+        "x": "5X",
+        "diameterIn": 0.006,
+        "diameterMm": 0.15,
+        "nominalBreakLb": 4.75,
+        "typicalFlySizes": "14-18"
+      },
+      {
+        "x": "6X",
+        "diameterIn": 0.005,
+        "diameterMm": 0.13,
+        "nominalBreakLb": 3.5,
+        "typicalFlySizes": "16-22"
+      },
+      {
+        "x": "7X",
+        "diameterIn": 0.004,
+        "diameterMm": 0.1,
+        "nominalBreakLb": 2.5,
+        "typicalFlySizes": "18-24"
+      },
+      {
+        "x": "8X",
+        "diameterIn": 0.003,
+        "diameterMm": 0.08,
+        "nominalBreakLb": 1.75,
+        "typicalFlySizes": "22-28"
+      }
+    ],
+    "rodActions": [
+      "slow",
+      "medium-slow",
+      "medium",
+      "medium-fast",
+      "fast"
+    ],
+    "lineTapers": [
+      {
+        "code": "WF",
+        "name": "Weight-Forward",
+        "note": "Most popular; easy distance and turnover."
+      },
+      {
+        "code": "DT",
+        "name": "Double-Taper",
+        "note": "Delicate presentation, roll casting, reversible."
+      },
+      {
+        "code": "L",
+        "name": "Level",
+        "note": "Uniform diameter; economical, less refined."
+      },
+      {
+        "code": "ST",
+        "name": "Shooting Taper / Head",
+        "note": "Short head for max distance with running line."
+      },
+      {
+        "code": "TT",
+        "name": "Triangle Taper",
+        "note": "Continuous front taper for smooth energy transfer."
+      }
+    ],
+    "lineDensities": [
+      {
+        "code": "F",
+        "name": "Floating",
+        "sinkRateIps": null
+      },
+      {
+        "code": "I",
+        "name": "Intermediate",
+        "sinkRateIps": "1.0-1.5"
+      },
+      {
+        "code": "S/T",
+        "name": "Sink-Tip",
+        "sinkRateIps": "varies by tip"
+      },
+      {
+        "code": "S1",
+        "name": "Full Sinking — Type 1",
+        "sinkRateIps": "1.5-2"
+      },
+      {
+        "code": "S3",
+        "name": "Full Sinking — Type 3",
+        "sinkRateIps": "3-4"
+      },
+      {
+        "code": "S5",
+        "name": "Full Sinking — Type 5",
+        "sinkRateIps": "5-6"
+      },
+      {
+        "code": "S7",
+        "name": "Full Sinking — Type 7",
+        "sinkRateIps": "7-8"
+      }
+    ],
+    "hookSizes": [
+      "28",
+      "26",
+      "24",
+      "22",
+      "20",
+      "18",
+      "16",
+      "14",
+      "12",
+      "10",
+      "8",
+      "6",
+      "4",
+      "2",
+      "1",
+      "1/0",
+      "2/0",
+      "3/0",
+      "4/0",
+      "5/0"
+    ],
+    "notes": [
+      "Rod, line, and reel weights should match (e.g. a 5wt rod takes a 5wt line and a 5/6 reel).",
+      "Felt-soled wading boots are restricted or banned in several jurisdictions to limit aquatic invasive species — check local regulation.",
+      "Tippet breaking strengths are nominal and vary by manufacturer and material."
+    ]
+  },
+  "gear": [
+    {
+      "id": "rod-3wt",
+      "category": "rod",
+      "name": "3-Weight Fly Rod",
+      "description": "3wt single-hand fly rod. Trout, panfish on small water.",
+      "specs": {
+        "lineWeight": 3,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "medium",
+        "material": "graphite"
+      },
+      "useCases": [
+        "Trout, panfish on small water"
+      ],
+      "tags": [
+        "small streams",
+        "dry fly",
+        "panfish"
+      ]
+    },
+    {
+      "id": "rod-4wt",
+      "category": "rod",
+      "name": "4-Weight Fly Rod",
+      "description": "4wt single-hand fly rod. Small to medium trout streams.",
+      "specs": {
+        "lineWeight": 4,
+        "length": "8'6\"",
+        "pieces": 4,
+        "action": "medium-fast",
+        "material": "graphite"
+      },
+      "useCases": [
+        "Small to medium trout streams"
+      ],
+      "tags": [
+        "trout",
+        "dry fly",
+        "light nymphing"
+      ]
+    },
+    {
+      "id": "rod-5wt",
+      "category": "rod",
+      "name": "5-Weight Fly Rod",
+      "description": "5wt single-hand fly rod. All-around trout — the default workhorse.",
+      "specs": {
+        "lineWeight": 5,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "medium-fast",
+        "material": "graphite"
+      },
+      "useCases": [
+        "All-around trout — the default workhorse"
+      ],
+      "tags": [
+        "trout",
+        "versatile",
+        "all-around"
+      ]
+    },
+    {
+      "id": "rod-6wt",
+      "category": "rod",
+      "name": "6-Weight Fly Rod",
+      "description": "6wt single-hand fly rod. Bigger trout, bass, wind, light streamers.",
+      "specs": {
+        "lineWeight": 6,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "fast",
+        "material": "graphite"
+      },
+      "useCases": [
+        "Bigger trout, bass, wind, light streamers"
+      ],
+      "tags": [
+        "bass",
+        "streamers",
+        "wind"
+      ]
+    },
+    {
+      "id": "rod-7wt",
+      "category": "rod",
+      "name": "7-Weight Fly Rod",
+      "description": "7wt single-hand fly rod. Bass, steelhead, light salt, big streamers.",
+      "specs": {
+        "lineWeight": 7,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "fast",
+        "material": "graphite"
+      },
+      "useCases": [
+        "Bass, steelhead, light salt, big streamers"
+      ],
+      "tags": [
+        "bass",
+        "steelhead",
+        "streamers"
+      ]
+    },
+    {
+      "id": "rod-8wt",
+      "category": "rod",
+      "name": "8-Weight Fly Rod",
+      "description": "8wt single-hand fly rod. Saltwater flats, salmon, pike.",
+      "specs": {
+        "lineWeight": 8,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "fast",
+        "material": "graphite"
+      },
+      "useCases": [
+        "Saltwater flats, salmon, pike"
+      ],
+      "tags": [
+        "saltwater",
+        "salmon",
+        "pike"
+      ]
+    },
+    {
+      "id": "rod-9wt",
+      "category": "rod",
+      "name": "9-Weight Fly Rod",
+      "description": "9wt single-hand fly rod. Stripers, permit, salmon, big predators.",
+      "specs": {
+        "lineWeight": 9,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "fast",
+        "material": "graphite"
+      },
+      "useCases": [
+        "Stripers, permit, salmon, big predators"
+      ],
+      "tags": [
+        "saltwater",
+        "stripers",
+        "permit"
+      ]
+    },
+    {
+      "id": "rod-10wt",
+      "category": "rod",
+      "name": "10-Weight Fly Rod",
+      "description": "10wt single-hand fly rod. Heavy saltwater, musky.",
+      "specs": {
+        "lineWeight": 10,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "fast",
+        "material": "graphite"
+      },
+      "useCases": [
+        "Heavy saltwater, musky"
+      ],
+      "tags": [
+        "saltwater",
+        "musky",
+        "big-game"
+      ]
+    },
+    {
+      "id": "rod-euro-nymph-3wt",
+      "category": "rod",
+      "name": "Euro Nymphing Rod (3wt)",
+      "description": "Long, soft-tipped rod built for tight-line (euro) nymphing and sighter leaders.",
+      "specs": {
+        "lineWeight": 3,
+        "length": "10'0\"",
+        "pieces": 4,
+        "action": "medium",
+        "material": "graphite",
+        "purpose": "tight-line/euro nymphing"
+      },
+      "useCases": [
+        "euro nymphing",
+        "tight-line"
+      ],
+      "tags": [
+        "nymphing",
+        "competition"
+      ]
+    },
+    {
+      "id": "rod-fiberglass-5wt",
+      "category": "rod",
+      "name": "Fiberglass Fly Rod (5wt)",
+      "description": "Slow, full-flexing glass rod for close-quarters small-stream fishing.",
+      "specs": {
+        "lineWeight": 5,
+        "length": "7'6\"",
+        "pieces": 3,
+        "action": "slow",
+        "material": "fiberglass"
+      },
+      "useCases": [
+        "small streams",
+        "casual",
+        "glass feel"
+      ],
+      "tags": [
+        "fiberglass",
+        "small-stream"
+      ]
+    },
+    {
+      "id": "rod-tenkara",
+      "category": "rod",
+      "name": "Tenkara Rod",
+      "description": "Fixed-line telescopic Japanese rod fished without a reel; line attaches to the tip.",
+      "specs": {
+        "length": "12'0\"",
+        "collapsedLength": "20in",
+        "telescopic": true,
+        "material": "graphite",
+        "reelless": true
+      },
+      "useCases": [
+        "small streams",
+        "minimalist",
+        "mountain creeks"
+      ],
+      "tags": [
+        "tenkara",
+        "reelless"
+      ]
+    },
+    {
+      "id": "rod-switch-6wt",
+      "category": "rod",
+      "name": "Switch Rod (6wt)",
+      "description": "Hybrid rod castable single- or two-handed for swinging flies and light Spey.",
+      "specs": {
+        "lineWeight": 6,
+        "length": "11'0\"",
+        "pieces": 4,
+        "action": "medium-fast",
+        "handType": "switch",
+        "purpose": "single or two-hand casting"
+      },
+      "useCases": [
+        "swinging flies",
+        "steelhead",
+        "two-hand"
+      ],
+      "tags": [
+        "switch",
+        "spey"
+      ]
+    },
+    {
+      "id": "rod-spey-7wt",
+      "category": "rod",
+      "name": "Spey Rod (7wt)",
+      "description": "Two-handed rod for Spey casting large water for salmon and steelhead.",
+      "specs": {
+        "lineWeight": 7,
+        "length": "13'0\"",
+        "pieces": 4,
+        "action": "medium",
+        "handType": "two-hand",
+        "purpose": "Spey casting"
+      },
+      "useCases": [
+        "salmon",
+        "steelhead",
+        "big rivers"
+      ],
+      "tags": [
+        "spey",
+        "two-hand"
+      ]
+    },
+    {
+      "id": "rod-saltwater-9wt",
+      "category": "rod",
+      "name": "Saltwater Fly Rod (9wt)",
+      "description": "Fast, powerful saltwater rod with sealed components for the flats and surf.",
+      "specs": {
+        "lineWeight": 9,
+        "length": "9'0\"",
+        "pieces": 4,
+        "action": "fast",
+        "material": "graphite",
+        "corrosionResistant": true
+      },
+      "useCases": [
+        "bonefish",
+        "redfish",
+        "stripers"
+      ],
+      "tags": [
+        "saltwater",
+        "flats"
+      ]
+    },
+    {
+      "id": "reel-3-4",
+      "category": "reel",
+      "name": "Fly Reel 3/4",
+      "description": "Light trout reels; click drag for small fish.",
+      "specs": {
+        "weightClass": "3/4",
+        "arbor": "large",
+        "dragSystem": "click-pawl",
+        "material": "machined aluminium"
+      },
+      "useCases": [
+        "Light trout reels; click drag for small fish"
+      ],
+      "tags": [
+        "trout",
+        "small-stream"
+      ]
+    },
+    {
+      "id": "reel-5-6",
+      "category": "reel",
+      "name": "Fly Reel 5/6",
+      "description": "All-around trout reel; sealed disc drag.",
+      "specs": {
+        "weightClass": "5/6",
+        "arbor": "large",
+        "dragSystem": "disc",
+        "material": "machined aluminium"
+      },
+      "useCases": [
+        "All-around trout reel; sealed disc drag"
+      ],
+      "tags": [
+        "trout",
+        "versatile"
+      ]
+    },
+    {
+      "id": "reel-7-8",
+      "category": "reel",
+      "name": "Fly Reel 7/8",
+      "description": "Bass, steelhead, light salt.",
+      "specs": {
+        "weightClass": "7/8",
+        "arbor": "large",
+        "dragSystem": "disc",
+        "material": "machined aluminium"
+      },
+      "useCases": [
+        "Bass, steelhead, light salt"
+      ],
+      "tags": [
+        "bass",
+        "steelhead",
+        "light-salt"
+      ]
+    },
+    {
+      "id": "reel-9-10",
+      "category": "reel",
+      "name": "Fly Reel 9/10",
+      "description": "Saltwater reel with strong sealed drag.",
+      "specs": {
+        "weightClass": "9/10",
+        "arbor": "large",
+        "dragSystem": "sealed disc",
+        "material": "machined aluminium"
+      },
+      "useCases": [
+        "Saltwater reel with strong sealed drag"
+      ],
+      "tags": [
+        "saltwater",
+        "salmon"
+      ]
+    },
+    {
+      "id": "reel-11-12",
+      "category": "reel",
+      "name": "Fly Reel 11/12",
+      "description": "Big-game saltwater reel, high backing capacity.",
+      "specs": {
+        "weightClass": "11/12",
+        "arbor": "large",
+        "dragSystem": "sealed disc",
+        "material": "machined aluminium"
+      },
+      "useCases": [
+        "Big-game saltwater reel, high backing capacity"
+      ],
+      "tags": [
+        "saltwater",
+        "big-game"
+      ]
+    },
+    {
+      "id": "reel-click-pawl-classic",
+      "category": "reel",
+      "name": "Classic Click-Pawl Reel",
+      "description": "Traditional narrow-arbor reel; palming drag and audible click.",
+      "specs": {
+        "weightClass": "4/5",
+        "arbor": "standard",
+        "dragSystem": "click-pawl",
+        "material": "aluminium"
+      },
+      "useCases": [
+        "small trout",
+        "traditional",
+        "palming"
+      ],
+      "tags": [
+        "classic",
+        "click-pawl"
+      ]
+    },
+    {
+      "id": "line-wf-float-trout",
+      "category": "line",
+      "name": "WF Floating Trout Line",
+      "description": "Weight-forward floating line — the default for dry-fly and nymph trout fishing.",
+      "specs": {
+        "weight": 5,
+        "taper": "WF",
+        "density": "floating",
+        "color": "hi-vis"
+      },
+      "useCases": [
+        "dry fly",
+        "nymphing",
+        "all-around"
+      ],
+      "tags": [
+        "floating",
+        "trout"
+      ]
+    },
+    {
+      "id": "line-dt-float",
+      "category": "line",
+      "name": "DT Floating Line",
+      "description": "Double-taper floater for delicate presentation and roll casting; reversible to extend life.",
+      "specs": {
+        "weight": 4,
+        "taper": "DT",
+        "density": "floating"
+      },
+      "useCases": [
+        "delicate presentation",
+        "roll cast",
+        "small water"
+      ],
+      "tags": [
+        "floating",
+        "double-taper"
+      ]
+    },
+    {
+      "id": "line-wf-intermediate",
+      "category": "line",
+      "name": "WF Intermediate Line",
+      "description": "Slow-sinking clear/camo line that fishes just under the surface film.",
+      "specs": {
+        "weight": 6,
+        "taper": "WF",
+        "density": "intermediate",
+        "sinkRateIps": "1.0-1.5"
+      },
+      "useCases": [
+        "stillwater",
+        "subsurface",
+        "streamers"
+      ],
+      "tags": [
+        "intermediate",
+        "stillwater"
+      ]
+    },
+    {
+      "id": "line-sink-tip",
+      "category": "line",
+      "name": "WF Sink-Tip Line",
+      "description": "Floating body with a sinking tip to get streamers down while keeping mending control.",
+      "specs": {
+        "weight": 7,
+        "taper": "WF",
+        "density": "sink-tip",
+        "tipSinkRateIps": "3-4"
+      },
+      "useCases": [
+        "streamers",
+        "rivers",
+        "swinging"
+      ],
+      "tags": [
+        "sink-tip",
+        "streamers"
+      ]
+    },
+    {
+      "id": "line-full-sink-t3",
+      "category": "line",
+      "name": "Full-Sinking Line — Type 3",
+      "description": "Uniform-sinking line for fishing deep in lakes and reservoirs.",
+      "specs": {
+        "weight": 6,
+        "taper": "WF",
+        "density": "full-sinking",
+        "sinkRateIps": "3-4"
+      },
+      "useCases": [
+        "stillwater",
+        "deep",
+        "trolling-retrieve"
+      ],
+      "tags": [
+        "sinking",
+        "stillwater"
+      ]
+    },
+    {
+      "id": "line-bass-bug",
+      "category": "line",
+      "name": "Bass / Bug Taper Line",
+      "description": "Short powerful front taper to turn over bulky poppers and bass bugs.",
+      "specs": {
+        "weight": 8,
+        "taper": "WF",
+        "density": "floating",
+        "frontTaper": "short, aggressive"
+      },
+      "useCases": [
+        "bass",
+        "poppers",
+        "big flies"
+      ],
+      "tags": [
+        "floating",
+        "bass"
+      ]
+    },
+    {
+      "id": "line-saltwater-wf",
+      "category": "line",
+      "name": "Saltwater WF Floating Line",
+      "description": "Tropical-spec floating line with a stiff core that resists heat and turns over big flies.",
+      "specs": {
+        "weight": 9,
+        "taper": "WF",
+        "density": "floating",
+        "coating": "tropical/stiff core"
+      },
+      "useCases": [
+        "flats",
+        "bonefish",
+        "redfish"
+      ],
+      "tags": [
+        "saltwater",
+        "tropical"
+      ]
+    },
+    {
+      "id": "line-skagit-head",
+      "category": "line",
+      "name": "Skagit Head",
+      "description": "Short, heavy shooting head for two-hand casting heavy sink-tips and big flies.",
+      "specs": {
+        "taper": "ST",
+        "density": "floating",
+        "purpose": "two-hand / switch",
+        "system": "interchangeable tips"
+      },
+      "useCases": [
+        "steelhead",
+        "swinging",
+        "two-hand"
+      ],
+      "tags": [
+        "spey",
+        "skagit"
+      ]
+    },
+    {
+      "id": "line-scandi-head",
+      "category": "line",
+      "name": "Scandi Head",
+      "description": "Longer, finer shooting head for lighter flies and delicate Spey presentation.",
+      "specs": {
+        "taper": "ST",
+        "density": "floating",
+        "purpose": "two-hand / switch"
+      },
+      "useCases": [
+        "salmon",
+        "swinging",
+        "two-hand"
+      ],
+      "tags": [
+        "spey",
+        "scandi"
+      ]
+    },
+    {
+      "id": "line-euro-nymph",
+      "category": "line",
+      "name": "Euro Nymphing Line",
+      "description": "Thin level line used with long mono leaders for tight-line nymphing.",
+      "specs": {
+        "diameter": "ultra-thin level",
+        "density": "floating",
+        "purpose": "tight-line nymphing"
+      },
+      "useCases": [
+        "euro nymphing",
+        "tight-line"
+      ],
+      "tags": [
+        "nymphing",
+        "competition"
+      ]
+    },
+    {
+      "id": "backing-dacron-20",
+      "category": "backing",
+      "name": "Dacron Backing 20 lb",
+      "description": "Standard 20 lb braided dacron backing for trout and light reels.",
+      "specs": {
+        "material": "dacron",
+        "breakingStrengthLb": 20,
+        "typicalCapacityYds": "100-150"
+      },
+      "useCases": [
+        "trout",
+        "freshwater"
+      ],
+      "tags": [
+        "dacron"
+      ]
+    },
+    {
+      "id": "backing-dacron-30",
+      "category": "backing",
+      "name": "Dacron Backing 30 lb",
+      "description": "Heavier 30 lb dacron for saltwater and big-game reels.",
+      "specs": {
+        "material": "dacron",
+        "breakingStrengthLb": 30,
+        "typicalCapacityYds": "150-250"
+      },
+      "useCases": [
+        "saltwater",
+        "salmon"
+      ],
+      "tags": [
+        "dacron"
+      ]
+    },
+    {
+      "id": "backing-gelspun-50",
+      "category": "backing",
+      "name": "Gel-Spun Backing 50 lb",
+      "description": "Thin, strong gel-spun backing that maximises capacity on saltwater reels.",
+      "specs": {
+        "material": "gel-spun polyethylene",
+        "breakingStrengthLb": 50,
+        "note": "thin diameter, high capacity"
+      },
+      "useCases": [
+        "saltwater",
+        "big-game"
+      ],
+      "tags": [
+        "gel-spun",
+        "high-capacity"
+      ]
+    },
+    {
+      "id": "leader-75-3x-nylo",
+      "category": "leader",
+      "name": "7.5' 3X Tapered Leader",
+      "description": "Short leader for streamers and windy days.",
+      "specs": {
+        "length": "7.5'",
+        "tippetSize": "3X",
+        "material": "nylon",
+        "type": "tapered"
+      },
+      "useCases": [
+        "Short leader for streamers and windy days"
+      ],
+      "tags": [
+        "streamers",
+        "wind"
+      ]
+    },
+    {
+      "id": "leader-9-4x-nylo",
+      "category": "leader",
+      "name": "9' 4X Tapered Leader",
+      "description": "The all-purpose trout leader.",
+      "specs": {
+        "length": "9'",
+        "tippetSize": "4X",
+        "material": "nylon",
+        "type": "tapered"
+      },
+      "useCases": [
+        "The all-purpose trout leader"
+      ],
+      "tags": [
+        "trout",
+        "all-around"
+      ]
+    },
+    {
+      "id": "leader-9-5x-fluo",
+      "category": "leader",
+      "name": "9' 5X Tapered Leader",
+      "description": "Low-vis subsurface leader for nymphs.",
+      "specs": {
+        "length": "9'",
+        "tippetSize": "5X",
+        "material": "fluorocarbon",
+        "type": "tapered"
+      },
+      "useCases": [
+        "Low-vis subsurface leader for nymphs"
+      ],
+      "tags": [
+        "nymphing",
+        "clear water"
+      ]
+    },
+    {
+      "id": "leader-12-6x-nylo",
+      "category": "leader",
+      "name": "12' 6X Tapered Leader",
+      "description": "Long leader for spooky fish and flat water.",
+      "specs": {
+        "length": "12'",
+        "tippetSize": "6X",
+        "material": "nylon",
+        "type": "tapered"
+      },
+      "useCases": [
+        "Long leader for spooky fish and flat water"
+      ],
+      "tags": [
+        "spooky fish",
+        "flat water"
+      ]
+    },
+    {
+      "id": "leader-furled",
+      "category": "leader",
+      "name": "Furled Leader",
+      "description": "Hand-furled leader that turns over softly and lasts many sessions; add tippet to the end.",
+      "specs": {
+        "length": "5.5'",
+        "material": "thread/mono",
+        "type": "furled",
+        "reusable": true
+      },
+      "useCases": [
+        "delicate presentation",
+        "small streams"
+      ],
+      "tags": [
+        "furled",
+        "reusable"
+      ]
+    },
+    {
+      "id": "leader-poly-sinktip",
+      "category": "leader",
+      "name": "Poly-Leader Sink-Tip",
+      "description": "Looped sinking poly-leader that converts a floating line into a sink-tip.",
+      "specs": {
+        "length": "5'",
+        "type": "poly",
+        "density": "sinking",
+        "purpose": "convert floating line"
+      },
+      "useCases": [
+        "streamers",
+        "swinging"
+      ],
+      "tags": [
+        "sinking",
+        "poly"
+      ]
+    },
+    {
+      "id": "leader-saltwater",
+      "category": "leader",
+      "name": "Saltwater Tapered Leader",
+      "description": "Heavy fluorocarbon tapered leader for flats species and abrasion resistance.",
+      "specs": {
+        "length": "9'",
+        "tippetSize": "0X-2X",
+        "material": "fluorocarbon",
+        "type": "tapered"
+      },
+      "useCases": [
+        "bonefish",
+        "redfish",
+        "flats"
+      ],
+      "tags": [
+        "saltwater",
+        "fluoro"
+      ]
+    },
+    {
+      "id": "tippet-0x-mono",
+      "category": "tippet",
+      "name": "0X Nylon Tippet",
+      "description": "0X nylon tippet (0.011\" / 0.28mm, ~15.5 lb).",
+      "specs": {
+        "size": "0X",
+        "material": "nylon",
+        "diameterIn": 0.011,
+        "diameterMm": 0.28,
+        "nominalBreakLb": 15.5
+      },
+      "useCases": [
+        "flies sized 2-1/0"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-0x-fluoro",
+      "category": "tippet",
+      "name": "0X Fluorocarbon Tippet",
+      "description": "0X fluorocarbon tippet (0.011\" / 0.28mm, ~15.5 lb).",
+      "specs": {
+        "size": "0X",
+        "material": "fluorocarbon",
+        "diameterIn": 0.011,
+        "diameterMm": 0.28,
+        "nominalBreakLb": 15.5
+      },
+      "useCases": [
+        "flies sized 2-1/0"
+      ],
+      "tags": [
+        "fluoro",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-1x-mono",
+      "category": "tippet",
+      "name": "1X Nylon Tippet",
+      "description": "1X nylon tippet (0.01\" / 0.25mm, ~13.5 lb).",
+      "specs": {
+        "size": "1X",
+        "material": "nylon",
+        "diameterIn": 0.01,
+        "diameterMm": 0.25,
+        "nominalBreakLb": 13.5
+      },
+      "useCases": [
+        "flies sized 4-8"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-1x-fluoro",
+      "category": "tippet",
+      "name": "1X Fluorocarbon Tippet",
+      "description": "1X fluorocarbon tippet (0.01\" / 0.25mm, ~13.5 lb).",
+      "specs": {
+        "size": "1X",
+        "material": "fluorocarbon",
+        "diameterIn": 0.01,
+        "diameterMm": 0.25,
+        "nominalBreakLb": 13.5
+      },
+      "useCases": [
+        "flies sized 4-8"
+      ],
+      "tags": [
+        "fluoro",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-2x-mono",
+      "category": "tippet",
+      "name": "2X Nylon Tippet",
+      "description": "2X nylon tippet (0.009\" / 0.23mm, ~11.5 lb).",
+      "specs": {
+        "size": "2X",
+        "material": "nylon",
+        "diameterIn": 0.009,
+        "diameterMm": 0.23,
+        "nominalBreakLb": 11.5
+      },
+      "useCases": [
+        "flies sized 6-10"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-2x-fluoro",
+      "category": "tippet",
+      "name": "2X Fluorocarbon Tippet",
+      "description": "2X fluorocarbon tippet (0.009\" / 0.23mm, ~11.5 lb).",
+      "specs": {
+        "size": "2X",
+        "material": "fluorocarbon",
+        "diameterIn": 0.009,
+        "diameterMm": 0.23,
+        "nominalBreakLb": 11.5
+      },
+      "useCases": [
+        "flies sized 6-10"
+      ],
+      "tags": [
+        "fluoro",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-3x-mono",
+      "category": "tippet",
+      "name": "3X Nylon Tippet",
+      "description": "3X nylon tippet (0.008\" / 0.2mm, ~8.5 lb).",
+      "specs": {
+        "size": "3X",
+        "material": "nylon",
+        "diameterIn": 0.008,
+        "diameterMm": 0.2,
+        "nominalBreakLb": 8.5
+      },
+      "useCases": [
+        "flies sized 10-14"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-3x-fluoro",
+      "category": "tippet",
+      "name": "3X Fluorocarbon Tippet",
+      "description": "3X fluorocarbon tippet (0.008\" / 0.2mm, ~8.5 lb).",
+      "specs": {
+        "size": "3X",
+        "material": "fluorocarbon",
+        "diameterIn": 0.008,
+        "diameterMm": 0.2,
+        "nominalBreakLb": 8.5
+      },
+      "useCases": [
+        "flies sized 10-14"
+      ],
+      "tags": [
+        "fluoro",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-4x-mono",
+      "category": "tippet",
+      "name": "4X Nylon Tippet",
+      "description": "4X nylon tippet (0.007\" / 0.18mm, ~6.0 lb).",
+      "specs": {
+        "size": "4X",
+        "material": "nylon",
+        "diameterIn": 0.007,
+        "diameterMm": 0.18,
+        "nominalBreakLb": 6.0
+      },
+      "useCases": [
+        "flies sized 12-16"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-4x-fluoro",
+      "category": "tippet",
+      "name": "4X Fluorocarbon Tippet",
+      "description": "4X fluorocarbon tippet (0.007\" / 0.18mm, ~6.0 lb).",
+      "specs": {
+        "size": "4X",
+        "material": "fluorocarbon",
+        "diameterIn": 0.007,
+        "diameterMm": 0.18,
+        "nominalBreakLb": 6.0
+      },
+      "useCases": [
+        "flies sized 12-16"
+      ],
+      "tags": [
+        "fluoro",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-5x-mono",
+      "category": "tippet",
+      "name": "5X Nylon Tippet",
+      "description": "5X nylon tippet (0.006\" / 0.15mm, ~4.75 lb).",
+      "specs": {
+        "size": "5X",
+        "material": "nylon",
+        "diameterIn": 0.006,
+        "diameterMm": 0.15,
+        "nominalBreakLb": 4.75
+      },
+      "useCases": [
+        "flies sized 14-18"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-5x-fluoro",
+      "category": "tippet",
+      "name": "5X Fluorocarbon Tippet",
+      "description": "5X fluorocarbon tippet (0.006\" / 0.15mm, ~4.75 lb).",
+      "specs": {
+        "size": "5X",
+        "material": "fluorocarbon",
+        "diameterIn": 0.006,
+        "diameterMm": 0.15,
+        "nominalBreakLb": 4.75
+      },
+      "useCases": [
+        "flies sized 14-18"
+      ],
+      "tags": [
+        "fluoro",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-6x-mono",
+      "category": "tippet",
+      "name": "6X Nylon Tippet",
+      "description": "6X nylon tippet (0.005\" / 0.13mm, ~3.5 lb).",
+      "specs": {
+        "size": "6X",
+        "material": "nylon",
+        "diameterIn": 0.005,
+        "diameterMm": 0.13,
+        "nominalBreakLb": 3.5
+      },
+      "useCases": [
+        "flies sized 16-22"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-6x-fluoro",
+      "category": "tippet",
+      "name": "6X Fluorocarbon Tippet",
+      "description": "6X fluorocarbon tippet (0.005\" / 0.13mm, ~3.5 lb).",
+      "specs": {
+        "size": "6X",
+        "material": "fluorocarbon",
+        "diameterIn": 0.005,
+        "diameterMm": 0.13,
+        "nominalBreakLb": 3.5
+      },
+      "useCases": [
+        "flies sized 16-22"
+      ],
+      "tags": [
+        "fluoro",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-7x-mono",
+      "category": "tippet",
+      "name": "7X Nylon Tippet",
+      "description": "7X nylon tippet (0.004\" / 0.1mm, ~2.5 lb).",
+      "specs": {
+        "size": "7X",
+        "material": "nylon",
+        "diameterIn": 0.004,
+        "diameterMm": 0.1,
+        "nominalBreakLb": 2.5
+      },
+      "useCases": [
+        "flies sized 18-24"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "tippet-8x-mono",
+      "category": "tippet",
+      "name": "8X Nylon Tippet",
+      "description": "8X nylon tippet (0.003\" / 0.08mm, ~1.75 lb).",
+      "specs": {
+        "size": "8X",
+        "material": "nylon",
+        "diameterIn": 0.003,
+        "diameterMm": 0.08,
+        "nominalBreakLb": 1.75
+      },
+      "useCases": [
+        "flies sized 22-28"
+      ],
+      "tags": [
+        "mono",
+        "tippet"
+      ]
+    },
+    {
+      "id": "fly-adams",
+      "category": "fly",
+      "name": "Adams",
+      "description": "Dry pattern imitating general mayfly / mixed hatch.",
+      "specs": {
+        "pattern": "Adams",
+        "subcategory": "dry",
+        "imitates": "general mayfly / mixed hatch",
+        "hookSizes": [
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "waterType": "freshwater",
+        "season": "spring-fall"
+      },
+      "useCases": [
+        "general mayfly / mixed hatch"
+      ],
+      "tags": [
+        "classic",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-parachute-adams",
+      "category": "fly",
+      "name": "Parachute Adams",
+      "description": "Dry pattern imitating mayfly dun, high visibility.",
+      "specs": {
+        "pattern": "Parachute Adams",
+        "subcategory": "dry",
+        "imitates": "mayfly dun, high visibility",
+        "hookSizes": [
+          "12",
+          "14",
+          "16",
+          "18",
+          "20"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "mayfly dun, high visibility"
+      ],
+      "tags": [
+        "classic",
+        "searching",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-elk-hair-caddis",
+      "category": "fly",
+      "name": "Elk Hair Caddis",
+      "description": "Dry pattern imitating adult caddisfly.",
+      "specs": {
+        "pattern": "Elk Hair Caddis",
+        "subcategory": "dry",
+        "imitates": "adult caddisfly",
+        "hookSizes": [
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "adult caddisfly"
+      ],
+      "tags": [
+        "caddis",
+        "buoyant",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-royal-wulff",
+      "category": "fly",
+      "name": "Royal Wulff",
+      "description": "Dry pattern imitating attractor / high-floating searching fly.",
+      "specs": {
+        "pattern": "Royal Wulff",
+        "subcategory": "dry",
+        "imitates": "attractor / high-floating searching fly",
+        "hookSizes": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "attractor / high-floating searching fly"
+      ],
+      "tags": [
+        "attractor",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-bwo-dry",
+      "category": "fly",
+      "name": "Blue-Winged Olive (BWO)",
+      "description": "Dry pattern imitating Baetis mayfly dun.",
+      "specs": {
+        "pattern": "Blue-Winged Olive (BWO)",
+        "subcategory": "dry",
+        "imitates": "Baetis mayfly dun",
+        "hookSizes": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "waterType": "freshwater",
+        "season": "spring,fall"
+      },
+      "useCases": [
+        "Baetis mayfly dun"
+      ],
+      "tags": [
+        "mayfly",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-pmd-dry",
+      "category": "fly",
+      "name": "Pale Morning Dun (PMD)",
+      "description": "Dry pattern imitating Ephemerella mayfly dun.",
+      "specs": {
+        "pattern": "Pale Morning Dun (PMD)",
+        "subcategory": "dry",
+        "imitates": "Ephemerella mayfly dun",
+        "hookSizes": [
+          "14",
+          "16",
+          "18"
+        ],
+        "waterType": "freshwater",
+        "season": "summer"
+      },
+      "useCases": [
+        "Ephemerella mayfly dun"
+      ],
+      "tags": [
+        "mayfly",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-griffiths-gnat",
+      "category": "fly",
+      "name": "Griffith's Gnat",
+      "description": "Dry pattern imitating midge cluster.",
+      "specs": {
+        "pattern": "Griffith's Gnat",
+        "subcategory": "dry",
+        "imitates": "midge cluster",
+        "hookSizes": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "midge cluster"
+      ],
+      "tags": [
+        "midge",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-stimulator",
+      "category": "fly",
+      "name": "Stimulator",
+      "description": "Dry pattern imitating stonefly / large caddis / hopper.",
+      "specs": {
+        "pattern": "Stimulator",
+        "subcategory": "dry",
+        "imitates": "stonefly / large caddis / hopper",
+        "hookSizes": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "stonefly / large caddis / hopper"
+      ],
+      "tags": [
+        "attractor",
+        "stonefly",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-comparadun",
+      "category": "fly",
+      "name": "Comparadun",
+      "description": "Dry pattern imitating mayfly dun (low-riding, no hackle).",
+      "specs": {
+        "pattern": "Comparadun",
+        "subcategory": "dry",
+        "imitates": "mayfly dun (low-riding, no hackle)",
+        "hookSizes": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "mayfly dun (low-riding, no hackle)"
+      ],
+      "tags": [
+        "mayfly",
+        "flat water",
+        "dry"
+      ]
+    },
+    {
+      "id": "fly-rs2",
+      "category": "fly",
+      "name": "RS2",
+      "description": "Emerger pattern imitating mayfly/midge emerger.",
+      "specs": {
+        "pattern": "RS2",
+        "subcategory": "emerger",
+        "imitates": "mayfly/midge emerger",
+        "hookSizes": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "mayfly/midge emerger"
+      ],
+      "tags": [
+        "emerger",
+        "emerger"
+      ]
+    },
+    {
+      "id": "fly-barr-emerger",
+      "category": "fly",
+      "name": "Barr's BWO Emerger",
+      "description": "Emerger pattern imitating Baetis emerging nymph.",
+      "specs": {
+        "pattern": "Barr's BWO Emerger",
+        "subcategory": "emerger",
+        "imitates": "Baetis emerging nymph",
+        "hookSizes": [
+          "16",
+          "18",
+          "20"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "Baetis emerging nymph"
+      ],
+      "tags": [
+        "emerger",
+        "emerger"
+      ]
+    },
+    {
+      "id": "fly-soft-hackle-po",
+      "category": "fly",
+      "name": "Partridge & Orange Soft Hackle",
+      "description": "Wet pattern imitating emerging caddis / drowned insect.",
+      "specs": {
+        "pattern": "Partridge & Orange Soft Hackle",
+        "subcategory": "wet",
+        "imitates": "emerging caddis / drowned insect",
+        "hookSizes": [
+          "12",
+          "14",
+          "16"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "emerging caddis / drowned insect"
+      ],
+      "tags": [
+        "wet",
+        "swing",
+        "wet"
+      ]
+    },
+    {
+      "id": "fly-pheasant-tail",
+      "category": "fly",
+      "name": "Pheasant Tail Nymph",
+      "description": "Nymph pattern imitating slim mayfly nymph.",
+      "specs": {
+        "pattern": "Pheasant Tail Nymph",
+        "subcategory": "nymph",
+        "imitates": "slim mayfly nymph",
+        "hookSizes": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "slim mayfly nymph"
+      ],
+      "tags": [
+        "classic",
+        "mayfly",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-hares-ear",
+      "category": "fly",
+      "name": "Gold-Ribbed Hare's Ear",
+      "description": "Nymph pattern imitating general buggy nymph.",
+      "specs": {
+        "pattern": "Gold-Ribbed Hare's Ear",
+        "subcategory": "nymph",
+        "imitates": "general buggy nymph",
+        "hookSizes": [
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "general buggy nymph"
+      ],
+      "tags": [
+        "classic",
+        "searching",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-copper-john",
+      "category": "fly",
+      "name": "Copper John",
+      "description": "Nymph pattern imitating weighted attractor nymph.",
+      "specs": {
+        "pattern": "Copper John",
+        "subcategory": "nymph",
+        "imitates": "weighted attractor nymph",
+        "hookSizes": [
+          "14",
+          "16",
+          "18"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "weighted attractor nymph"
+      ],
+      "tags": [
+        "attractor",
+        "weighted",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-zebra-midge",
+      "category": "fly",
+      "name": "Zebra Midge",
+      "description": "Nymph pattern imitating midge larva/pupa.",
+      "specs": {
+        "pattern": "Zebra Midge",
+        "subcategory": "nymph",
+        "imitates": "midge larva/pupa",
+        "hookSizes": [
+          "18",
+          "20",
+          "22"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "midge larva/pupa"
+      ],
+      "tags": [
+        "midge",
+        "tailwater",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-prince-nymph",
+      "category": "fly",
+      "name": "Prince Nymph",
+      "description": "Nymph pattern imitating stonefly / general attractor.",
+      "specs": {
+        "pattern": "Prince Nymph",
+        "subcategory": "nymph",
+        "imitates": "stonefly / general attractor",
+        "hookSizes": [
+          "12",
+          "14",
+          "16"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "stonefly / general attractor"
+      ],
+      "tags": [
+        "attractor",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-frenchie",
+      "category": "fly",
+      "name": "Frenchie",
+      "description": "Nymph pattern imitating euro-style hot-spot mayfly nymph.",
+      "specs": {
+        "pattern": "Frenchie",
+        "subcategory": "nymph",
+        "imitates": "euro-style hot-spot mayfly nymph",
+        "hookSizes": [
+          "14",
+          "16",
+          "18"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "euro-style hot-spot mayfly nymph"
+      ],
+      "tags": [
+        "euro",
+        "weighted",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-perdigon",
+      "category": "fly",
+      "name": "Perdigon",
+      "description": "Nymph pattern imitating fast-sinking euro nymph.",
+      "specs": {
+        "pattern": "Perdigon",
+        "subcategory": "nymph",
+        "imitates": "fast-sinking euro nymph",
+        "hookSizes": [
+          "16",
+          "18",
+          "20"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "fast-sinking euro nymph"
+      ],
+      "tags": [
+        "euro",
+        "weighted",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-san-juan-worm",
+      "category": "fly",
+      "name": "San Juan Worm",
+      "description": "Nymph pattern imitating aquatic worm.",
+      "specs": {
+        "pattern": "San Juan Worm",
+        "subcategory": "nymph",
+        "imitates": "aquatic worm",
+        "hookSizes": [
+          "12",
+          "14",
+          "16"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "aquatic worm"
+      ],
+      "tags": [
+        "worm",
+        "tailwater",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-stonefly-nymph",
+      "category": "fly",
+      "name": "Stonefly Nymph (Pat's Rubber Legs)",
+      "description": "Nymph pattern imitating stonefly nymph.",
+      "specs": {
+        "pattern": "Stonefly Nymph (Pat's Rubber Legs)",
+        "subcategory": "nymph",
+        "imitates": "stonefly nymph",
+        "hookSizes": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "stonefly nymph"
+      ],
+      "tags": [
+        "stonefly",
+        "weighted",
+        "nymph"
+      ]
+    },
+    {
+      "id": "fly-woolly-bugger",
+      "category": "fly",
+      "name": "Woolly Bugger",
+      "description": "Streamer pattern imitating baitfish / leech / crayfish.",
+      "specs": {
+        "pattern": "Woolly Bugger",
+        "subcategory": "streamer",
+        "imitates": "baitfish / leech / crayfish",
+        "hookSizes": [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "baitfish / leech / crayfish"
+      ],
+      "tags": [
+        "versatile",
+        "classic",
+        "streamer"
+      ]
+    },
+    {
+      "id": "fly-clouser-minnow",
+      "category": "fly",
+      "name": "Clouser Minnow",
+      "description": "Streamer pattern imitating baitfish.",
+      "specs": {
+        "pattern": "Clouser Minnow",
+        "subcategory": "streamer",
+        "imitates": "baitfish",
+        "hookSizes": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "waterType": "both",
+        "season": ""
+      },
+      "useCases": [
+        "baitfish"
+      ],
+      "tags": [
+        "baitfish",
+        "versatile",
+        "streamer"
+      ]
+    },
+    {
+      "id": "fly-muddler-minnow",
+      "category": "fly",
+      "name": "Muddler Minnow",
+      "description": "Streamer pattern imitating sculpin / baitfish.",
+      "specs": {
+        "pattern": "Muddler Minnow",
+        "subcategory": "streamer",
+        "imitates": "sculpin / baitfish",
+        "hookSizes": [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "sculpin / baitfish"
+      ],
+      "tags": [
+        "sculpin",
+        "classic",
+        "streamer"
+      ]
+    },
+    {
+      "id": "fly-sculpin",
+      "category": "fly",
+      "name": "Sculpin / Sculpzilla",
+      "description": "Streamer pattern imitating bottom-dwelling sculpin.",
+      "specs": {
+        "pattern": "Sculpin / Sculpzilla",
+        "subcategory": "streamer",
+        "imitates": "bottom-dwelling sculpin",
+        "hookSizes": [
+          "2",
+          "4",
+          "6"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "bottom-dwelling sculpin"
+      ],
+      "tags": [
+        "sculpin",
+        "weighted",
+        "streamer"
+      ]
+    },
+    {
+      "id": "fly-zonker",
+      "category": "fly",
+      "name": "Zonker",
+      "description": "Streamer pattern imitating baitfish with rabbit-strip action.",
+      "specs": {
+        "pattern": "Zonker",
+        "subcategory": "streamer",
+        "imitates": "baitfish with rabbit-strip action",
+        "hookSizes": [
+          "4",
+          "6",
+          "8"
+        ],
+        "waterType": "freshwater",
+        "season": ""
+      },
+      "useCases": [
+        "baitfish with rabbit-strip action"
+      ],
+      "tags": [
+        "baitfish",
+        "streamer"
+      ]
+    },
+    {
+      "id": "fly-chernobyl-ant",
+      "category": "fly",
+      "name": "Chernobyl Ant",
+      "description": "Terrestrial pattern imitating large foam terrestrial / stonefly.",
+      "specs": {
+        "pattern": "Chernobyl Ant",
+        "subcategory": "terrestrial",
+        "imitates": "large foam terrestrial / stonefly",
+        "hookSizes": [
+          "6",
+          "8",
+          "10"
+        ],
+        "waterType": "freshwater",
+        "season": "summer"
+      },
+      "useCases": [
+        "large foam terrestrial / stonefly"
+      ],
+      "tags": [
+        "foam",
+        "attractor",
+        "terrestrial"
+      ]
+    },
+    {
+      "id": "fly-hopper",
+      "category": "fly",
+      "name": "Dave's Hopper",
+      "description": "Terrestrial pattern imitating grasshopper.",
+      "specs": {
+        "pattern": "Dave's Hopper",
+        "subcategory": "terrestrial",
+        "imitates": "grasshopper",
+        "hookSizes": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "waterType": "freshwater",
+        "season": "summer"
+      },
+      "useCases": [
+        "grasshopper"
+      ],
+      "tags": [
+        "hopper",
+        "terrestrial"
+      ]
+    },
+    {
+      "id": "fly-foam-beetle",
+      "category": "fly",
+      "name": "Foam Beetle",
+      "description": "Terrestrial pattern imitating beetle.",
+      "specs": {
+        "pattern": "Foam Beetle",
+        "subcategory": "terrestrial",
+        "imitates": "beetle",
+        "hookSizes": [
+          "12",
+          "14",
+          "16"
+        ],
+        "waterType": "freshwater",
+        "season": "summer"
+      },
+      "useCases": [
+        "beetle"
+      ],
+      "tags": [
+        "foam",
+        "terrestrial"
+      ]
+    },
+    {
+      "id": "fly-flying-ant",
+      "category": "fly",
+      "name": "Flying Ant",
+      "description": "Terrestrial pattern imitating ant (winged).",
+      "specs": {
+        "pattern": "Flying Ant",
+        "subcategory": "terrestrial",
+        "imitates": "ant (winged)",
+        "hookSizes": [
+          "14",
+          "16",
+          "18"
+        ],
+        "waterType": "freshwater",
+        "season": "late summer"
+      },
+      "useCases": [
+        "ant (winged)"
+      ],
+      "tags": [
+        "ant",
+        "terrestrial"
+      ]
+    },
+    {
+      "id": "fly-crazy-charlie",
+      "category": "fly",
+      "name": "Crazy Charlie",
+      "description": "Saltwater pattern imitating shrimp.",
+      "specs": {
+        "pattern": "Crazy Charlie",
+        "subcategory": "saltwater",
+        "imitates": "shrimp",
+        "hookSizes": [
+          "4",
+          "6",
+          "8"
+        ],
+        "waterType": "saltwater",
+        "season": ""
+      },
+      "useCases": [
+        "shrimp"
+      ],
+      "tags": [
+        "bonefish",
+        "flats",
+        "saltwater"
+      ]
+    },
+    {
+      "id": "fly-gotcha",
+      "category": "fly",
+      "name": "Gotcha",
+      "description": "Saltwater pattern imitating shrimp / small baitfish.",
+      "specs": {
+        "pattern": "Gotcha",
+        "subcategory": "saltwater",
+        "imitates": "shrimp / small baitfish",
+        "hookSizes": [
+          "4",
+          "6",
+          "8"
+        ],
+        "waterType": "saltwater",
+        "season": ""
+      },
+      "useCases": [
+        "shrimp / small baitfish"
+      ],
+      "tags": [
+        "bonefish",
+        "flats",
+        "saltwater"
+      ]
+    },
+    {
+      "id": "fly-lefty-deceiver",
+      "category": "fly",
+      "name": "Lefty's Deceiver",
+      "description": "Saltwater pattern imitating baitfish.",
+      "specs": {
+        "pattern": "Lefty's Deceiver",
+        "subcategory": "saltwater",
+        "imitates": "baitfish",
+        "hookSizes": [
+          "1/0",
+          "2/0",
+          "3/0"
+        ],
+        "waterType": "saltwater",
+        "season": ""
+      },
+      "useCases": [
+        "baitfish"
+      ],
+      "tags": [
+        "baitfish",
+        "stripers",
+        "saltwater"
+      ]
+    },
+    {
+      "id": "fly-crab-pattern",
+      "category": "fly",
+      "name": "Merkin Crab",
+      "description": "Saltwater pattern imitating crab.",
+      "specs": {
+        "pattern": "Merkin Crab",
+        "subcategory": "saltwater",
+        "imitates": "crab",
+        "hookSizes": [
+          "1",
+          "2",
+          "4"
+        ],
+        "waterType": "saltwater",
+        "season": ""
+      },
+      "useCases": [
+        "crab"
+      ],
+      "tags": [
+        "permit",
+        "redfish",
+        "saltwater"
+      ]
+    },
+    {
+      "id": "fly-surf-candy",
+      "category": "fly",
+      "name": "Surf Candy",
+      "description": "Saltwater pattern imitating slim baitfish (epoxy).",
+      "specs": {
+        "pattern": "Surf Candy",
+        "subcategory": "saltwater",
+        "imitates": "slim baitfish (epoxy)",
+        "hookSizes": [
+          "2",
+          "4",
+          "6"
+        ],
+        "waterType": "saltwater",
+        "season": ""
+      },
+      "useCases": [
+        "slim baitfish (epoxy)"
+      ],
+      "tags": [
+        "baitfish",
+        "saltwater"
+      ]
+    },
+    {
+      "id": "waders-breathable-chest",
+      "category": "waders",
+      "name": "Breathable Chest Waders",
+      "description": "Stockingfoot breathable chest waders — the year-round default for deep water.",
+      "specs": {
+        "type": "chest",
+        "material": "breathable nylon/laminate",
+        "breathable": true,
+        "bootType": "stockingfoot"
+      },
+      "useCases": [
+        "deep wading",
+        "cold water",
+        "versatile"
+      ],
+      "tags": [
+        "breathable",
+        "chest"
+      ]
+    },
+    {
+      "id": "waders-breathable-waist",
+      "category": "waders",
+      "name": "Breathable Waist Waders",
+      "description": "Cooler, lower-profile waist-high waders for warm weather and shallow wading.",
+      "specs": {
+        "type": "waist",
+        "material": "breathable nylon/laminate",
+        "breathable": true,
+        "bootType": "stockingfoot"
+      },
+      "useCases": [
+        "summer",
+        "shallow wading",
+        "hiking in"
+      ],
+      "tags": [
+        "breathable",
+        "waist"
+      ]
+    },
+    {
+      "id": "waders-neoprene",
+      "category": "waders",
+      "name": "Neoprene Chest Waders",
+      "description": "Insulated neoprene waders for very cold water; warm but less breathable.",
+      "specs": {
+        "type": "chest",
+        "material": "neoprene",
+        "thicknessMm": 5,
+        "breathable": false,
+        "insulated": true
+      },
+      "useCases": [
+        "cold water",
+        "winter",
+        "duck-hunting crossover"
+      ],
+      "tags": [
+        "neoprene",
+        "insulated"
+      ]
+    },
+    {
+      "id": "waders-hip",
+      "category": "waders",
+      "name": "Hip Waders",
+      "description": "Thigh-high boots for shallow creeks and bank fishing.",
+      "specs": {
+        "type": "hip",
+        "material": "rubber/breathable",
+        "breathable": true
+      },
+      "useCases": [
+        "small creeks",
+        "shallow",
+        "quick access"
+      ],
+      "tags": [
+        "hip"
+      ]
+    },
+    {
+      "id": "boots-rubber-sole",
+      "category": "boots",
+      "name": "Rubber-Sole Wading Boots",
+      "description": "Vibram rubber-soled boots — travel-friendly and legal in felt-restricted areas.",
+      "specs": {
+        "soleType": "rubber (Vibram)",
+        "studCompatible": true,
+        "legalEverywhere": true
+      },
+      "useCases": [
+        "travel",
+        "mixed terrain",
+        "invasive-species compliance"
+      ],
+      "tags": [
+        "rubber"
+      ]
+    },
+    {
+      "id": "boots-felt-sole",
+      "category": "boots",
+      "name": "Felt-Sole Wading Boots",
+      "description": "Felt soles grip slick rock well but are restricted in some jurisdictions.",
+      "specs": {
+        "soleType": "felt",
+        "studCompatible": true,
+        "legalEverywhere": false,
+        "warning": "Felt restricted/banned in some regions"
+      },
+      "useCases": [
+        "slick rock",
+        "high grip"
+      ],
+      "tags": [
+        "felt"
+      ]
+    },
+    {
+      "id": "boots-studded",
+      "category": "boots",
+      "name": "Studded Rubber Boots",
+      "description": "Carbide studs added to rubber soles for maximum traction on slime and snow.",
+      "specs": {
+        "soleType": "rubber with carbide studs",
+        "studCompatible": true
+      },
+      "useCases": [
+        "heavy current",
+        "slick boulders"
+      ],
+      "tags": [
+        "studded",
+        "rubber"
+      ]
+    },
+    {
+      "id": "wading-sandal",
+      "category": "boots",
+      "name": "Wet-Wading Sandal/Boot",
+      "description": "Quick-draining footwear for wet wading in warm weather without waders.",
+      "specs": {
+        "soleType": "rubber",
+        "use": "wet wading (no waders)",
+        "drains": true
+      },
+      "useCases": [
+        "summer",
+        "wet wading"
+      ],
+      "tags": [
+        "warm-weather"
+      ]
+    },
+    {
+      "id": "pack-sling",
+      "category": "pack",
+      "name": "Sling Pack",
+      "description": "Single-strap pack that swings to the front for access without removal.",
+      "specs": {
+        "type": "sling",
+        "wornOn": "single shoulder, swings to front",
+        "capacity": "medium"
+      },
+      "useCases": [
+        "day trips",
+        "mobile fishing"
+      ],
+      "tags": [
+        "sling"
+      ]
+    },
+    {
+      "id": "pack-chest",
+      "category": "pack",
+      "name": "Chest Pack",
+      "description": "Compact front-worn pack for essentials when travelling light.",
+      "specs": {
+        "type": "chest",
+        "capacity": "small",
+        "wornOn": "front torso"
+      },
+      "useCases": [
+        "minimalist",
+        "hike-in"
+      ],
+      "tags": [
+        "chest"
+      ]
+    },
+    {
+      "id": "pack-hip",
+      "category": "pack",
+      "name": "Hip Pack",
+      "description": "Lumbar pack that keeps weight off the shoulders and rotates to the front.",
+      "specs": {
+        "type": "hip/lumbar",
+        "capacity": "small-medium",
+        "wornOn": "waist"
+      },
+      "useCases": [
+        "wet wading",
+        "warm weather"
+      ],
+      "tags": [
+        "hip"
+      ]
+    },
+    {
+      "id": "pack-vest",
+      "category": "pack",
+      "name": "Fishing Vest",
+      "description": "Classic multi-pocket vest organising tippet, boxes, and tools across the torso.",
+      "specs": {
+        "type": "vest",
+        "capacity": "high",
+        "pockets": "many"
+      },
+      "useCases": [
+        "organisation",
+        "all-day",
+        "traditional"
+      ],
+      "tags": [
+        "vest"
+      ]
+    },
+    {
+      "id": "pack-backpack",
+      "category": "pack",
+      "name": "Fishing Backpack",
+      "description": "Larger pack for long hikes, overnight trips, and extra layers.",
+      "specs": {
+        "type": "backpack",
+        "capacity": "high",
+        "hydrationCompatible": true
+      },
+      "useCases": [
+        "backcountry",
+        "multi-day"
+      ],
+      "tags": [
+        "backpack"
+      ]
+    },
+    {
+      "id": "lanyard",
+      "category": "pack",
+      "name": "Fly Fishing Lanyard",
+      "description": "Neck lanyard holding a few core tools for the most minimalist setup.",
+      "specs": {
+        "type": "lanyard",
+        "capacity": "minimal",
+        "wornOn": "neck"
+      },
+      "useCases": [
+        "minimalist",
+        "small streams"
+      ],
+      "tags": [
+        "lanyard"
+      ]
+    },
+    {
+      "id": "net-rubber-cr",
+      "category": "net",
+      "name": "Rubber-Mesh Catch-and-Release Net",
+      "description": "Soft rubber mesh protects fish slime and doesn't tangle flies — best for release.",
+      "specs": {
+        "meshType": "clear rubber/silicone",
+        "fishSafe": true,
+        "frame": "wood or composite"
+      },
+      "useCases": [
+        "catch and release",
+        "trout"
+      ],
+      "tags": [
+        "rubber",
+        "fish-safe"
+      ]
+    },
+    {
+      "id": "net-wood-landing",
+      "category": "net",
+      "name": "Wooden Landing Net",
+      "description": "Classic teardrop wooden net; heirloom aesthetic with a fish-friendly bag.",
+      "specs": {
+        "meshType": "rubber/nylon",
+        "frame": "laminated wood",
+        "style": "traditional teardrop"
+      },
+      "useCases": [
+        "wading",
+        "photos"
+      ],
+      "tags": [
+        "wood",
+        "classic"
+      ]
+    },
+    {
+      "id": "net-long-handle",
+      "category": "net",
+      "name": "Long-Handle Boat Net",
+      "description": "Extended-handle net for reaching fish from a drift boat or raft.",
+      "specs": {
+        "meshType": "rubber",
+        "handle": "extended",
+        "use": "boat / float"
+      },
+      "useCases": [
+        "boat",
+        "float trips"
+      ],
+      "tags": [
+        "long-handle",
+        "boat"
+      ]
+    },
+    {
+      "id": "tool-nippers",
+      "category": "tool",
+      "name": "Nippers",
+      "description": "Sharp clippers for trimming tippet and tag ends; many include a hook-eye pin.",
+      "specs": {
+        "function": "cut tippet/leader",
+        "feature": "often with eye-cleaning pin"
+      },
+      "useCases": [
+        "rigging",
+        "trimming"
+      ],
+      "tags": [
+        "essential"
+      ]
+    },
+    {
+      "id": "tool-forceps",
+      "category": "tool",
+      "name": "Forceps / Hemostats",
+      "description": "Locking forceps to remove hooks safely and pinch down barbs.",
+      "specs": {
+        "function": "hook removal, barb crimping",
+        "lockable": true
+      },
+      "useCases": [
+        "unhooking",
+        "barb crimping"
+      ],
+      "tags": [
+        "essential"
+      ]
+    },
+    {
+      "id": "tool-hook-hone",
+      "category": "tool",
+      "name": "Hook Hone",
+      "description": "Pocket stone to restore hook points dulled on rocks and teeth.",
+      "specs": {
+        "function": "sharpen hook points"
+      },
+      "useCases": [
+        "maintenance"
+      ],
+      "tags": [
+        "maintenance"
+      ]
+    },
+    {
+      "id": "tool-knot-tool",
+      "category": "tool",
+      "name": "Knot Tying Tool",
+      "description": "Multi-tool that speeds nail knots and clears head cement from hook eyes.",
+      "specs": {
+        "function": "tie nail/clinch knots, clear hook eyes"
+      },
+      "useCases": [
+        "rigging",
+        "leader changes"
+      ],
+      "tags": [
+        "rigging"
+      ]
+    },
+    {
+      "id": "tool-scissors",
+      "category": "tool",
+      "name": "Fly-Tying Scissors",
+      "description": "Fine-tipped scissors for trimming materials and precise streamside cuts.",
+      "specs": {
+        "function": "fine trimming",
+        "use": "tying / streamside"
+      },
+      "useCases": [
+        "fly tying",
+        "trimming"
+      ],
+      "tags": [
+        "tying"
+      ]
+    },
+    {
+      "id": "tool-zinger",
+      "category": "tool",
+      "name": "Zinger / Retractor",
+      "description": "Spring-loaded retractor that keeps nippers and forceps tethered and handy.",
+      "specs": {
+        "function": "retractable tether for tools"
+      },
+      "useCases": [
+        "organisation"
+      ],
+      "tags": [
+        "accessory"
+      ]
+    },
+    {
+      "id": "acc-floatant-gel",
+      "category": "accessory",
+      "name": "Floatant (Gel)",
+      "description": "Silicone gel applied to dry flies to keep them riding high.",
+      "specs": {
+        "function": "waterproof dry flies",
+        "form": "gel/paste"
+      },
+      "useCases": [
+        "dry fly"
+      ],
+      "tags": [
+        "floatant"
+      ]
+    },
+    {
+      "id": "acc-desiccant",
+      "category": "accessory",
+      "name": "Desiccant Powder",
+      "description": "Drying powder that revives a waterlogged or fish-slimed dry fly.",
+      "specs": {
+        "function": "dry and refloat slimed flies",
+        "form": "powder/shake"
+      },
+      "useCases": [
+        "dry fly"
+      ],
+      "tags": [
+        "floatant"
+      ]
+    },
+    {
+      "id": "acc-strike-indicator",
+      "category": "accessory",
+      "name": "Strike Indicators",
+      "description": "Surface indicators that signal a nymph take and set fishing depth.",
+      "specs": {
+        "function": "detect subsurface takes",
+        "forms": [
+          "yarn",
+          "foam",
+          "thingamabobber"
+        ]
+      },
+      "useCases": [
+        "nymphing"
+      ],
+      "tags": [
+        "indicator"
+      ]
+    },
+    {
+      "id": "acc-split-shot",
+      "category": "accessory",
+      "name": "Split Shot",
+      "description": "Crimp-on weights (lead-free preferred) to get nymphs into the strike zone.",
+      "specs": {
+        "function": "add weight to sink nymphs",
+        "form": "removable lead-free shot"
+      },
+      "useCases": [
+        "nymphing",
+        "depth control"
+      ],
+      "tags": [
+        "weight"
+      ]
+    },
+    {
+      "id": "acc-tippet-rings",
+      "category": "accessory",
+      "name": "Tippet Rings",
+      "description": "Tiny rings that join leader and tippet so you stop shortening the leader.",
+      "specs": {
+        "function": "connect leader to tippet, save leader",
+        "sizeMm": "2-3"
+      },
+      "useCases": [
+        "rigging",
+        "leader life"
+      ],
+      "tags": [
+        "rigging"
+      ]
+    },
+    {
+      "id": "acc-fly-box",
+      "category": "accessory",
+      "name": "Fly Box",
+      "description": "Foam or compartment box to organise and protect flies by type.",
+      "specs": {
+        "function": "store and organise flies",
+        "interior": [
+          "foam slit",
+          "silicone",
+          "compartment"
+        ]
+      },
+      "useCases": [
+        "organisation"
+      ],
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "acc-line-cleaner",
+      "category": "accessory",
+      "name": "Line Cleaner / Dressing",
+      "description": "Dressing that cleans grime off fly line and restores slick shooting.",
+      "specs": {
+        "function": "clean and slicken fly line"
+      },
+      "useCases": [
+        "maintenance",
+        "casting distance"
+      ],
+      "tags": [
+        "maintenance"
+      ]
+    },
+    {
+      "id": "acc-leader-straightener",
+      "category": "accessory",
+      "name": "Leader Straightener",
+      "description": "Rubber pads that straighten coiled leaders for cleaner turnover.",
+      "specs": {
+        "function": "remove memory coils from leader/tippet"
+      },
+      "useCases": [
+        "rigging"
+      ],
+      "tags": [
+        "accessory"
+      ]
+    },
+    {
+      "id": "acc-uv-resin",
+      "category": "accessory",
+      "name": "UV-Cure Resin",
+      "description": "Light-cured resin for building durable fly heads and field repairs.",
+      "specs": {
+        "function": "fly tying finish / quick repairs",
+        "curesWith": "UV light"
+      },
+      "useCases": [
+        "fly tying"
+      ],
+      "tags": [
+        "tying"
+      ]
+    },
+    {
+      "id": "acc-polarized-sunglasses",
+      "category": "accessory",
+      "name": "Polarized Sunglasses",
+      "description": "Polarized lenses cut surface glare to spot fish and protect the eyes.",
+      "specs": {
+        "function": "cut glare, spot fish",
+        "lensTints": [
+          "amber",
+          "copper",
+          "gray"
+        ]
+      },
+      "useCases": [
+        "sight fishing",
+        "eye protection"
+      ],
+      "tags": [
+        "optics",
+        "safety"
+      ]
+    },
+    {
+      "id": "acc-headlamp",
+      "category": "accessory",
+      "name": "Headlamp",
+      "description": "Hands-free light for tying on flies at dawn, dusk, and the hike out.",
+      "specs": {
+        "function": "low-light rigging and access",
+        "feature": "red-light mode"
+      },
+      "useCases": [
+        "low light",
+        "safety"
+      ],
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "acc-thermometer",
+      "category": "accessory",
+      "name": "Stream Thermometer",
+      "description": "Water thermometer to time hatches and avoid stressing fish in warm water.",
+      "specs": {
+        "function": "measure water temperature",
+        "use": "fish welfare / hatch timing"
+      },
+      "useCases": [
+        "fish welfare",
+        "hatch timing"
+      ],
+      "tags": [
+        "measurement"
+      ]
+    },
+    {
+      "id": "apparel-sun-hoody",
+      "category": "apparel",
+      "name": "Sun Hoody",
+      "description": "Lightweight UPF hoody for all-day sun protection on the water.",
+      "specs": {
+        "function": "UPF sun protection",
+        "upf": "50+",
+        "feature": "thumb holes, hood"
+      },
+      "useCases": [
+        "sun protection",
+        "summer"
+      ],
+      "tags": [
+        "apparel",
+        "sun"
+      ]
+    },
+    {
+      "id": "apparel-buff",
+      "category": "apparel",
+      "name": "Neck Gaiter / Buff",
+      "description": "Sun-protective neck gaiter for face and neck coverage.",
+      "specs": {
+        "function": "face and neck sun protection",
+        "upf": "50+"
+      },
+      "useCases": [
+        "sun protection"
+      ],
+      "tags": [
+        "apparel",
+        "sun"
+      ]
+    },
+    {
+      "id": "apparel-wading-jacket",
+      "category": "apparel",
+      "name": "Wading Jacket",
+      "description": "Short-cut waterproof-breathable jacket designed to sit above the waterline.",
+      "specs": {
+        "function": "waterproof-breathable shell",
+        "length": "wading-cut (short)"
+      },
+      "useCases": [
+        "rain",
+        "cold",
+        "wading"
+      ],
+      "tags": [
+        "apparel",
+        "shell"
+      ]
+    },
+    {
+      "id": "apparel-fingerless-gloves",
+      "category": "apparel",
+      "name": "Sun Gloves",
+      "description": "Fingerless UPF gloves protecting the backs of the hands while keeping dexterity.",
+      "specs": {
+        "function": "hand sun protection",
+        "style": "fingerless / UPF"
+      },
+      "useCases": [
+        "sun protection",
+        "casting"
+      ],
+      "tags": [
+        "apparel",
+        "sun"
+      ]
+    },
+    {
+      "id": "apparel-hat",
+      "category": "apparel",
+      "name": "Wide-Brim / Cap",
+      "description": "Brimmed hat with a dark underbrim to cut glare and shade the face.",
+      "specs": {
+        "function": "shade and glare reduction",
+        "feature": "dark underbrim"
+      },
+      "useCases": [
+        "sun protection",
+        "sight fishing"
+      ],
+      "tags": [
+        "apparel",
+        "sun"
+      ]
+    }
+  ]
+}
