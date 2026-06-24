@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AnglerBook · Gear Archive</title>
+  <meta name="description" content="AnglerBook Gear Archive — browse the fly-fishing gear catalog by GLYSK OÜ. Rods, reels, lines, flies, waders and more. Manufacturers can submit their catalog." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎣</text></svg>" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#" aria-label="AnglerBook home">
+        <span class="brand-mark" aria-hidden="true">🎣</span>
+        <span class="brand-text">
+          <strong>AnglerBook</strong>
+          <small>Gear Archive</small>
+        </span>
+      </a>
+      <nav class="header-nav">
+        <a href="#catalog">Catalog</a>
+        <a href="#reference">Reference</a>
+        <button type="button" class="btn btn-primary" id="open-submit">Submit your catalog</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>The Fly-Fishing Gear Archive</h1>
+      <p class="hero-sub">
+        A structured, searchable reference of real fly-fishing gear — rods, reels, lines,
+        flies, waders and more. Browse the catalog as an angler, or submit your line-up as a manufacturer.
+      </p>
+      <dl class="hero-stats" id="hero-stats" aria-label="Catalog totals">
+        <div><dt>Kinds</dt><dd data-stat="kinds">—</dd></div>
+        <div><dt>Brands</dt><dd data-stat="brands">—</dd></div>
+        <div><dt>Models</dt><dd data-stat="models">—</dd></div>
+        <div><dt>Variants</dt><dd data-stat="variants">—</dd></div>
+      </dl>
+      <p class="hero-meta" id="hero-meta"></p>
+    </div>
+  </section>
+
+  <main class="wrap" id="catalog">
+    <div class="layout">
+      <aside class="filters" aria-label="Catalog filters">
+        <div class="filters-head">
+          <h2>Filters</h2>
+          <button type="button" class="link-btn" id="reset-filters">Reset</button>
+        </div>
+
+        <label class="field">
+          <span>Search</span>
+          <input type="search" id="search" placeholder="Brand, model, code…" autocomplete="off" />
+        </label>
+
+        <div class="field">
+          <span>Category</span>
+          <div class="chip-group" id="kind-chips" role="group" aria-label="Filter by category"></div>
+        </div>
+
+        <label class="field">
+          <span>Brand</span>
+          <select id="brand-select">
+            <option value="">All brands</option>
+          </select>
+        </label>
+
+        <label class="field" id="lineweight-field" hidden>
+          <span>Line weight</span>
+          <select id="lineweight-select">
+            <option value="">Any weight</option>
+          </select>
+        </label>
+
+        <div class="filters-foot">
+          <span id="result-count" class="result-count"></span>
+        </div>
+      </aside>
+
+      <section class="results" aria-live="polite">
+        <div id="status" class="status">Loading catalog…</div>
+        <div id="grid" class="grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <section class="reference-section" id="reference">
+    <div class="wrap">
+      <h2>Reference</h2>
+      <p class="section-sub">Sizing systems and conventions used throughout the archive.</p>
+      <div class="reference-grid" id="reference-grid"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p id="footer-copy">© GLYSK OÜ</p>
+      <p class="footer-disclaimer" id="footer-disclaimer"></p>
+    </div>
+  </footer>
+
+  <!-- Model detail dialog -->
+  <dialog id="detail-dialog" class="dialog">
+    <div class="dialog-card detail-card" id="detail-content"></div>
+  </dialog>
+
+  <!-- Submit catalog dialog -->
+  <dialog id="submit-dialog" class="dialog">
+    <div class="dialog-card submit-card">
+      <button type="button" class="dialog-close" data-close-submit aria-label="Close">×</button>
+      <h2>Submit your catalog</h2>
+      <p class="dialog-intro">
+        Are you a manufacturer or distributor? Tell us about a product line and we'll review it
+        for inclusion in the AnglerBook Gear Archive. Add as many variants (sizes / codes) as you like —
+        we'll package everything into a structured submission you can email to our catalog team.
+      </p>
+
+      <form id="submit-form" novalidate>
+        <fieldset>
+          <legend>Contact</legend>
+          <div class="form-row">
+            <label class="field">
+              <span>Company / brand <em>*</em></span>
+              <input name="brand" required placeholder="e.g. Sage" />
+            </label>
+            <label class="field">
+              <span>Contact name <em>*</em></span>
+              <input name="contactName" required placeholder="Jane Angler" />
+            </label>
+          </div>
+          <div class="form-row">
+            <label class="field">
+              <span>Email <em>*</em></span>
+              <input name="contactEmail" type="email" required placeholder="you@company.com" />
+            </label>
+            <label class="field">
+              <span>Website</span>
+              <input name="website" type="url" placeholder="https://…" />
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Product line</legend>
+          <div class="form-row">
+            <label class="field">
+              <span>Category <em>*</em></span>
+              <select name="kind" id="submit-kind" required>
+                <option value="">Select a category…</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Model name <em>*</em></span>
+              <input name="model" required placeholder="e.g. R8 Core" />
+            </label>
+          </div>
+          <label class="field">
+            <span>Description / notes</span>
+            <textarea name="note" rows="2" placeholder="Series, materials, intended use…"></textarea>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Variants <span class="legend-hint" id="spec-hint"></span></legend>
+          <div id="variants-list" class="variants-list"></div>
+          <button type="button" class="btn btn-ghost" id="add-variant">+ Add variant</button>
+        </fieldset>
+
+        <div class="form-error" id="form-error" hidden></div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-ghost" data-close-submit>Cancel</button>
+          <button type="button" class="btn" id="download-submission">Download JSON</button>
+          <button type="submit" class="btn btn-primary">Email submission</button>
+        </div>
+        <p class="form-fineprint">
+          Submissions are emailed to <strong id="submit-address"></strong>. Nothing is sent
+          automatically — your email client opens with the details prefilled so you stay in control.
+        </p>
+      </form>
+    </div>
+  </dialog>
+
+  <template id="variant-row-template">
+    <div class="variant-row">
+      <label class="field field-sm">
+        <span>Code / size</span>
+        <input data-vfield="code" placeholder="e.g. 590-4" />
+      </label>
+      <div class="variant-specs"></div>
+      <button type="button" class="variant-remove" aria-label="Remove variant">×</button>
+    </div>
+  </template>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
