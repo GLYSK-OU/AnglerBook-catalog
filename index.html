@@ -5,15 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AnglerBook · Gear Archive</title>
   <meta name="description" content="AnglerBook Gear Archive — browse the fly-fishing gear catalog by GLYSK OÜ. Rods, reels, lines, flies, waders and more. Manufacturers can submit their catalog." />
+  <meta name="theme-color" content="#15362A" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎣</text></svg>" />
 </head>
 <body>
+  <!-- Reusable AB shield logo -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="ab-shield" viewBox="0 0 100 116">
+      <defs>
+        <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#2F6B4F" />
+          <stop offset="1" stop-color="#1C4636" />
+        </linearGradient>
+      </defs>
+      <path d="M12 13 C12 9.7 14.7 7 18 7 L82 7 C85.3 7 88 9.7 88 13 L88 53 C88 80 69 94 50 109 C31 94 12 80 12 53 Z"
+            fill="url(#shieldGrad)" stroke="#EFE9DA" stroke-width="3" />
+      <path d="M17.2 15.4 C17.2 13 19 11.6 21 11.6 L79 11.6 C81 11.6 82.8 13 82.8 15.4 L82.8 52 C82.8 77 65.5 90 50 102.6 C34.5 90 17.2 77 17.2 52 Z"
+            fill="none" stroke="#EFE9DA" stroke-width="1.4" opacity="0.85" />
+      <text x="50" y="61" text-anchor="middle" font-family="Oswald, 'Arial Narrow', sans-serif"
+            font-weight="700" font-size="46" letter-spacing="-1.5" fill="#EFE9DA">AB</text>
+      <g stroke="#EFE9DA" fill="none" stroke-width="2.2" stroke-linecap="round">
+        <path d="M22 77 Q31 71 40 77 T58 77 T76 77" />
+        <path d="M22 85 Q31 79 40 85 T58 85 T76 85" opacity="0.7" />
+        <path d="M25 92 Q33 86.5 41 92 T57 92 T73 92" opacity="0.55" />
+      </g>
+    </symbol>
+  </svg>
+
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="#" aria-label="AnglerBook home">
-        <span class="brand-mark" aria-hidden="true">🎣</span>
+        <svg class="shield shield-sm" viewBox="0 0 100 116" aria-hidden="true"><use href="#ab-shield" /></svg>
         <span class="brand-text">
           <strong>AnglerBook</strong>
           <small>Gear Archive</small>
@@ -28,7 +54,13 @@
   </header>
 
   <section class="hero">
-    <div class="wrap">
+    <div class="wrap hero-inner">
+      <div class="brand-lockup">
+        <svg class="shield shield-lg" viewBox="0 0 100 116" aria-hidden="true"><use href="#ab-shield" /></svg>
+        <p class="wordmark">AnglerBook</p>
+        <p class="tagline">An app made with love for fishing · <strong>by GLYSK OÜ</strong></p>
+      </div>
+
       <h1>The Fly-Fishing Gear Archive</h1>
       <p class="hero-sub">
         A structured, searchable reference of real fly-fishing gear — rods, reels, lines,
