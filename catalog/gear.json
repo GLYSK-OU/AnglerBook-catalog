@@ -9,15 +9,15 @@
   "counts": {
     "kinds": 14,
     "brands": 42,
-    "models": 134,
-    "variants": 562,
+    "models": 171,
+    "variants": 887,
     "byKind": {
       "rod": 315,
       "reel": 50,
-      "line": 38,
+      "line": 219,
       "backing": 6,
-      "leader": 9,
-      "tippet": 25,
+      "leader": 109,
+      "tippet": 69,
       "fly": 40,
       "waders": 22,
       "boots": 20,
@@ -4609,12 +4609,14 @@
           "brand": "Rio",
           "models": [
             {
-              "model": "Elite Gold",
-              "use": "all-around trout, long head",
+              "model": "Gold",
+              "use": "all-around trout floating line for medium-to-long casts",
               "series": "premium",
+              "years": "2014–present",
+              "note": "Versatile all-around trout line with a long head and back taper for distance and mending, with SlickCast and a MaxFloat tip.",
               "variants": [
                 {
-                  "id": "line-rio-elite-gold-wf4f",
+                  "id": "line-rio-gold-wf4f",
                   "code": "WF4F",
                   "label": "WF4F",
                   "specs": {
@@ -4624,7 +4626,7 @@
                   }
                 },
                 {
-                  "id": "line-rio-elite-gold-wf5f",
+                  "id": "line-rio-gold-wf5f",
                   "code": "WF5F",
                   "label": "WF5F",
                   "specs": {
@@ -4634,7 +4636,7 @@
                   }
                 },
                 {
-                  "id": "line-rio-elite-gold-wf6f",
+                  "id": "line-rio-gold-wf6f",
                   "code": "WF6F",
                   "label": "WF6F",
                   "specs": {
@@ -4644,7 +4646,7 @@
                   }
                 },
                 {
-                  "id": "line-rio-elite-gold-wf7f",
+                  "id": "line-rio-gold-wf7f",
                   "code": "WF7F",
                   "label": "WF7F",
                   "specs": {
@@ -4654,7 +4656,7 @@
                   }
                 },
                 {
-                  "id": "line-rio-elite-gold-wf8f",
+                  "id": "line-rio-gold-wf8f",
                   "code": "WF8F",
                   "label": "WF8F",
                   "specs": {
@@ -4666,9 +4668,90 @@
               ]
             },
             {
+              "model": "Grand",
+              "use": "all-around trout floating line built a full size heavy",
+              "series": "premium",
+              "years": "2014–present",
+              "note": "Front-loaded line a full size heavier than standard with a short head, ideal for fast rods and turning over nymph rigs or big dries.",
+              "variants": [
+                {
+                  "id": "line-rio-grand-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-grand-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-grand-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-grand-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-grand-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-grand-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-grand-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
               "model": "Perception",
-              "use": "presentation, low-stretch",
-              "series": "mid",
+              "use": "general-purpose trout floating line with a shorter head",
+              "series": "premium",
+              "years": "2014–present",
+              "note": "Easy-casting all-purpose line for nymphs, dries, streamers and soft hackles with a shorter head for smaller rivers and lakes.",
               "variants": [
                 {
                   "id": "line-rio-perception-wf3f",
@@ -4709,13 +4792,35 @@
                     "taper": "WF",
                     "density": "floating"
                   }
+                },
+                {
+                  "id": "line-rio-perception-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-perception-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
                 }
               ]
             },
             {
               "model": "Technical Trout",
-              "use": "delicate dry fly, long front taper",
+              "use": "delicate dry-fly and presentation floating line",
               "series": "premium",
+              "years": "2014–present",
+              "note": "Long, fine front taper and long head for the most delicate presentations and precise casts to rising fish; offered in WF and DT.",
               "variants": [
                 {
                   "id": "line-rio-technical-trout-wf3f",
@@ -4756,16 +4861,187 @@
                     "taper": "WF",
                     "density": "floating"
                   }
+                },
+                {
+                  "id": "line-rio-technical-trout-dt3f",
+                  "code": "DT3F",
+                  "label": "DT3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-technical-trout-dt4f",
+                  "code": "DT4F",
+                  "label": "DT4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-technical-trout-dt5f",
+                  "code": "DT5F",
+                  "label": "DT5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-technical-trout-dt6f",
+                  "code": "DT6F",
+                  "label": "DT6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
                 }
               ]
             },
             {
-              "model": "Elite Bonefish",
-              "use": "tropical saltwater flats",
+              "model": "Trout LT",
+              "use": "delicate presentation trout floating line for small flies",
               "series": "premium",
+              "years": "2014–present",
+              "note": "Light-touch line with a long fine front taper and high-floating tip for quiet pickups; offered in WF and DT.",
               "variants": [
                 {
-                  "id": "line-rio-elite-bonefish-wf7f",
+                  "id": "line-rio-trout-lt-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-trout-lt-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-trout-lt-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-trout-lt-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-trout-lt-dt3f",
+                  "code": "DT3F",
+                  "label": "DT3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-trout-lt-dt4f",
+                  "code": "DT4F",
+                  "label": "DT4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-trout-lt-dt5f",
+                  "code": "DT5F",
+                  "label": "DT5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-trout-lt-dt6f",
+                  "code": "DT6F",
+                  "label": "DT6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Avid Trout",
+              "use": "mid-priced all-purpose trout floating line",
+              "series": "mid",
+              "years": "2019–present",
+              "note": "All-purpose trout line with a head slightly heavier than standard and a slick self-lubricating coating for easy loading.",
+              "variants": [
+                {
+                  "id": "line-rio-avid-trout-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-avid-trout-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-avid-trout-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-avid-trout-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-avid-trout-wf7f",
                   "code": "WF7F",
                   "label": "WF7F",
                   "specs": {
@@ -4775,7 +5051,322 @@
                   }
                 },
                 {
-                  "id": "line-rio-elite-bonefish-wf8f",
+                  "id": "line-rio-avid-trout-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Mainstream Trout",
+              "use": "entry-level all-around trout floating line",
+              "series": "value",
+              "years": "2018–present",
+              "note": "Value line with a slightly heavier, shorter head to optimize rod performance, on a supple memory-free core with a welded loop.",
+              "variants": [
+                {
+                  "id": "line-rio-mainstream-trout-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-mainstream-trout-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-mainstream-trout-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-mainstream-trout-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-mainstream-trout-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-mainstream-trout-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "LightLine",
+              "use": "true-to-weight floating line for bamboo, glass and classic rods",
+              "series": "premium",
+              "years": "2018–present",
+              "note": "Built to industry line standard (not over-weighted) with a short front taper and compact head to load classic slow-action rods; WF and DT.",
+              "variants": [
+                {
+                  "id": "line-rio-lightline-wf2f",
+                  "code": "WF2F",
+                  "label": "WF2F",
+                  "specs": {
+                    "lineWeight": 2,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-dt0f",
+                  "code": "DT0F",
+                  "label": "DT0F",
+                  "specs": {
+                    "lineWeight": 0,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-dt1f",
+                  "code": "DT1F",
+                  "label": "DT1F",
+                  "specs": {
+                    "lineWeight": 1,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-dt2f",
+                  "code": "DT2F",
+                  "label": "DT2F",
+                  "specs": {
+                    "lineWeight": 2,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-dt3f",
+                  "code": "DT3F",
+                  "label": "DT3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-lightline-dt4f",
+                  "code": "DT4F",
+                  "label": "DT4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "DT",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Creek",
+              "use": "small-creek floating line for short accurate casts",
+              "series": "premium",
+              "years": "2021–present",
+              "note": "Short 30-foot front-loaded head that loads at 10–15 feet, for short rods and tight loops, with SlickCast and a MaxFloat tip.",
+              "variants": [
+                {
+                  "id": "line-rio-creek-wf0f",
+                  "code": "WF0F",
+                  "label": "WF0F",
+                  "specs": {
+                    "lineWeight": 0,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-creek-wf1f",
+                  "code": "WF1F",
+                  "label": "WF1F",
+                  "specs": {
+                    "lineWeight": 1,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-creek-wf2f",
+                  "code": "WF2F",
+                  "label": "WF2F",
+                  "specs": {
+                    "lineWeight": 2,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-creek-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-creek-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-creek-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "FIPS Euro Nymph",
+              "use": "FIPS-Mouche competition-legal European nymphing line",
+              "series": "specialist",
+              "years": "2020–present",
+              "note": "Ultra-thin, low-stretch nymphing line with a high-visibility tip for strike detection, rated for 2–5wt rods.",
+              "variants": [
+                {
+                  "id": "line-rio-fips-euro-nymph-wf2f",
+                  "code": "WF2F",
+                  "label": "WF2F",
+                  "specs": {
+                    "lineWeight": 2,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-fips-euro-nymph-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-fips-euro-nymph-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-fips-euro-nymph-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Bonefish",
+              "use": "tropical saltwater flats floating line for bonefish",
+              "series": "premium",
+              "years": "2018–present",
+              "note": "RIO's bonefish-specific floating taper on low-memory DirectCore with a long head for efficient flats casts.",
+              "variants": [
+                {
+                  "id": "line-rio-bonefish-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-bonefish-wf8f",
                   "code": "WF8F",
                   "label": "WF8F",
                   "specs": {
@@ -4785,11 +5376,1445 @@
                   }
                 },
                 {
-                  "id": "line-rio-elite-bonefish-wf9f",
+                  "id": "line-rio-bonefish-wf9f",
                   "code": "WF9F",
                   "label": "WF9F",
                   "specs": {
                     "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Permit",
+              "use": "tropical saltwater flats floating line for permit",
+              "series": "premium",
+              "years": "2021–present",
+              "note": "Floating-only permit taper on DirectCore with SlickCast for soft crab-pattern presentations while loading powerful rods.",
+              "variants": [
+                {
+                  "id": "line-rio-permit-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-permit-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-permit-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Tarpon",
+              "use": "tropical saltwater floating line for tarpon",
+              "series": "premium",
+              "years": "2018–present",
+              "note": "Tarpon-specific floating taper with a mid-length head and powerful front taper.",
+              "variants": [
+                {
+                  "id": "line-rio-tarpon-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-tarpon-wf11f",
+                  "code": "WF11F",
+                  "label": "WF11F",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-tarpon-wf12f",
+                  "code": "WF12F",
+                  "label": "WF12F",
+                  "specs": {
+                    "lineWeight": 12,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Flats Pro",
+              "use": "multi-purpose tropical saltwater flats line",
+              "series": "premium",
+              "years": "2021–present",
+              "note": "RIO's flagship Elite flats line covering 6–12wt in Floating, Float/Intermediate StealthTip and Full Intermediate densities on low-stretch DirectCore.",
+              "variants": [
+                {
+                  "id": "line-rio-flats-pro-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf11f",
+                  "code": "WF11F",
+                  "label": "WF11F",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf12f",
+                  "code": "WF12F",
+                  "label": "WF12F",
+                  "specs": {
+                    "lineWeight": 12,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf6f-i",
+                  "code": "WF6F/I",
+                  "label": "WF6F/I",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf7f-i",
+                  "code": "WF7F/I",
+                  "label": "WF7F/I",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf8f-i",
+                  "code": "WF8F/I",
+                  "label": "WF8F/I",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf9f-i",
+                  "code": "WF9F/I",
+                  "label": "WF9F/I",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf10f-i",
+                  "code": "WF10F/I",
+                  "label": "WF10F/I",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf11f-i",
+                  "code": "WF11F/I",
+                  "label": "WF11F/I",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf12f-i",
+                  "code": "WF12F/I",
+                  "label": "WF12F/I",
+                  "specs": {
+                    "lineWeight": 12,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf8i",
+                  "code": "WF8I",
+                  "label": "WF8I",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf9i",
+                  "code": "WF9I",
+                  "label": "WF9I",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf10i",
+                  "code": "WF10I",
+                  "label": "WF10I",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf11i",
+                  "code": "WF11I",
+                  "label": "WF11I",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-flats-pro-wf12i",
+                  "code": "WF12I",
+                  "label": "WF12I",
+                  "specs": {
+                    "lineWeight": 12,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Redfish",
+              "use": "inshore saltwater floating line for redfish",
+              "series": "premium",
+              "years": "2022–present",
+              "note": "Premier Redfish floating line built to turn over crab, shrimp and baitfish patterns inshore.",
+              "variants": [
+                {
+                  "id": "line-rio-redfish-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-redfish-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-redfish-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "General Purpose Saltwater",
+              "use": "general-purpose tropical saltwater line",
+              "series": "premium",
+              "years": "2016–present",
+              "note": "All-around tropical saltwater family offered floating, floating with a 10ft clear intermediate tip, and full intermediate with a clear tip.",
+              "variants": [
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf11f",
+                  "code": "WF11F",
+                  "label": "WF11F",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf12f",
+                  "code": "WF12F",
+                  "label": "WF12F",
+                  "specs": {
+                    "lineWeight": 12,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf8f-i",
+                  "code": "WF8F/I",
+                  "label": "WF8F/I",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf9f-i",
+                  "code": "WF9F/I",
+                  "label": "WF9F/I",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf10f-i",
+                  "code": "WF10F/I",
+                  "label": "WF10F/I",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf8i",
+                  "code": "WF8I",
+                  "label": "WF8I",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf9i",
+                  "code": "WF9I",
+                  "label": "WF9I",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf10i",
+                  "code": "WF10I",
+                  "label": "WF10I",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-general-purpose-saltwater-wf11i",
+                  "code": "WF11I",
+                  "label": "WF11I",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "OutBound Short",
+              "use": "saltwater/predator shooting-head streamer line",
+              "series": "premium",
+              "years": "2017–present",
+              "note": "Short, aggressive integrated shooting head; sinking versions are multi-density compound heads (S3 through S7) across the weight range.",
+              "variants": [
+                {
+                  "id": "line-rio-outbound-short-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf6i",
+                  "code": "WF6I",
+                  "label": "WF6I",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf7i",
+                  "code": "WF7I",
+                  "label": "WF7I",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf8i",
+                  "code": "WF8I",
+                  "label": "WF8I",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf9i",
+                  "code": "WF9I",
+                  "label": "WF9I",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-outbound-short-wf10i",
+                  "code": "WF10I",
+                  "label": "WF10I",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Striper",
+              "use": "saltwater striped bass line",
+              "series": "premium",
+              "years": "2018–present",
+              "note": "Quick-loading 30ft bullet head for big flies in wind; offered floating, clear intermediate, and 30ft sinking heads.",
+              "variants": [
+                {
+                  "id": "line-rio-striper-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf8i",
+                  "code": "WF8I",
+                  "label": "WF8I",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf9i",
+                  "code": "WF9I",
+                  "label": "WF9I",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf10i",
+                  "code": "WF10I",
+                  "label": "WF10I",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf8s",
+                  "code": "WF8S",
+                  "label": "WF8S",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf9s",
+                  "code": "WF9S",
+                  "label": "WF9S",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-rio-striper-wf10s",
+                  "code": "WF10S",
+                  "label": "WF10S",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Mainstream Striper",
+              "use": "coldwater saltwater striped bass line",
+              "series": "value",
+              "years": "2019–present",
+              "note": "Entry-level fully clear intermediate striper line sinking ~1.5–2 IPS with a quick-loading weight-forward taper.",
+              "variants": [
+                {
+                  "id": "line-rio-mainstream-striper-wf8i",
+                  "code": "WF8I",
+                  "label": "WF8I",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-mainstream-striper-wf9i",
+                  "code": "WF9I",
+                  "label": "WF9I",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-rio-mainstream-striper-wf10i",
+                  "code": "WF10I",
+                  "label": "WF10I",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Elite Predator",
+              "use": "predator/streamer multi-density line",
+              "series": "premium",
+              "years": "2021–present",
+              "note": "Built on ConnectCore Plus with a short powerful front taper; offered Floating plus Float/Hover/Intermediate and Float/Sink sink-tip densities.",
+              "variants": [
+                {
+                  "id": "line-rio-elite-predator-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-elite-predator-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-elite-predator-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-elite-predator-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-elite-predator-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-elite-predator-wf6f-s",
+                  "code": "WF6F/S",
+                  "label": "WF6F/S",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-elite-predator-wf7f-s",
+                  "code": "WF7F/S",
+                  "label": "WF7F/S",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-elite-predator-wf8f-s",
+                  "code": "WF8F/S",
+                  "label": "WF8F/S",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "InTouch Big Nasty",
+              "use": "powerful big-fly streamer line",
+              "series": "performance",
+              "years": "2016–present",
+              "note": "Front-loaded, heavier-than-standard 40ft head on ConnectCore; offered floating plus 3D and 4D multi-density sink-tip versions.",
+              "variants": [
+                {
+                  "id": "line-rio-intouch-big-nasty-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-big-nasty-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-big-nasty-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-big-nasty-wf9f",
+                  "code": "WF9F",
+                  "label": "WF9F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-big-nasty-wf10f",
+                  "code": "WF10F",
+                  "label": "WF10F",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-big-nasty-wf6f-s",
+                  "code": "WF6F/S",
+                  "label": "WF6F/S",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-big-nasty-wf8f-s",
+                  "code": "WF8F/S",
+                  "label": "WF8F/S",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-big-nasty-wf10f-s",
+                  "code": "WF10F/S",
+                  "label": "WF10F/S",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "InTouch Streamer Tip",
+              "use": "floating streamer line with a short sink tip",
+              "series": "performance",
+              "years": "2014–present",
+              "note": "Floating ConnectCore line with an aggressive front taper and a short 10ft sinking tip (intermediate or Type 6).",
+              "variants": [
+                {
+                  "id": "line-rio-intouch-streamer-tip-wf5f-s",
+                  "code": "WF5F/S",
+                  "label": "WF5F/S",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-streamer-tip-wf6f-s",
+                  "code": "WF6F/S",
+                  "label": "WF6F/S",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-streamer-tip-wf7f-s",
+                  "code": "WF7F/S",
+                  "label": "WF7F/S",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-streamer-tip-wf8f-s",
+                  "code": "WF8F/S",
+                  "label": "WF8F/S",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "InTouch Sink Tip",
+              "use": "floating line with a 15ft sinking tip for streamers",
+              "series": "performance",
+              "years": "2014–present",
+              "note": "ConnectCore floating body with a 15ft tapered sinking tip; offered F/S3 and F/S6 (Type 3/6) densities.",
+              "variants": [
+                {
+                  "id": "line-rio-intouch-sink-tip-wf5f-s",
+                  "code": "WF5F/S",
+                  "label": "WF5F/S",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-sink-tip-wf6f-s",
+                  "code": "WF6F/S",
+                  "label": "WF6F/S",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-sink-tip-wf7f-s",
+                  "code": "WF7F/S",
+                  "label": "WF7F/S",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-sink-tip-wf8f-s",
+                  "code": "WF8F/S",
+                  "label": "WF8F/S",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-rio-intouch-sink-tip-wf9f-s",
+                  "code": "WF9F/S",
+                  "label": "WF9F/S",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Skagit Max Launch",
+              "use": "two-handed Skagit shooting head, floating",
+              "series": "premium",
+              "years": "2021–present",
+              "note": "Rear-loaded floating Skagit head built to deliver heavy sink tips and big flies with deep rod loading.",
+              "variants": [
+                {
+                  "id": "line-rio-skagit-max-launch-400gr",
+                  "code": "400gr",
+                  "label": "400gr",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-425gr",
+                  "code": "425gr",
+                  "label": "425gr",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-450gr",
+                  "code": "450gr",
+                  "label": "450gr",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-475gr",
+                  "code": "475gr",
+                  "label": "475gr",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-500gr",
+                  "code": "500gr",
+                  "label": "500gr",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-525gr",
+                  "code": "525gr",
+                  "label": "525gr",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-550gr",
+                  "code": "550gr",
+                  "label": "550gr",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-575gr",
+                  "code": "575gr",
+                  "label": "575gr",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-600gr",
+                  "code": "600gr",
+                  "label": "600gr",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-625gr",
+                  "code": "625gr",
+                  "label": "625gr",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-650gr",
+                  "code": "650gr",
+                  "label": "650gr",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-675gr",
+                  "code": "675gr",
+                  "label": "675gr",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-700gr",
+                  "code": "700gr",
+                  "label": "700gr",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-725gr",
+                  "code": "725gr",
+                  "label": "725gr",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-launch-750gr",
+                  "code": "750gr",
+                  "label": "750gr",
+                  "specs": {
+                    "lineWeight": 11,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Skagit Max Power",
+              "use": "two-handed Skagit shooting head, floating",
+              "series": "premium",
+              "years": "2021–present",
+              "note": "Compact, powerful floating Skagit head for the heaviest tips and largest flies.",
+              "variants": [
+                {
+                  "id": "line-rio-skagit-max-power-325gr",
+                  "code": "325gr",
+                  "label": "325gr",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-350gr",
+                  "code": "350gr",
+                  "label": "350gr",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-375gr",
+                  "code": "375gr",
+                  "label": "375gr",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-400gr",
+                  "code": "400gr",
+                  "label": "400gr",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-425gr",
+                  "code": "425gr",
+                  "label": "425gr",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-450gr",
+                  "code": "450gr",
+                  "label": "450gr",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-475gr",
+                  "code": "475gr",
+                  "label": "475gr",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-500gr",
+                  "code": "500gr",
+                  "label": "500gr",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-525gr",
+                  "code": "525gr",
+                  "label": "525gr",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-550gr",
+                  "code": "550gr",
+                  "label": "550gr",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-575gr",
+                  "code": "575gr",
+                  "label": "575gr",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-600gr",
+                  "code": "600gr",
+                  "label": "600gr",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-625gr",
+                  "code": "625gr",
+                  "label": "625gr",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-skagit-max-power-650gr",
+                  "code": "650gr",
+                  "label": "650gr",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Scandi Short VersiTip",
+              "use": "two-handed Scandi head with interchangeable tips",
+              "series": "premium",
+              "years": "2011–present",
+              "note": "Floating 23ft Scandi body plus four 10ft interchangeable tips for a 33ft total head, for rods under 13ft.",
+              "variants": [
+                {
+                  "id": "line-rio-scandi-short-versitip-240gr",
+                  "code": "240gr",
+                  "label": "240gr",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-scandi-short-versitip-320gr",
+                  "code": "320gr",
+                  "label": "320gr",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-scandi-short-versitip-370gr",
+                  "code": "370gr",
+                  "label": "370gr",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-scandi-short-versitip-425gr",
+                  "code": "425gr",
+                  "label": "425gr",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-scandi-short-versitip-485gr",
+                  "code": "485gr",
+                  "label": "485gr",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-scandi-short-versitip-540gr",
+                  "code": "540gr",
+                  "label": "540gr",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "ST",
+                    "density": "floating"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Single-Hand Spey",
+              "use": "single-hand spey / roll-cast full line, floating",
+              "series": "premium",
+              "years": "2021–present",
+              "note": "Elite full line with a rear-weighted head for roll and single-handed Spey casts in tight quarters.",
+              "variants": [
+                {
+                  "id": "line-rio-single-hand-spey-wf3f",
+                  "code": "WF3F",
+                  "label": "WF3F",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-single-hand-spey-wf4f",
+                  "code": "WF4F",
+                  "label": "WF4F",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-single-hand-spey-wf5f",
+                  "code": "WF5F",
+                  "label": "WF5F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-single-hand-spey-wf6f",
+                  "code": "WF6F",
+                  "label": "WF6F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-single-hand-spey-wf7f",
+                  "code": "WF7F",
+                  "label": "WF7F",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-rio-single-hand-spey-wf8f",
+                  "code": "WF8F",
+                  "label": "WF8F",
+                  "specs": {
+                    "lineWeight": 8,
                     "taper": "WF",
                     "density": "floating"
                   }
@@ -4953,11 +6978,43 @@
           "brand": "Rio",
           "models": [
             {
-              "model": "Powerflex",
+              "model": "Powerflex Trout",
               "type": "knotless tapered",
+              "years": "2010s–present",
+              "note": "RIO's standard general-purpose copolymer nylon trout leader with a powerful butt for reliable turnover.",
               "variants": [
                 {
-                  "id": "leader-rio-powerflex-7-5-3x",
+                  "id": "leader-rio-powerflex-trout-7-5-0x",
+                  "code": "7.5' 0X",
+                  "label": "7.5' 0X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "0X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-7-5-1x",
+                  "code": "7.5' 1X",
+                  "label": "7.5' 1X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "1X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-7-5-2x",
+                  "code": "7.5' 2X",
+                  "label": "7.5' 2X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-7-5-3x",
                   "code": "7.5' 3X",
                   "label": "7.5' 3X",
                   "specs": {
@@ -4967,7 +7024,87 @@
                   }
                 },
                 {
-                  "id": "leader-rio-powerflex-9-4x",
+                  "id": "leader-rio-powerflex-trout-7-5-4x",
+                  "code": "7.5' 4X",
+                  "label": "7.5' 4X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-7-5-5x",
+                  "code": "7.5' 5X",
+                  "label": "7.5' 5X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-7-5-6x",
+                  "code": "7.5' 6X",
+                  "label": "7.5' 6X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-7-5-7x",
+                  "code": "7.5' 7X",
+                  "label": "7.5' 7X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-9-0x",
+                  "code": "9' 0X",
+                  "label": "9' 0X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "0X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-9-1x",
+                  "code": "9' 1X",
+                  "label": "9' 1X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "1X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-9-2x",
+                  "code": "9' 2X",
+                  "label": "9' 2X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-9-3x",
+                  "code": "9' 3X",
+                  "label": "9' 3X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-9-4x",
                   "code": "9' 4X",
                   "label": "9' 4X",
                   "specs": {
@@ -4977,7 +7114,7 @@
                   }
                 },
                 {
-                  "id": "leader-rio-powerflex-9-5x",
+                  "id": "leader-rio-powerflex-trout-9-5x",
                   "code": "9' 5X",
                   "label": "9' 5X",
                   "specs": {
@@ -4987,7 +7124,523 @@
                   }
                 },
                 {
-                  "id": "leader-rio-powerflex-12-6x",
+                  "id": "leader-rio-powerflex-trout-9-6x",
+                  "code": "9' 6X",
+                  "label": "9' 6X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-9-7x",
+                  "code": "9' 7X",
+                  "label": "9' 7X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-0x",
+                  "code": "12' 0X",
+                  "label": "12' 0X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "0X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-1x",
+                  "code": "12' 1X",
+                  "label": "12' 1X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "1X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-2x",
+                  "code": "12' 2X",
+                  "label": "12' 2X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-3x",
+                  "code": "12' 3X",
+                  "label": "12' 3X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-4x",
+                  "code": "12' 4X",
+                  "label": "12' 4X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-5x",
+                  "code": "12' 5X",
+                  "label": "12' 5X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-6x",
+                  "code": "12' 6X",
+                  "label": "12' 6X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-12-7x",
+                  "code": "12' 7X",
+                  "label": "12' 7X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-15-3x",
+                  "code": "15' 3X",
+                  "label": "15' 3X",
+                  "specs": {
+                    "length": "15'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-15-4x",
+                  "code": "15' 4X",
+                  "label": "15' 4X",
+                  "specs": {
+                    "length": "15'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-15-5x",
+                  "code": "15' 5X",
+                  "label": "15' 5X",
+                  "specs": {
+                    "length": "15'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-trout-15-6x",
+                  "code": "15' 6X",
+                  "label": "15' 6X",
+                  "specs": {
+                    "length": "15'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Powerflex Plus Trout",
+              "type": "knotless tapered",
+              "years": "2016–present",
+              "note": "RIO's strongest nylon trout leader, up to 20% higher tensile strength than standard Powerflex without sacrificing suppleness.",
+              "variants": [
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-0x",
+                  "code": "7.5' 0X",
+                  "label": "7.5' 0X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "0X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-1x",
+                  "code": "7.5' 1X",
+                  "label": "7.5' 1X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "1X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-2x",
+                  "code": "7.5' 2X",
+                  "label": "7.5' 2X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-3x",
+                  "code": "7.5' 3X",
+                  "label": "7.5' 3X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-4x",
+                  "code": "7.5' 4X",
+                  "label": "7.5' 4X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-5x",
+                  "code": "7.5' 5X",
+                  "label": "7.5' 5X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-6x",
+                  "code": "7.5' 6X",
+                  "label": "7.5' 6X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-7-5-7x",
+                  "code": "7.5' 7X",
+                  "label": "7.5' 7X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-0x",
+                  "code": "9' 0X",
+                  "label": "9' 0X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "0X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-1x",
+                  "code": "9' 1X",
+                  "label": "9' 1X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "1X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-2x",
+                  "code": "9' 2X",
+                  "label": "9' 2X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-3x",
+                  "code": "9' 3X",
+                  "label": "9' 3X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-4x",
+                  "code": "9' 4X",
+                  "label": "9' 4X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-5x",
+                  "code": "9' 5X",
+                  "label": "9' 5X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-6x",
+                  "code": "9' 6X",
+                  "label": "9' 6X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-9-7x",
+                  "code": "9' 7X",
+                  "label": "9' 7X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-0x",
+                  "code": "12' 0X",
+                  "label": "12' 0X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "0X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-1x",
+                  "code": "12' 1X",
+                  "label": "12' 1X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "1X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-2x",
+                  "code": "12' 2X",
+                  "label": "12' 2X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-3x",
+                  "code": "12' 3X",
+                  "label": "12' 3X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-4x",
+                  "code": "12' 4X",
+                  "label": "12' 4X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-5x",
+                  "code": "12' 5X",
+                  "label": "12' 5X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-6x",
+                  "code": "12' 6X",
+                  "label": "12' 6X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-powerflex-plus-trout-12-7x",
+                  "code": "12' 7X",
+                  "label": "12' 7X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Suppleflex Trout",
+              "type": "knotless tapered",
+              "years": "2010s–present",
+              "note": "Very soft, supple copolymer nylon leader for delicate dry-fly and soft-hackle presentations.",
+              "variants": [
+                {
+                  "id": "leader-rio-suppleflex-trout-7-5-3x",
+                  "code": "7.5' 3X",
+                  "label": "7.5' 3X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-7-5-4x",
+                  "code": "7.5' 4X",
+                  "label": "7.5' 4X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-7-5-5x",
+                  "code": "7.5' 5X",
+                  "label": "7.5' 5X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-7-5-6x",
+                  "code": "7.5' 6X",
+                  "label": "7.5' 6X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-9-3x",
+                  "code": "9' 3X",
+                  "label": "9' 3X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-9-4x",
+                  "code": "9' 4X",
+                  "label": "9' 4X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-9-5x",
+                  "code": "9' 5X",
+                  "label": "9' 5X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-9-6x",
+                  "code": "9' 6X",
+                  "label": "9' 6X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-9-7x",
+                  "code": "9' 7X",
+                  "label": "9' 7X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-12-3x",
+                  "code": "12' 3X",
+                  "label": "12' 3X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-12-4x",
+                  "code": "12' 4X",
+                  "label": "12' 4X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-12-5x",
+                  "code": "12' 5X",
+                  "label": "12' 5X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-suppleflex-trout-12-6x",
                   "code": "12' 6X",
                   "label": "12' 6X",
                   "specs": {
@@ -4999,11 +7652,113 @@
               ]
             },
             {
-              "model": "Fluoroflex Plus",
+              "model": "Fluoroflex Trout",
               "type": "knotless tapered",
+              "years": "2010s–present",
+              "note": "100% fluorocarbon trout leader for near-invisible presentations in clear water and to spooky fish.",
               "variants": [
                 {
-                  "id": "leader-rio-fluoroflex-plus-9-4x",
+                  "id": "leader-rio-fluoroflex-trout-7-5-0x",
+                  "code": "7.5' 0X",
+                  "label": "7.5' 0X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "0X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-7-5-1x",
+                  "code": "7.5' 1X",
+                  "label": "7.5' 1X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "1X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-7-5-2x",
+                  "code": "7.5' 2X",
+                  "label": "7.5' 2X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "2X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-7-5-3x",
+                  "code": "7.5' 3X",
+                  "label": "7.5' 3X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "3X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-7-5-4x",
+                  "code": "7.5' 4X",
+                  "label": "7.5' 4X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "4X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-7-5-5x",
+                  "code": "7.5' 5X",
+                  "label": "7.5' 5X",
+                  "specs": {
+                    "length": "7.5'",
+                    "tippetSize": "5X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-9-0x",
+                  "code": "9' 0X",
+                  "label": "9' 0X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "0X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-9-1x",
+                  "code": "9' 1X",
+                  "label": "9' 1X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "1X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-9-2x",
+                  "code": "9' 2X",
+                  "label": "9' 2X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "2X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-9-3x",
+                  "code": "9' 3X",
+                  "label": "9' 3X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "3X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-9-4x",
                   "code": "9' 4X",
                   "label": "9' 4X",
                   "specs": {
@@ -5013,13 +7768,359 @@
                   }
                 },
                 {
-                  "id": "leader-rio-fluoroflex-plus-9-5x",
+                  "id": "leader-rio-fluoroflex-trout-9-5x",
                   "code": "9' 5X",
                   "label": "9' 5X",
                   "specs": {
                     "length": "9'",
                     "tippetSize": "5X",
                     "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-9-6x",
+                  "code": "9' 6X",
+                  "label": "9' 6X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "6X",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-trout-9-7x",
+                  "code": "9' 7X",
+                  "label": "9' 7X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "7X",
+                    "material": "fluorocarbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Fluoroflex Bonefish",
+              "type": "knotless tapered",
+              "years": "2010s–present",
+              "note": "100% fluorocarbon saltwater/flats leader (bonefish, permit, general salt) sized by pound test with a long turnover butt.",
+              "variants": [
+                {
+                  "id": "leader-rio-fluoroflex-bonefish-9-8lb",
+                  "code": "9' 8lb",
+                  "label": "9' 8lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "8lb",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-bonefish-9-10lb",
+                  "code": "9' 10lb",
+                  "label": "9' 10lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "10lb",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-bonefish-9-12lb",
+                  "code": "9' 12lb",
+                  "label": "9' 12lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "12lb",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-bonefish-9-16lb",
+                  "code": "9' 16lb",
+                  "label": "9' 16lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "16lb",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-fluoroflex-bonefish-9-20lb",
+                  "code": "9' 20lb",
+                  "label": "9' 20lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "20lb",
+                    "material": "fluorocarbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Saltwater",
+              "type": "knotless tapered",
+              "years": "2010s–present",
+              "note": "Tough, abrasion-resistant medium-stiff nylon general-purpose saltwater leader that turns over big patterns in wind.",
+              "variants": [
+                {
+                  "id": "leader-rio-saltwater-10-8lb",
+                  "code": "10' 8lb",
+                  "label": "10' 8lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "8lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-saltwater-10-10lb",
+                  "code": "10' 10lb",
+                  "label": "10' 10lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "10lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-saltwater-10-12lb",
+                  "code": "10' 12lb",
+                  "label": "10' 12lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "12lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-saltwater-10-16lb",
+                  "code": "10' 16lb",
+                  "label": "10' 16lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "16lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-saltwater-10-20lb",
+                  "code": "10' 20lb",
+                  "label": "10' 20lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "20lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-saltwater-10-40lb",
+                  "code": "10' 40lb",
+                  "label": "10' 40lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "40lb",
+                    "material": "nylon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Tarpon Pro",
+              "type": "tapered class/shock leader",
+              "years": "2010s–present",
+              "note": "10' tarpon leader with a heavy turnover butt, class tippet, and fluorocarbon bite tippet, designed with Florida Keys guides; coded by class tippet.",
+              "variants": [
+                {
+                  "id": "leader-rio-tarpon-pro-10-20lb",
+                  "code": "10' 20lb",
+                  "label": "10' 20lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "20lb",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-tarpon-pro-10-30lb",
+                  "code": "10' 30lb",
+                  "label": "10' 30lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "30lb",
+                    "material": "fluorocarbon"
+                  }
+                },
+                {
+                  "id": "leader-rio-tarpon-pro-10-40lb",
+                  "code": "10' 40lb",
+                  "label": "10' 40lb",
+                  "specs": {
+                    "length": "10'",
+                    "tippetSize": "40lb",
+                    "material": "fluorocarbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Tapered Tarpon",
+              "type": "tapered class/shock leader",
+              "years": "2010s–present",
+              "note": "12' fully tapered tarpon leader ending in a 2' fluorocarbon shock tippet; coded by class tippet.",
+              "variants": [
+                {
+                  "id": "leader-rio-tapered-tarpon-12-40lb",
+                  "code": "12' 40lb",
+                  "label": "12' 40lb",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "40lb",
+                    "material": "fluorocarbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Steelhead/Salmon",
+              "type": "knotless tapered",
+              "years": "2010s–present",
+              "note": "Stiffer co-polymer nylon leader with a thick butt and glacial-green non-glare finish for big steelhead and salmon flies.",
+              "variants": [
+                {
+                  "id": "leader-rio-steelhead-salmon-9-8lb",
+                  "code": "9' 8lb",
+                  "label": "9' 8lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "8lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-9-10lb",
+                  "code": "9' 10lb",
+                  "label": "9' 10lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "10lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-9-12lb",
+                  "code": "9' 12lb",
+                  "label": "9' 12lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "12lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-9-16lb",
+                  "code": "9' 16lb",
+                  "label": "9' 16lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "16lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-9-20lb",
+                  "code": "9' 20lb",
+                  "label": "9' 20lb",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "20lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-12-8lb",
+                  "code": "12' 8lb",
+                  "label": "12' 8lb",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "8lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-12-10lb",
+                  "code": "12' 10lb",
+                  "label": "12' 10lb",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "10lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-12-12lb",
+                  "code": "12' 12lb",
+                  "label": "12' 12lb",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "12lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-12-16lb",
+                  "code": "12' 16lb",
+                  "label": "12' 16lb",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "16lb",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-rio-steelhead-salmon-12-20lb",
+                  "code": "12' 20lb",
+                  "label": "12' 20lb",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "20lb",
+                    "material": "nylon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Euro Nymph Leader",
+              "type": "tapered nymphing leader",
+              "years": "2018–present",
+              "note": "11' tapered nylon leader joined to 22\" of 2X two-tone indicator tippet and finished with a tippet ring.",
+              "variants": [
+                {
+                  "id": "leader-rio-euro-nymph-leader-11-2x",
+                  "code": "11' 2X",
+                  "label": "11' 2X",
+                  "specs": {
+                    "length": "11'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Technical Euro Nymph Leader",
+              "type": "tapered nymphing leader",
+              "years": "2019–present",
+              "note": "12' tapered butt with 2' of sighter material, finished with a tippet ring for attaching tippet of choice.",
+              "variants": [
+                {
+                  "id": "leader-rio-technical-euro-nymph-leader-12-2x",
+                  "code": "12' 2X",
+                  "label": "12' 2X",
+                  "specs": {
+                    "length": "12'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
                   }
                 }
               ]
@@ -5086,7 +8187,45 @@
             {
               "model": "Powerflex",
               "material": "nylon",
+              "years": "2010s–present",
+              "note": "RIO's standard high-knot-strength copolymer nylon trout tippet.",
               "variants": [
+                {
+                  "id": "tippet-rio-powerflex-0x",
+                  "code": "0X",
+                  "label": "0X",
+                  "specs": {
+                    "size": "0X",
+                    "material": "nylon",
+                    "diameterIn": 0.011,
+                    "diameterMm": 0.279,
+                    "nominalBreakLb": 15
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-1x",
+                  "code": "1X",
+                  "label": "1X",
+                  "specs": {
+                    "size": "1X",
+                    "material": "nylon",
+                    "diameterIn": 0.01,
+                    "diameterMm": 0.254,
+                    "nominalBreakLb": 13
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-2x",
+                  "code": "2X",
+                  "label": "2X",
+                  "specs": {
+                    "size": "2X",
+                    "material": "nylon",
+                    "diameterIn": 0.009,
+                    "diameterMm": 0.229,
+                    "nominalBreakLb": 10
+                  }
+                },
                 {
                   "id": "tippet-rio-powerflex-3x",
                   "code": "3X",
@@ -5095,8 +8234,8 @@
                     "size": "3X",
                     "material": "nylon",
                     "diameterIn": 0.008,
-                    "diameterMm": 0.2,
-                    "nominalBreakLb": 8.5
+                    "diameterMm": 0.203,
+                    "nominalBreakLb": 8.2
                   }
                 },
                 {
@@ -5107,8 +8246,8 @@
                     "size": "4X",
                     "material": "nylon",
                     "diameterIn": 0.007,
-                    "diameterMm": 0.18,
-                    "nominalBreakLb": 6.0
+                    "diameterMm": 0.178,
+                    "nominalBreakLb": 6.4
                   }
                 },
                 {
@@ -5119,8 +8258,8 @@
                     "size": "5X",
                     "material": "nylon",
                     "diameterIn": 0.006,
-                    "diameterMm": 0.15,
-                    "nominalBreakLb": 4.75
+                    "diameterMm": 0.152,
+                    "nominalBreakLb": 5.0
                   }
                 },
                 {
@@ -5131,8 +8270,8 @@
                     "size": "6X",
                     "material": "nylon",
                     "diameterIn": 0.005,
-                    "diameterMm": 0.13,
-                    "nominalBreakLb": 3.5
+                    "diameterMm": 0.127,
+                    "nominalBreakLb": 3.4
                   }
                 },
                 {
@@ -5143,8 +8282,284 @@
                     "size": "7X",
                     "material": "nylon",
                     "diameterIn": 0.004,
-                    "diameterMm": 0.1,
-                    "nominalBreakLb": 2.5
+                    "diameterMm": 0.102,
+                    "nominalBreakLb": 2.4
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-8x",
+                  "code": "8X",
+                  "label": "8X",
+                  "specs": {
+                    "size": "8X",
+                    "material": "nylon",
+                    "diameterIn": 0.003,
+                    "diameterMm": 0.076,
+                    "nominalBreakLb": 1.5
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Powerflex Plus",
+              "material": "nylon",
+              "years": "2016–present",
+              "note": "High-strength nylon copolymer rated up to ~20% stronger per diameter than standard Powerflex.",
+              "variants": [
+                {
+                  "id": "tippet-rio-powerflex-plus-0x",
+                  "code": "0X",
+                  "label": "0X",
+                  "specs": {
+                    "size": "0X",
+                    "material": "nylon",
+                    "diameterIn": 0.011,
+                    "diameterMm": 0.279,
+                    "nominalBreakLb": 18
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-plus-1x",
+                  "code": "1X",
+                  "label": "1X",
+                  "specs": {
+                    "size": "1X",
+                    "material": "nylon",
+                    "diameterIn": 0.01,
+                    "diameterMm": 0.254,
+                    "nominalBreakLb": 15
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-plus-2x",
+                  "code": "2X",
+                  "label": "2X",
+                  "specs": {
+                    "size": "2X",
+                    "material": "nylon",
+                    "diameterIn": 0.009,
+                    "diameterMm": 0.229,
+                    "nominalBreakLb": 12
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-plus-3x",
+                  "code": "3X",
+                  "label": "3X",
+                  "specs": {
+                    "size": "3X",
+                    "material": "nylon",
+                    "diameterIn": 0.008,
+                    "diameterMm": 0.203,
+                    "nominalBreakLb": 9.5
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-plus-4x",
+                  "code": "4X",
+                  "label": "4X",
+                  "specs": {
+                    "size": "4X",
+                    "material": "nylon",
+                    "diameterIn": 0.007,
+                    "diameterMm": 0.178,
+                    "nominalBreakLb": 7.5
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-plus-5x",
+                  "code": "5X",
+                  "label": "5X",
+                  "specs": {
+                    "size": "5X",
+                    "material": "nylon",
+                    "diameterIn": 0.006,
+                    "diameterMm": 0.152,
+                    "nominalBreakLb": 6.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-plus-6x",
+                  "code": "6X",
+                  "label": "6X",
+                  "specs": {
+                    "size": "6X",
+                    "material": "nylon",
+                    "diameterIn": 0.005,
+                    "diameterMm": 0.127,
+                    "nominalBreakLb": 4.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-powerflex-plus-7x",
+                  "code": "7X",
+                  "label": "7X",
+                  "specs": {
+                    "size": "7X",
+                    "material": "nylon",
+                    "diameterIn": 0.004,
+                    "diameterMm": 0.102,
+                    "nominalBreakLb": 2.75
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Suppleflex",
+              "material": "nylon",
+              "years": "2010s–present",
+              "note": "Soft, supple nylon trout tippet for delicate presentations with small flies.",
+              "variants": [
+                {
+                  "id": "tippet-rio-suppleflex-4x",
+                  "code": "4X",
+                  "label": "4X",
+                  "specs": {
+                    "size": "4X",
+                    "material": "nylon",
+                    "diameterIn": 0.007,
+                    "diameterMm": 0.178,
+                    "nominalBreakLb": 6.1
+                  }
+                },
+                {
+                  "id": "tippet-rio-suppleflex-5x",
+                  "code": "5X",
+                  "label": "5X",
+                  "specs": {
+                    "size": "5X",
+                    "material": "nylon",
+                    "diameterIn": 0.006,
+                    "diameterMm": 0.152,
+                    "nominalBreakLb": 4.7
+                  }
+                },
+                {
+                  "id": "tippet-rio-suppleflex-6x",
+                  "code": "6X",
+                  "label": "6X",
+                  "specs": {
+                    "size": "6X",
+                    "material": "nylon",
+                    "diameterIn": 0.005,
+                    "diameterMm": 0.127,
+                    "nominalBreakLb": 3.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-suppleflex-7x",
+                  "code": "7X",
+                  "label": "7X",
+                  "specs": {
+                    "size": "7X",
+                    "material": "nylon",
+                    "diameterIn": 0.004,
+                    "diameterMm": 0.102,
+                    "nominalBreakLb": 2.0
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Fluoroflex",
+              "material": "fluorocarbon",
+              "years": "2010s–present",
+              "note": "Standard 100% fluorocarbon freshwater trout tippet, low-visibility and abrasion resistant.",
+              "variants": [
+                {
+                  "id": "tippet-rio-fluoroflex-0x",
+                  "code": "0X",
+                  "label": "0X",
+                  "specs": {
+                    "size": "0X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.011,
+                    "diameterMm": 0.279,
+                    "nominalBreakLb": 12
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-1x",
+                  "code": "1X",
+                  "label": "1X",
+                  "specs": {
+                    "size": "1X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.01,
+                    "diameterMm": 0.254,
+                    "nominalBreakLb": 10
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-2x",
+                  "code": "2X",
+                  "label": "2X",
+                  "specs": {
+                    "size": "2X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.009,
+                    "diameterMm": 0.229,
+                    "nominalBreakLb": 8.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-3x",
+                  "code": "3X",
+                  "label": "3X",
+                  "specs": {
+                    "size": "3X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.008,
+                    "diameterMm": 0.203,
+                    "nominalBreakLb": 6.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-4x",
+                  "code": "4X",
+                  "label": "4X",
+                  "specs": {
+                    "size": "4X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.007,
+                    "diameterMm": 0.178,
+                    "nominalBreakLb": 5.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-5x",
+                  "code": "5X",
+                  "label": "5X",
+                  "specs": {
+                    "size": "5X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.006,
+                    "diameterMm": 0.152,
+                    "nominalBreakLb": 4.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-6x",
+                  "code": "6X",
+                  "label": "6X",
+                  "specs": {
+                    "size": "6X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.005,
+                    "diameterMm": 0.127,
+                    "nominalBreakLb": 3.0
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-7x",
+                  "code": "7X",
+                  "label": "7X",
+                  "specs": {
+                    "size": "7X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.004,
+                    "diameterMm": 0.102,
+                    "nominalBreakLb": 2.0
                   }
                 }
               ]
@@ -5152,7 +8567,45 @@
             {
               "model": "Fluoroflex Plus",
               "material": "fluorocarbon",
+              "years": "2006–present",
+              "note": "High-strength 100% fluorocarbon trout tippet (re-engineered as Fluoroflex Strong in 2021, adding 4.5X/5.5X/6.5X half-sizes).",
               "variants": [
+                {
+                  "id": "tippet-rio-fluoroflex-plus-0x",
+                  "code": "0X",
+                  "label": "0X",
+                  "specs": {
+                    "size": "0X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.011,
+                    "diameterMm": 0.279,
+                    "nominalBreakLb": 15.5
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-plus-1x",
+                  "code": "1X",
+                  "label": "1X",
+                  "specs": {
+                    "size": "1X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.01,
+                    "diameterMm": 0.254,
+                    "nominalBreakLb": 13.3
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-plus-2x",
+                  "code": "2X",
+                  "label": "2X",
+                  "specs": {
+                    "size": "2X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.009,
+                    "diameterMm": 0.229,
+                    "nominalBreakLb": 11.2
+                  }
+                },
                 {
                   "id": "tippet-rio-fluoroflex-plus-3x",
                   "code": "3X",
@@ -5161,8 +8614,8 @@
                     "size": "3X",
                     "material": "fluorocarbon",
                     "diameterIn": 0.008,
-                    "diameterMm": 0.2,
-                    "nominalBreakLb": 8.5
+                    "diameterMm": 0.203,
+                    "nominalBreakLb": 8.8
                   }
                 },
                 {
@@ -5173,8 +8626,20 @@
                     "size": "4X",
                     "material": "fluorocarbon",
                     "diameterIn": 0.007,
-                    "diameterMm": 0.18,
-                    "nominalBreakLb": 6.0
+                    "diameterMm": 0.178,
+                    "nominalBreakLb": 7.3
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-plus-4-5x",
+                  "code": "4.5X",
+                  "label": "4.5X",
+                  "specs": {
+                    "size": "4.5X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.0065,
+                    "diameterMm": 0.165,
+                    "nominalBreakLb": 6.1
                   }
                 },
                 {
@@ -5185,8 +8650,20 @@
                     "size": "5X",
                     "material": "fluorocarbon",
                     "diameterIn": 0.006,
-                    "diameterMm": 0.15,
-                    "nominalBreakLb": 4.75
+                    "diameterMm": 0.152,
+                    "nominalBreakLb": 5.2
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-plus-5-5x",
+                  "code": "5.5X",
+                  "label": "5.5X",
+                  "specs": {
+                    "size": "5.5X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.0055,
+                    "diameterMm": 0.14,
+                    "nominalBreakLb": 4.5
                   }
                 },
                 {
@@ -5197,8 +8674,204 @@
                     "size": "6X",
                     "material": "fluorocarbon",
                     "diameterIn": 0.005,
-                    "diameterMm": 0.13,
-                    "nominalBreakLb": 3.5
+                    "diameterMm": 0.127,
+                    "nominalBreakLb": 3.8
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-plus-6-5x",
+                  "code": "6.5X",
+                  "label": "6.5X",
+                  "specs": {
+                    "size": "6.5X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.0045,
+                    "diameterMm": 0.114,
+                    "nominalBreakLb": 3.1
+                  }
+                },
+                {
+                  "id": "tippet-rio-fluoroflex-plus-7x",
+                  "code": "7X",
+                  "label": "7X",
+                  "specs": {
+                    "size": "7X",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.004,
+                    "diameterMm": 0.102,
+                    "nominalBreakLb": 2.6
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Saltwater",
+              "material": "fluorocarbon",
+              "years": "2010s–present",
+              "note": "Pound-rated 100% fluorocarbon saltwater tippet (Fluoroflex Saltwater).",
+              "variants": [
+                {
+                  "id": "tippet-rio-saltwater-8lb",
+                  "code": "8lb",
+                  "label": "8lb",
+                  "specs": {
+                    "size": "8lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.009,
+                    "diameterMm": 0.229,
+                    "nominalBreakLb": 8
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-10lb",
+                  "code": "10lb",
+                  "label": "10lb",
+                  "specs": {
+                    "size": "10lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.01,
+                    "diameterMm": 0.254,
+                    "nominalBreakLb": 10
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-12lb",
+                  "code": "12lb",
+                  "label": "12lb",
+                  "specs": {
+                    "size": "12lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.011,
+                    "diameterMm": 0.279,
+                    "nominalBreakLb": 12
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-16lb",
+                  "code": "16lb",
+                  "label": "16lb",
+                  "specs": {
+                    "size": "16lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.013,
+                    "diameterMm": 0.33,
+                    "nominalBreakLb": 16
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-20lb",
+                  "code": "20lb",
+                  "label": "20lb",
+                  "specs": {
+                    "size": "20lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.015,
+                    "diameterMm": 0.381,
+                    "nominalBreakLb": 20
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-25lb",
+                  "code": "25lb",
+                  "label": "25lb",
+                  "specs": {
+                    "size": "25lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.017,
+                    "diameterMm": 0.43,
+                    "nominalBreakLb": 25
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-30lb",
+                  "code": "30lb",
+                  "label": "30lb",
+                  "specs": {
+                    "size": "30lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.019,
+                    "diameterMm": 0.48,
+                    "nominalBreakLb": 30
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-40lb",
+                  "code": "40lb",
+                  "label": "40lb",
+                  "specs": {
+                    "size": "40lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.023,
+                    "diameterMm": 0.58,
+                    "nominalBreakLb": 40
+                  }
+                },
+                {
+                  "id": "tippet-rio-saltwater-60lb",
+                  "code": "60lb",
+                  "label": "60lb",
+                  "specs": {
+                    "size": "60lb",
+                    "material": "fluorocarbon",
+                    "diameterIn": 0.027,
+                    "diameterMm": 0.69,
+                    "nominalBreakLb": 60
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Two-Tone Indicator Tippet",
+              "material": "nylon",
+              "years": "2018–present",
+              "note": "Nylon Euro-nymph sighter tippet with alternating high-visibility colors for strike detection.",
+              "variants": [
+                {
+                  "id": "tippet-rio-two-tone-indicator-tippet-1x",
+                  "code": "1X",
+                  "label": "1X",
+                  "specs": {
+                    "size": "1X",
+                    "material": "nylon",
+                    "diameterIn": 0.01,
+                    "diameterMm": 0.254,
+                    "nominalBreakLb": 11
+                  }
+                },
+                {
+                  "id": "tippet-rio-two-tone-indicator-tippet-2x",
+                  "code": "2X",
+                  "label": "2X",
+                  "specs": {
+                    "size": "2X",
+                    "material": "nylon",
+                    "diameterIn": 0.009,
+                    "diameterMm": 0.229,
+                    "nominalBreakLb": 8.5
+                  }
+                },
+                {
+                  "id": "tippet-rio-two-tone-indicator-tippet-3x",
+                  "code": "3X",
+                  "label": "3X",
+                  "specs": {
+                    "size": "3X",
+                    "material": "nylon",
+                    "diameterIn": 0.008,
+                    "diameterMm": 0.203,
+                    "nominalBreakLb": 7
+                  }
+                },
+                {
+                  "id": "tippet-rio-two-tone-indicator-tippet-4x",
+                  "code": "4X",
+                  "label": "4X",
+                  "specs": {
+                    "size": "4X",
+                    "material": "nylon",
+                    "diameterIn": 0.007,
+                    "diameterMm": 0.178,
+                    "nominalBreakLb": 6
                   }
                 }
               ]
