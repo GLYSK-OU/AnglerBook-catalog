@@ -9,10 +9,10 @@
   "counts": {
     "kinds": 14,
     "brands": 45,
-    "models": 189,
-    "variants": 996,
+    "models": 190,
+    "variants": 1008,
     "byKind": {
-      "rod": 340,
+      "rod": 352,
       "reel": 77,
       "line": 276,
       "backing": 6,
@@ -4006,6 +4006,137 @@
                   "specs": {
                     "lineWeight": 3,
                     "length": "10'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Evotec Cast",
+              "action": "medium-fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "mid",
+              "years": "2010–2018",
+              "note": "Carbon DCT (Dynamic Core Technology) single-hand workhorse sold in Medium (M), Medium-Fast (MF) and Fast (F) actions; the action letter is carried in each model code.",
+              "variants": [
+                {
+                  "id": "rod-loop-evotec-cast-286-4M",
+                  "code": "286-4M",
+                  "label": "286-4M",
+                  "specs": {
+                    "lineWeight": 2,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-390-4M",
+                  "code": "390-4M",
+                  "label": "390-4M",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-490-4M",
+                  "code": "490-4M",
+                  "label": "490-4M",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-590-4M",
+                  "code": "590-4M",
+                  "label": "590-4M",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-390-4MF",
+                  "code": "390-4MF",
+                  "label": "390-4MF",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-490-4MF",
+                  "code": "490-4MF",
+                  "label": "490-4MF",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-590-4MF",
+                  "code": "590-4MF",
+                  "label": "590-4MF",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-796-4MF",
+                  "code": "796-4MF",
+                  "label": "796-4MF",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-590-4F",
+                  "code": "590-4F",
+                  "label": "590-4F",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-690-4F",
+                  "code": "690-4F",
+                  "label": "690-4F",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-890-4F",
+                  "code": "890-4F",
+                  "label": "890-4F",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-evotec-cast-990-4F",
+                  "code": "990-4F",
+                  "label": "990-4F",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
                     "pieces": 4
                   }
                 }
