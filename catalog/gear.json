@@ -9,11 +9,11 @@
   "counts": {
     "kinds": 14,
     "brands": 45,
-    "models": 201,
-    "variants": 1037,
+    "models": 215,
+    "variants": 1088,
     "byKind": {
       "rod": 381,
-      "reel": 77,
+      "reel": 128,
       "line": 276,
       "backing": 6,
       "leader": 109,
@@ -4995,6 +4995,642 @@
                     "weightClass": "9-10",
                     "arbor": "large",
                     "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Shift",
+              "material": "machined aluminium",
+              "series": "premium",
+              "years": "2024–present",
+              "note": "Multipurpose fully-machined 6061 reel spanning trout to tarpon, with a size-tuned sealed carbon SCS drag and a narrow large-arbor spool.",
+              "variants": [
+                {
+                  "id": "reel-sage-shift-3-4",
+                  "code": "3/4",
+                  "label": "3/4",
+                  "specs": {
+                    "weightClass": "3-4",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-shift-5-6",
+                  "code": "5/6",
+                  "label": "5/6",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-shift-7-8",
+                  "code": "7/8",
+                  "label": "7/8",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-shift-9-10",
+                  "code": "9/10",
+                  "label": "9/10",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Shift LT",
+              "material": "machined aluminium",
+              "series": "premium",
+              "years": "2025–present",
+              "note": "Lightweight version of the Shift with a cold-forged frame and spool and the sealed carbon SCS drag, in sizes 3/4 through 9/10.",
+              "variants": [
+                {
+                  "id": "reel-sage-shift-lt-3-4",
+                  "code": "3/4",
+                  "label": "3/4",
+                  "specs": {
+                    "weightClass": "3-4",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-shift-lt-5-6",
+                  "code": "5/6",
+                  "label": "5/6",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-shift-lt-7-8",
+                  "code": "7/8",
+                  "label": "7/8",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-shift-lt-9-10",
+                  "code": "9/10",
+                  "label": "9/10",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Thermo",
+              "material": "machined aluminium",
+              "series": "flagship",
+              "years": "2022–present",
+              "note": "Dedicated big-game bluewater reel delivering up to 20 lb of sealed carbon drag with very high backing capacity.",
+              "variants": [
+                {
+                  "id": "reel-sage-thermo-10-12",
+                  "code": "10/12",
+                  "label": "10/12",
+                  "specs": {
+                    "weightClass": "10-12",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-thermo-12-16",
+                  "code": "12/16",
+                  "label": "12/16",
+                  "specs": {
+                    "weightClass": "12-16",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Evoke",
+              "material": "machined aluminium",
+              "series": "premium",
+              "years": "2014–2018",
+              "note": "Big-game reel with a modified full-frame design (palmable lower half) sharing the 6000 series' sealed carbon drag.",
+              "variants": [
+                {
+                  "id": "reel-sage-evoke-8",
+                  "code": "8",
+                  "label": "8",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-evoke-10",
+                  "code": "10",
+                  "label": "10",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "8000 Pro",
+              "material": "machined aluminium",
+              "series": "flagship",
+              "years": "2012–2019",
+              "note": "Big-game saltwater reel with a two-stage dual-drag control that presets low-end resistance and dials up high-end fish-fighting power.",
+              "variants": [
+                {
+                  "id": "reel-sage-8000-pro-8080",
+                  "code": "8080",
+                  "label": "8080",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-8000-pro-8010",
+                  "code": "8010",
+                  "label": "8010",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-8000-pro-8012",
+                  "code": "8012",
+                  "label": "8012",
+                  "specs": {
+                    "weightClass": "11-12",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "6200",
+              "material": "machined aluminium",
+              "series": "flagship",
+              "years": "2016–2020",
+              "note": "Fully-machined, cold-forged saltwater flagship that superseded the 6000 series, with a sealed carbon SCS drag and one-revolution knob.",
+              "variants": [
+                {
+                  "id": "reel-sage-6200-6250",
+                  "code": "6250",
+                  "label": "6250",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-6200-6260",
+                  "code": "6260",
+                  "label": "6260",
+                  "specs": {
+                    "weightClass": "6-7",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-6200-6280",
+                  "code": "6280",
+                  "label": "6280",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-6200-6210",
+                  "code": "6210",
+                  "label": "6210",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-6200-6212",
+                  "code": "6212",
+                  "label": "6212",
+                  "specs": {
+                    "weightClass": "11-12",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "6000",
+              "material": "machined aluminium",
+              "series": "premium",
+              "years": "2004–2016",
+              "note": "Long-running, highly-ported big-game saltwater reel built around a sealed, numbered one-revolution disc drag.",
+              "variants": [
+                {
+                  "id": "reel-sage-6000-6080",
+                  "code": "6080",
+                  "label": "6080",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-6000-6010",
+                  "code": "6010",
+                  "label": "6010",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-6000-6012",
+                  "code": "6012",
+                  "label": "6012",
+                  "specs": {
+                    "weightClass": "11-12",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "4200",
+              "material": "machined aluminium",
+              "series": "mid",
+              "years": "2010–2016",
+              "note": "Machined large-arbor value series that brought Sage's sealed carbon 'Floating Tripod' drag to a mid price.",
+              "variants": [
+                {
+                  "id": "reel-sage-4200-4230",
+                  "code": "4230",
+                  "label": "4230",
+                  "specs": {
+                    "weightClass": "3-4",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-4200-4250",
+                  "code": "4250",
+                  "label": "4250",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-4200-4280",
+                  "code": "4280",
+                  "label": "4280",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-4200-4210",
+                  "code": "4210",
+                  "label": "4210",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "3200",
+              "material": "machined aluminium",
+              "series": "mid",
+              "years": "2014–2018",
+              "note": "Fully-machined, smaller-diameter sealed carbon reel launched alongside the die-cast 2200.",
+              "variants": [
+                {
+                  "id": "reel-sage-3200-3-4",
+                  "code": "3/4",
+                  "label": "3/4",
+                  "specs": {
+                    "weightClass": "3-4",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-3200-5-6",
+                  "code": "5/6",
+                  "label": "5/6",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-3200-7-8",
+                  "code": "7/8",
+                  "label": "7/8",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "2200",
+              "material": "die-cast aluminium",
+              "series": "entry",
+              "years": "2014–2018",
+              "note": "Entry-level die-cast, CNC-finished large-arbor reel with a sealed carbon drag; the 7/8 and 9/10 sizes are spey-friendly.",
+              "variants": [
+                {
+                  "id": "reel-sage-2200-3-4",
+                  "code": "3/4",
+                  "label": "3/4",
+                  "specs": {
+                    "weightClass": "3-4",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-2200-5-6",
+                  "code": "5/6",
+                  "label": "5/6",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-2200-7-8",
+                  "code": "7/8",
+                  "label": "7/8",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-sage-2200-9-10",
+                  "code": "9/10",
+                  "label": "9/10",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "4500",
+              "material": "machined aluminium",
+              "series": "mid",
+              "years": "2008–2013",
+              "note": "Machined-spool evolution of the 2500 series using a compact 3:1 geared graphite disc drag.",
+              "variants": [
+                {
+                  "id": "reel-sage-4500-4540",
+                  "code": "4540",
+                  "label": "4540",
+                  "specs": {
+                    "weightClass": "4-5",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-4500-4550",
+                  "code": "4550",
+                  "label": "4550",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-4500-4560",
+                  "code": "4560",
+                  "label": "4560",
+                  "specs": {
+                    "weightClass": "6-7",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-4500-4580",
+                  "code": "4580",
+                  "label": "4580",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "4600",
+              "material": "machined aluminium",
+              "series": "mid",
+              "years": "2012–2016",
+              "note": "Larger-diameter concave-spool series with a sealed 3:1 graphite disc drag covering trout through light salt and switch.",
+              "variants": [
+                {
+                  "id": "reel-sage-4600-4640",
+                  "code": "4640",
+                  "label": "4640",
+                  "specs": {
+                    "weightClass": "4-5",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-4600-4650",
+                  "code": "4650",
+                  "label": "4650",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-4600-4660",
+                  "code": "4660",
+                  "label": "4660",
+                  "specs": {
+                    "weightClass": "6-7",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-4600-4680",
+                  "code": "4680",
+                  "label": "4680",
+                  "specs": {
+                    "weightClass": "8-9",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "5000",
+              "material": "machined aluminium",
+              "series": "premium",
+              "years": "2003–2008",
+              "note": "Earlier saltwater disc-drag series spanning 4wt through 12wt with a narrower classic spool.",
+              "variants": [
+                {
+                  "id": "reel-sage-5000-5100",
+                  "code": "5100",
+                  "label": "5100",
+                  "specs": {
+                    "weightClass": "3-4",
+                    "arbor": "standard",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-5000-5200",
+                  "code": "5200",
+                  "label": "5200",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "standard",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-5000-5300",
+                  "code": "5300",
+                  "label": "5300",
+                  "specs": {
+                    "weightClass": "7",
+                    "arbor": "standard",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-5000-5400",
+                  "code": "5400",
+                  "label": "5400",
+                  "specs": {
+                    "weightClass": "8",
+                    "arbor": "standard",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-5000-5500",
+                  "code": "5500",
+                  "label": "5500",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "standard",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-5000-5600",
+                  "code": "5600",
+                  "label": "5600",
+                  "specs": {
+                    "weightClass": "11-12",
+                    "arbor": "standard",
+                    "dragSystem": "sealed"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "3000",
+              "material": "machined aluminium",
+              "series": "premium",
+              "years": "2001–2007",
+              "note": "The 2001 reel that introduced Sage's sealed disc drag ('3000 Drag'), in three D-suffixed sizes.",
+              "variants": [
+                {
+                  "id": "reel-sage-3000-3300d",
+                  "code": "3300D",
+                  "label": "3300D",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-3000-3400d",
+                  "code": "3400D",
+                  "label": "3400D",
+                  "specs": {
+                    "weightClass": "7-8",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
+                  }
+                },
+                {
+                  "id": "reel-sage-3000-3500d",
+                  "code": "3500D",
+                  "label": "3500D",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed"
                   }
                 }
               ]
