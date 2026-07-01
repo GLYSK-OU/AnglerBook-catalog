@@ -9,10 +9,10 @@
   "counts": {
     "kinds": 14,
     "brands": 45,
-    "models": 190,
-    "variants": 1008,
+    "models": 191,
+    "variants": 1010,
     "byKind": {
-      "rod": 352,
+      "rod": 354,
       "reel": 77,
       "line": 276,
       "backing": 6,
@@ -4137,6 +4137,37 @@
                   "specs": {
                     "lineWeight": 9,
                     "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Opti Peak",
+              "action": "medium",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "premium",
+              "years": "2013–present",
+              "note": "Long 11' single-hand rod with a progressive medium action built to cast bombers and big dry flies for salmon and large trout, giving reach and line control through runs.",
+              "variants": [
+                {
+                  "id": "rod-loop-opti-peak-3110-4",
+                  "code": "3110-4",
+                  "label": "3110-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-loop-opti-peak-4110-4",
+                  "code": "4110-4",
+                  "label": "4110-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "11'0\"",
                     "pieces": 4
                   }
                 }
