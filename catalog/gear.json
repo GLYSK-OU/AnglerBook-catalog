@@ -9,10 +9,10 @@
   "counts": {
     "kinds": 14,
     "brands": 45,
-    "models": 195,
-    "variants": 1029,
+    "models": 196,
+    "variants": 1030,
     "byKind": {
-      "rod": 373,
+      "rod": 374,
       "reel": 77,
       "line": 276,
       "backing": 6,
@@ -4168,6 +4168,27 @@
                   "specs": {
                     "lineWeight": 4,
                     "length": "11'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Opti Stillwater",
+              "action": "medium-fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "premium",
+              "years": "2013–2018",
+              "note": "Stillwater/lake single-hand rod with a removable fighting butt for playing big trout on reservoirs (distinct from the identically named Opti Stillwater fly line).",
+              "variants": [
+                {
+                  "id": "rod-loop-opti-stillwater-696-4",
+                  "code": "696-4",
+                  "label": "696-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'6\"",
                     "pieces": 4
                   }
                 }
