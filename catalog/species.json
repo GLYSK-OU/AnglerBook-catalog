@@ -1,0 +1,16 @@
+{
+  "catalogVersion": "2026-07-02",
+  "groups": [
+    { "name": "Trout",             "symbol": "fish.fill",   "tint": "teal",   "species": ["Rainbow Trout", "Brown Trout", "Brook Trout", "Cutthroat Trout", "Lake Trout", "Golden Trout", "Tiger Trout", "Bull Trout", "Marble Trout", "Sea Trout"] },
+    { "name": "Salmon",            "symbol": "fish.fill",   "tint": "pink",   "species": ["Atlantic Salmon", "Chinook (King) Salmon", "Coho (Silver) Salmon", "Sockeye (Red) Salmon", "Pink (Humpy) Salmon", "Chum (Dog) Salmon"] },
+    { "name": "Char",              "symbol": "fish.fill",   "tint": "cyan",   "species": ["Arctic Char", "Dolly Varden", "Brook Char", "Lake Char"] },
+    { "name": "Grayling",          "symbol": "fish.fill",   "tint": "indigo", "species": ["Arctic Grayling", "European Grayling"] },
+    { "name": "Bass",              "symbol": "fish.fill",   "tint": "green",  "species": ["Largemouth Bass", "Smallmouth Bass", "Spotted Bass", "Striped Bass", "White Bass", "Rock Bass"] },
+    { "name": "Panfish",           "symbol": "fish.fill",   "tint": "orange", "species": ["Bluegill", "Crappie", "Yellow Perch", "Pumpkinseed", "Redear Sunfish"] },
+    { "name": "Pike & Musky",      "symbol": "fish.fill",   "tint": "yellow", "species": ["Northern Pike", "Muskellunge", "Chain Pickerel"] },
+    { "name": "Carp",              "symbol": "fish.fill",   "tint": "brown",  "species": ["Common Carp", "Mirror Carp", "Grass Carp"] },
+    { "name": "Whitefish",         "symbol": "fish.fill",   "tint": "gray",   "species": ["Mountain Whitefish", "Lake Whitefish"] },
+    { "name": "Other Freshwater",  "symbol": "drop.fill",   "tint": "mint",   "species": ["Walleye", "Zander", "Asp", "Chub", "Barbel", "Catfish", "American Shad", "Peacock Bass"] },
+    { "name": "Saltwater & Flats", "symbol": "water.waves", "tint": "blue",   "species": ["Bonefish", "Tarpon", "Permit", "Redfish", "Snook", "False Albacore", "Barracuda", "Roosterfish", "Jack Crevalle", "Mahi-Mahi"] }
+  ]
+}
