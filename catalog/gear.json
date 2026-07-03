@@ -9,8 +9,8 @@
   "counts": {
     "kinds": 14,
     "brands": 50,
-    "models": 262,
-    "variants": 1284,
+    "models": 266,
+    "variants": 1308,
     "byKind": {
       "rod": 437,
       "reel": 151,
@@ -20,7 +20,7 @@
       "tippet": 69,
       "fly": 40,
       "waders": 67,
-      "boots": 57,
+      "boots": 81,
       "pack": 9,
       "net": 5,
       "tool": 6,
@@ -14799,6 +14799,254 @@
                   "specs": {
                     "size": 13,
                     "soleType": "rubber"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Forra Wading Boots",
+              "soleType": "Vibram rubber",
+              "series": "mid",
+              "note": "Lightweight freshwater boot.",
+              "variants": [
+                {
+                  "id": "boots-patagonia-forra-wading-boots-us-8-vibram-rubber",
+                  "code": "US 8 (Vibram rubber)",
+                  "label": "US 8 (Vibram rubber)",
+                  "specs": {
+                    "size": 8,
+                    "soleType": "Vibram rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-forra-wading-boots-us-9-vibram-rubber",
+                  "code": "US 9 (Vibram rubber)",
+                  "label": "US 9 (Vibram rubber)",
+                  "specs": {
+                    "size": 9,
+                    "soleType": "Vibram rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-forra-wading-boots-us-10-vibram-rubber",
+                  "code": "US 10 (Vibram rubber)",
+                  "label": "US 10 (Vibram rubber)",
+                  "specs": {
+                    "size": 10,
+                    "soleType": "Vibram rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-forra-wading-boots-us-11-vibram-rubber",
+                  "code": "US 11 (Vibram rubber)",
+                  "label": "US 11 (Vibram rubber)",
+                  "specs": {
+                    "size": 11,
+                    "soleType": "Vibram rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-forra-wading-boots-us-12-vibram-rubber",
+                  "code": "US 12 (Vibram rubber)",
+                  "label": "US 12 (Vibram rubber)",
+                  "specs": {
+                    "size": 12,
+                    "soleType": "Vibram rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-forra-wading-boots-us-13-vibram-rubber",
+                  "code": "US 13 (Vibram rubber)",
+                  "label": "US 13 (Vibram rubber)",
+                  "specs": {
+                    "size": 13,
+                    "soleType": "Vibram rubber"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Foot Tractor Wading Boots — Aluminum Bar",
+              "soleType": "Vibram Idrogrip + aluminum bars",
+              "series": "flagship",
+              "note": "Danner-built; aluminum bars cut through slime. Made in USA.",
+              "variants": [
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-aluminum-bar-us-8-vibram-idrogrip-aluminum-bars",
+                  "code": "US 8 (Vibram Idrogrip + aluminum bars)",
+                  "label": "US 8 (Vibram Idrogrip + aluminum bars)",
+                  "specs": {
+                    "size": 8,
+                    "soleType": "Vibram Idrogrip + aluminum bars"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-aluminum-bar-us-9-vibram-idrogrip-aluminum-bars",
+                  "code": "US 9 (Vibram Idrogrip + aluminum bars)",
+                  "label": "US 9 (Vibram Idrogrip + aluminum bars)",
+                  "specs": {
+                    "size": 9,
+                    "soleType": "Vibram Idrogrip + aluminum bars"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-aluminum-bar-us-10-vibram-idrogrip-aluminum-bars",
+                  "code": "US 10 (Vibram Idrogrip + aluminum bars)",
+                  "label": "US 10 (Vibram Idrogrip + aluminum bars)",
+                  "specs": {
+                    "size": 10,
+                    "soleType": "Vibram Idrogrip + aluminum bars"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-aluminum-bar-us-11-vibram-idrogrip-aluminum-bars",
+                  "code": "US 11 (Vibram Idrogrip + aluminum bars)",
+                  "label": "US 11 (Vibram Idrogrip + aluminum bars)",
+                  "specs": {
+                    "size": 11,
+                    "soleType": "Vibram Idrogrip + aluminum bars"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-aluminum-bar-us-12-vibram-idrogrip-aluminum-bars",
+                  "code": "US 12 (Vibram Idrogrip + aluminum bars)",
+                  "label": "US 12 (Vibram Idrogrip + aluminum bars)",
+                  "specs": {
+                    "size": 12,
+                    "soleType": "Vibram Idrogrip + aluminum bars"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-aluminum-bar-us-13-vibram-idrogrip-aluminum-bars",
+                  "code": "US 13 (Vibram Idrogrip + aluminum bars)",
+                  "label": "US 13 (Vibram Idrogrip + aluminum bars)",
+                  "specs": {
+                    "size": 13,
+                    "soleType": "Vibram Idrogrip + aluminum bars"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Foot Tractor Wading Boots — Sticky Rubber",
+              "soleType": "Vibram Idrogrip (sticky rubber)",
+              "series": "flagship",
+              "note": "Danner-built; all-around traction.",
+              "variants": [
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-sticky-rubber-us-8-vibram-idrogrip-sticky-rubber",
+                  "code": "US 8 (Vibram Idrogrip (sticky rubber))",
+                  "label": "US 8 (Vibram Idrogrip (sticky rubber))",
+                  "specs": {
+                    "size": 8,
+                    "soleType": "Vibram Idrogrip (sticky rubber)"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-sticky-rubber-us-9-vibram-idrogrip-sticky-rubber",
+                  "code": "US 9 (Vibram Idrogrip (sticky rubber))",
+                  "label": "US 9 (Vibram Idrogrip (sticky rubber))",
+                  "specs": {
+                    "size": 9,
+                    "soleType": "Vibram Idrogrip (sticky rubber)"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-sticky-rubber-us-10-vibram-idrogrip-sticky-rubber",
+                  "code": "US 10 (Vibram Idrogrip (sticky rubber))",
+                  "label": "US 10 (Vibram Idrogrip (sticky rubber))",
+                  "specs": {
+                    "size": 10,
+                    "soleType": "Vibram Idrogrip (sticky rubber)"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-sticky-rubber-us-11-vibram-idrogrip-sticky-rubber",
+                  "code": "US 11 (Vibram Idrogrip (sticky rubber))",
+                  "label": "US 11 (Vibram Idrogrip (sticky rubber))",
+                  "specs": {
+                    "size": 11,
+                    "soleType": "Vibram Idrogrip (sticky rubber)"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-sticky-rubber-us-12-vibram-idrogrip-sticky-rubber",
+                  "code": "US 12 (Vibram Idrogrip (sticky rubber))",
+                  "label": "US 12 (Vibram Idrogrip (sticky rubber))",
+                  "specs": {
+                    "size": 12,
+                    "soleType": "Vibram Idrogrip (sticky rubber)"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-sticky-rubber-us-13-vibram-idrogrip-sticky-rubber",
+                  "code": "US 13 (Vibram Idrogrip (sticky rubber))",
+                  "label": "US 13 (Vibram Idrogrip (sticky rubber))",
+                  "specs": {
+                    "size": 13,
+                    "soleType": "Vibram Idrogrip (sticky rubber)"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Foot Tractor Wading Boots — Felt",
+              "soleType": "felt",
+              "series": "flagship",
+              "note": "Danner-built; felt restricted in some regions.",
+              "variants": [
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-felt-us-8-felt",
+                  "code": "US 8 (felt)",
+                  "label": "US 8 (felt)",
+                  "specs": {
+                    "size": 8,
+                    "soleType": "felt"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-felt-us-9-felt",
+                  "code": "US 9 (felt)",
+                  "label": "US 9 (felt)",
+                  "specs": {
+                    "size": 9,
+                    "soleType": "felt"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-felt-us-10-felt",
+                  "code": "US 10 (felt)",
+                  "label": "US 10 (felt)",
+                  "specs": {
+                    "size": 10,
+                    "soleType": "felt"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-felt-us-11-felt",
+                  "code": "US 11 (felt)",
+                  "label": "US 11 (felt)",
+                  "specs": {
+                    "size": 11,
+                    "soleType": "felt"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-felt-us-12-felt",
+                  "code": "US 12 (felt)",
+                  "label": "US 12 (felt)",
+                  "specs": {
+                    "size": 12,
+                    "soleType": "felt"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-foot-tractor-wading-boots-felt-us-13-felt",
+                  "code": "US 13 (felt)",
+                  "label": "US 13 (felt)",
+                  "specs": {
+                    "size": 13,
+                    "soleType": "felt"
                   }
                 }
               ]
