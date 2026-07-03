@@ -8,9 +8,9 @@
   "structure": "kind -> brand -> model -> variant(specs)",
   "counts": {
     "kinds": 14,
-    "brands": 48,
-    "models": 245,
-    "variants": 1223,
+    "brands": 50,
+    "models": 262,
+    "variants": 1284,
     "byKind": {
       "rod": 437,
       "reel": 151,
@@ -19,13 +19,13 @@
       "leader": 109,
       "tippet": 69,
       "fly": 40,
-      "waders": 47,
-      "boots": 51,
-      "pack": 7,
+      "waders": 67,
+      "boots": 57,
+      "pack": 9,
       "net": 5,
       "tool": 6,
       "accessory": 8,
-      "apparel": 11
+      "apparel": 44
     }
   },
   "kinds": [
@@ -13503,8 +13503,9 @@
           "models": [
             {
               "model": "Swiftcurrent",
-              "series": "mid",
+              "series": "flagship",
               "footType": "stockingfoot",
+              "note": "Standard stockingfoot chest waders.",
               "variants": [
                 {
                   "id": "waders-patagonia-swiftcurrent-s",
@@ -13513,7 +13514,7 @@
                   "specs": {
                     "size": "S",
                     "type": "chest",
-                    "material": "breathable nylon",
+                    "material": "breathable recycled nylon (H2No)",
                     "breathable": true
                   }
                 },
@@ -13524,7 +13525,7 @@
                   "specs": {
                     "size": "M",
                     "type": "chest",
-                    "material": "breathable nylon",
+                    "material": "breathable recycled nylon (H2No)",
                     "breathable": true
                   }
                 },
@@ -13535,7 +13536,7 @@
                   "specs": {
                     "size": "L",
                     "type": "chest",
-                    "material": "breathable nylon",
+                    "material": "breathable recycled nylon (H2No)",
                     "breathable": true
                   }
                 },
@@ -13546,8 +13547,283 @@
                   "specs": {
                     "size": "XL",
                     "type": "chest",
-                    "material": "breathable nylon",
+                    "material": "breathable recycled nylon (H2No)",
                     "breathable": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Swiftcurrent Expedition Zip-Front",
+              "series": "flagship",
+              "footType": "stockingfoot",
+              "note": "Waterproof front-zip, heavy-duty.",
+              "variants": [
+                {
+                  "id": "waders-patagonia-swiftcurrent-expedition-zip-front-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-expedition-zip-front-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-expedition-zip-front-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-expedition-zip-front-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Swiftcurrent Ultralight",
+              "series": "specialty",
+              "footType": "stockingfoot",
+              "note": "Packable ultralight chest waders.",
+              "variants": [
+                {
+                  "id": "waders-patagonia-swiftcurrent-ultralight-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "packable": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-ultralight-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "packable": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-ultralight-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "packable": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-ultralight-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "packable": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Swiftcurrent Traverse Zip-Front",
+              "series": "mid",
+              "footType": "stockingfoot",
+              "note": "Lightweight front-zip waders.",
+              "variants": [
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-zip-front-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-zip-front-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-zip-front-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-zip-front-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "chest",
+                    "material": "breathable recycled nylon",
+                    "breathable": true,
+                    "frontZip": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Swiftcurrent Traverse Wading Pants",
+              "series": "mid",
+              "footType": "stockingfoot",
+              "note": "Waist-high wading pant.",
+              "variants": [
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-wading-pants-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "waist",
+                    "material": "breathable recycled nylon",
+                    "breathable": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-wading-pants-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "waist",
+                    "material": "breathable recycled nylon",
+                    "breathable": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-wading-pants-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "waist",
+                    "material": "breathable recycled nylon",
+                    "breathable": true
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-traverse-wading-pants-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "waist",
+                    "material": "breathable recycled nylon",
+                    "breathable": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Swiftcurrent (Women's)",
+              "series": "women's",
+              "footType": "stockingfoot",
+              "variants": [
+                {
+                  "id": "waders-patagonia-swiftcurrent-women-s-xs",
+                  "code": "XS",
+                  "label": "XS",
+                  "specs": {
+                    "size": "XS",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "fit": "women's"
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-women-s-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "fit": "women's"
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-women-s-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "fit": "women's"
+                  }
+                },
+                {
+                  "id": "waders-patagonia-swiftcurrent-women-s-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "chest",
+                    "material": "breathable recycled nylon (H2No)",
+                    "breathable": true,
+                    "fit": "women's"
                   }
                 }
               ]
@@ -14457,6 +14733,77 @@
               ]
             }
           ]
+        },
+        {
+          "brand": "Patagonia",
+          "logo": {
+            "domain": "patagonia.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/patagonia.png"
+          },
+          "models": [
+            {
+              "model": "River Salt Wading Boots II",
+              "soleType": "rubber",
+              "series": "flagship",
+              "note": "Saltwater flats boot; sticky rubber sole.",
+              "variants": [
+                {
+                  "id": "boots-patagonia-river-salt-wading-boots-ii-us-8-rubber",
+                  "code": "US 8 (rubber)",
+                  "label": "US 8 (rubber)",
+                  "specs": {
+                    "size": 8,
+                    "soleType": "rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-river-salt-wading-boots-ii-us-9-rubber",
+                  "code": "US 9 (rubber)",
+                  "label": "US 9 (rubber)",
+                  "specs": {
+                    "size": 9,
+                    "soleType": "rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-river-salt-wading-boots-ii-us-10-rubber",
+                  "code": "US 10 (rubber)",
+                  "label": "US 10 (rubber)",
+                  "specs": {
+                    "size": 10,
+                    "soleType": "rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-river-salt-wading-boots-ii-us-11-rubber",
+                  "code": "US 11 (rubber)",
+                  "label": "US 11 (rubber)",
+                  "specs": {
+                    "size": 11,
+                    "soleType": "rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-river-salt-wading-boots-ii-us-12-rubber",
+                  "code": "US 12 (rubber)",
+                  "label": "US 12 (rubber)",
+                  "specs": {
+                    "size": 12,
+                    "soleType": "rubber"
+                  }
+                },
+                {
+                  "id": "boots-patagonia-river-salt-wading-boots-ii-us-13-rubber",
+                  "code": "US 13 (rubber)",
+                  "label": "US 13 (rubber)",
+                  "specs": {
+                    "size": 13,
+                    "soleType": "rubber"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -14588,6 +14935,49 @@
                   "specs": {
                     "type": "chest",
                     "capacity": "small"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Patagonia",
+          "logo": {
+            "domain": "patagonia.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/patagonia.png"
+          },
+          "models": [
+            {
+              "model": "Guidewater Sling 15L",
+              "series": "flagship",
+              "note": "Submersible waterproof sling.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-guidewater-sling-15l-15l",
+                  "code": "15L",
+                  "label": "15L",
+                  "specs": {
+                    "type": "sling",
+                    "capacity": "15L",
+                    "waterproof": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Disperser Roll-Top Pack 40L",
+              "series": "mid",
+              "note": "Roll-top water-resistant pack.",
+              "variants": [
+                {
+                  "id": "pack-patagonia-disperser-roll-top-pack-40l-40l",
+                  "code": "40L",
+                  "label": "40L",
+                  "specs": {
+                    "type": "backpack",
+                    "capacity": "40L",
+                    "waterResistant": true
                   }
                 }
               ]
@@ -15041,10 +15431,123 @@
           },
           "models": [
             {
-              "model": "Tropic Comfort Hoody",
+              "model": "Swiftcurrent Wading Jacket",
+              "series": "flagship",
               "variants": [
                 {
-                  "id": "apparel-patagonia-tropic-comfort-hoody-s",
+                  "id": "apparel-patagonia-swiftcurrent-wading-jacket-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "wading jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-swiftcurrent-wading-jacket-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "wading jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-swiftcurrent-wading-jacket-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "wading jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-swiftcurrent-wading-jacket-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "wading jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-swiftcurrent-wading-jacket-xxl",
+                  "code": "XXL",
+                  "label": "XXL",
+                  "specs": {
+                    "size": "XXL",
+                    "type": "wading jacket",
+                    "waterproof": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Boulder Fork Rain Jacket",
+              "series": "mid",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-boulder-fork-rain-jacket-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "rain jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-boulder-fork-rain-jacket-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "rain jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-boulder-fork-rain-jacket-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "rain jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-boulder-fork-rain-jacket-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "rain jacket",
+                    "waterproof": true
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-boulder-fork-rain-jacket-xxl",
+                  "code": "XXL",
+                  "label": "XXL",
+                  "specs": {
+                    "size": "XXL",
+                    "type": "rain jacket",
+                    "waterproof": true
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Capilene Cool Sun Hoody",
+              "series": "core",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-capilene-cool-sun-hoody-s",
                   "code": "S",
                   "label": "S",
                   "specs": {
@@ -15054,7 +15557,7 @@
                   }
                 },
                 {
-                  "id": "apparel-patagonia-tropic-comfort-hoody-m",
+                  "id": "apparel-patagonia-capilene-cool-sun-hoody-m",
                   "code": "M",
                   "label": "M",
                   "specs": {
@@ -15064,7 +15567,7 @@
                   }
                 },
                 {
-                  "id": "apparel-patagonia-tropic-comfort-hoody-l",
+                  "id": "apparel-patagonia-capilene-cool-sun-hoody-l",
                   "code": "L",
                   "label": "L",
                   "specs": {
@@ -15074,12 +15577,276 @@
                   }
                 },
                 {
-                  "id": "apparel-patagonia-tropic-comfort-hoody-xl",
+                  "id": "apparel-patagonia-capilene-cool-sun-hoody-xl",
                   "code": "XL",
                   "label": "XL",
                   "specs": {
                     "size": "XL",
                     "type": "sun hoody",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-capilene-cool-sun-hoody-xxl",
+                  "code": "XXL",
+                  "label": "XXL",
+                  "specs": {
+                    "size": "XXL",
+                    "type": "sun hoody",
+                    "upf": "50+"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Self-Guided Sun Shirt",
+              "series": "core",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-self-guided-sun-shirt-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "sun shirt",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-self-guided-sun-shirt-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "sun shirt",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-self-guided-sun-shirt-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "sun shirt",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-self-guided-sun-shirt-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "sun shirt",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-self-guided-sun-shirt-xxl",
+                  "code": "XXL",
+                  "label": "XXL",
+                  "specs": {
+                    "size": "XXL",
+                    "type": "sun shirt",
+                    "upf": "50+"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "River Rambler Hybrid Sun Hoody",
+              "series": "core",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-river-rambler-hybrid-sun-hoody-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "sun hoody",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-river-rambler-hybrid-sun-hoody-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "sun hoody",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-river-rambler-hybrid-sun-hoody-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "sun hoody",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-river-rambler-hybrid-sun-hoody-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "sun hoody",
+                    "upf": "50+"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Micro Puff Hoody",
+              "series": "core",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-micro-puff-hoody-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "insulated hoody"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-micro-puff-hoody-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "insulated hoody"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-micro-puff-hoody-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "insulated hoody"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-micro-puff-hoody-xl",
+                  "code": "XL",
+                  "label": "XL",
+                  "specs": {
+                    "size": "XL",
+                    "type": "insulated hoody"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-micro-puff-hoody-xxl",
+                  "code": "XXL",
+                  "label": "XXL",
+                  "specs": {
+                    "size": "XXL",
+                    "type": "insulated hoody"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Sun Gloves",
+              "series": "accessory",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-sun-gloves-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "sun gloves",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-sun-gloves-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "sun gloves",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-sun-gloves-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "sun gloves",
+                    "upf": "50+"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Sun Mask",
+              "series": "accessory",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-sun-mask-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "neck gaiter",
+                    "upf": "50+"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Fitz Roy Trout Trucker Hat",
+              "series": "accessory",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-fitz-roy-trout-trucker-hat-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "trucker hat"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Quandary Brimmer",
+              "series": "accessory",
+              "variants": [
+                {
+                  "id": "apparel-patagonia-quandary-brimmer-s",
+                  "code": "S",
+                  "label": "S",
+                  "specs": {
+                    "size": "S",
+                    "type": "wide-brim sun hat",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-quandary-brimmer-m",
+                  "code": "M",
+                  "label": "M",
+                  "specs": {
+                    "size": "M",
+                    "type": "wide-brim sun hat",
+                    "upf": "50+"
+                  }
+                },
+                {
+                  "id": "apparel-patagonia-quandary-brimmer-l",
+                  "code": "L",
+                  "label": "L",
+                  "specs": {
+                    "size": "L",
+                    "type": "wide-brim sun hat",
                     "upf": "50+"
                   }
                 }
