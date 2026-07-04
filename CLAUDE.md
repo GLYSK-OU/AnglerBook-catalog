@@ -24,4 +24,4 @@ Fastly (Pages CDN) doesn't reliably invalidate on query strings. Use the API, no
 "Just do it" — commit + push directly. Always verify the live canonical before editing files.
 
 ## Related
-App: GLYSK-OU/AnglerBook-iOS (~/Developer/AnglerBook). Telemetry: GLYSK-OU/anglerbook-telemetry.
+App: GLYSK-OU/AnglerBook-iOS (~/Developer/AnglerBook-iOS). Telemetry: GLYSK-OU/anglerbook-telemetry.
