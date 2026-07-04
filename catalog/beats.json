@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "beats-v1.0.0",
+  "catalogVersion": "2026.07.03",
+  "maxAssignRadiusKm": 12,
+  "beats": [
+    { "id": "soca-bovec",        "name": "Soča – Bovec",                 "country": "SI", "water": "Soča",        "area": "Soča Valley", "lat": 46.338, "lng": 13.552 },
+    { "id": "soca-kobarid",      "name": "Soča – Kobarid",               "country": "SI", "water": "Soča",        "area": "Soča Valley", "lat": 46.246, "lng": 13.579 },
+    { "id": "soca-tolmin",       "name": "Soča – Tolmin",                "country": "SI", "water": "Soča",        "area": "Soča Valley", "lat": 46.183, "lng": 13.732 },
+    { "id": "soca-most",         "name": "Soča – Most na Soči",          "country": "SI", "water": "Soča",        "area": "Soča Valley", "lat": 46.146, "lng": 13.744 },
+    { "id": "idrijca-lower",     "name": "Idrijca – Lower",              "country": "SI", "water": "Idrijca",     "area": "Soča Valley", "lat": 46.152, "lng": 13.762 },
+    { "id": "baca-grahovo",      "name": "Bača – Grahovo",               "country": "SI", "water": "Bača",        "area": "Soča Valley", "lat": 46.162, "lng": 13.878 },
+    { "id": "tagliamento-upper", "name": "Tagliamento – Villa Santina",  "country": "IT", "water": "Tagliamento", "area": "Friuli",      "lat": 46.411, "lng": 12.923 },
+    { "id": "fella-pontebba",    "name": "Fella – Pontebba",             "country": "IT", "water": "Fella",       "area": "Friuli",      "lat": 46.505, "lng": 13.307 },
+    { "id": "torre-tarcento",    "name": "Torre – Tarcento",             "country": "IT", "water": "Torre",       "area": "Friuli",      "lat": 46.222, "lng": 13.214 },
+    { "id": "natisone-cividale", "name": "Natisone – Cividale",          "country": "IT", "water": "Natisone",    "area": "Friuli",      "lat": 46.094, "lng": 13.433 },
+    { "id": "sile-upper",        "name": "Sile – Springs",               "country": "IT", "water": "Sile",        "area": "Veneto",      "lat": 45.700, "lng": 12.090 },
+    { "id": "brenta-valsugana",  "name": "Brenta – Valsugana",           "country": "IT", "water": "Brenta",      "area": "Veneto",      "lat": 46.053, "lng": 11.456 },
+    { "id": "piave-belluno",     "name": "Piave – Belluno",              "country": "IT", "water": "Piave",       "area": "Veneto",      "lat": 46.140, "lng": 12.217 },
+    { "id": "astico-arsiero",    "name": "Astico – Arsiero",             "country": "IT", "water": "Astico",      "area": "Veneto",      "lat": 45.804, "lng": 11.352 },
+    { "id": "noce-valdisole",    "name": "Noce – Val di Sole",           "country": "IT", "water": "Noce",        "area": "Trentino",    "lat": 46.354, "lng": 10.914 },
+    { "id": "sarca-rendena",     "name": "Sarca – Val Rendena",          "country": "IT", "water": "Sarca",       "area": "Trentino",    "lat": 46.160, "lng": 10.766 },
+    { "id": "avisio-fiemme",     "name": "Avisio – Val di Fiemme",       "country": "IT", "water": "Avisio",      "area": "Trentino",    "lat": 46.313, "lng": 11.601 },
+    { "id": "sesia-valsesia",    "name": "Sesia – Valsesia",             "country": "IT", "water": "Sesia",       "area": "Piedmont",    "lat": 45.813, "lng": 8.257 }
+  ]
+}
