@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0.0",
-  "catalogVersion": "2026.07.10",
+  "catalogVersion": "2026.08.16",
   "generatedAt": "2026-07-03T00:00:00Z",
   "app": "AnglerBook",
   "publisher": "GLYSK OÜ",
@@ -894,6 +894,226 @@
                   "specs": {
                     "lineWeight": 10,
                     "length": "14'9\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Ultralite NSX DH",
+              "action": "medium-fast",
+              "material": "graphite",
+              "waterType": "all-water",
+              "series": "salmon/spey",
+              "note": "Sintrix NSX two-handed range: trout spey (#3-5, 10'6\"-11'6\", 4pc) and salmon spey (#5/6-#11/12, 12'6\"-16', in 4- and 6-piece). Hardy rates the heavier sizes with a dual line class; lineWeight stores the lower number of the pair. Chart from Dette Flies; trout-spey sizes cross-checked with adh-fishing.",
+              "variants": [
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-3106-4",
+                  "code": "3106-4",
+                  "label": "10'6\" 3wt",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "10'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-3113-4",
+                  "code": "3113-4",
+                  "label": "11'3\" 3wt",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "11'3\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-4114-4",
+                  "code": "4114-4",
+                  "label": "11'4\" 4wt",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "11'4\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-5116-4",
+                  "code": "5116-4",
+                  "label": "11'6\" 5wt",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "11'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-6116-4",
+                  "code": "6116-4",
+                  "label": "11'6\" 6/7wt",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "11'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-6126-4",
+                  "code": "6126-4",
+                  "label": "12'6\" 6/7wt",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "12'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-7126-4",
+                  "code": "7126-4",
+                  "label": "12'6\" 7/8wt",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "12'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-6130-4",
+                  "code": "6130-4",
+                  "label": "13'0\" 6/7wt",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "13'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-8136-4",
+                  "code": "8136-4",
+                  "label": "13'6\" 8/9wt",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "13'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-9146-4",
+                  "code": "9146-4",
+                  "label": "14'6\" 9/10wt",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "14'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-10151-4",
+                  "code": "10151-4",
+                  "label": "15'1\" 10/11wt",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "15'1\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-11160-4",
+                  "code": "11160-4",
+                  "label": "16'0\" 11/12wt",
+                  "specs": {
+                    "lineWeight": 11,
+                    "length": "16'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-5126-6",
+                  "code": "5126-6",
+                  "label": "12'6\" 5/6wt (6pc)",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "12'6\"",
+                    "pieces": 6
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-6136-6",
+                  "code": "6136-6",
+                  "label": "13'6\" 6/7wt (6pc)",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "13'6\"",
+                    "pieces": 6
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-8136-6",
+                  "code": "8136-6",
+                  "label": "13'6\" 8/9wt (6pc)",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "13'6\"",
+                    "pieces": 6
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-9146-6",
+                  "code": "9146-6",
+                  "label": "14'6\" 9/10wt (6pc)",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "14'6\"",
+                    "pieces": 6
+                  }
+                },
+                {
+                  "id": "rod-hardy-ultralite-nsx-dh-10156-6",
+                  "code": "10156-6",
+                  "label": "15'6\" 10/11wt (6pc)",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "15'6\"",
+                    "pieces": 6
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Aydon Switch",
+              "action": "medium-fast",
+              "material": "graphite",
+              "waterType": "all-water",
+              "series": "switch",
+              "note": "Sintrix switch rods, cast single- or double-handed (Skagit/Scandi), all 11'0\" four-piece. Hardy dual-rates each (5/6, 6/7, 7/8); lineWeight stores the lower number of the pair.",
+              "variants": [
+                {
+                  "id": "rod-hardy-aydon-switch-5110-4",
+                  "code": "5110-4",
+                  "label": "11'0\" 5/6wt",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-aydon-switch-6110-4",
+                  "code": "6110-4",
+                  "label": "11'0\" 6/7wt",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "11'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-hardy-aydon-switch-7110-4",
+                  "code": "7110-4",
+                  "label": "11'0\" 7/8wt",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "11'0\"",
                     "pieces": 4
                   }
                 }
@@ -6552,6 +6772,432 @@
                   }
                 }
               ]
+            },
+            {
+              "model": "XO III",
+              "action": "medium-fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "XO",
+              "variants": [
+                {
+                  "id": "rod-vision-xo-iii-388-4",
+                  "code": "388-4",
+                  "label": "388-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "8'8\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-iii-490-4",
+                  "code": "490-4",
+                  "label": "490-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-iii-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-iii-693-4",
+                  "code": "693-4",
+                  "label": "693-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'3\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-iii-793-4",
+                  "code": "793-4",
+                  "label": "793-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'3\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-iii-597-4",
+                  "code": "597-4",
+                  "label": "597-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'7\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-iii-899-4",
+                  "code": "899-4",
+                  "label": "899-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-iii-3108-4",
+                  "code": "3108-4",
+                  "label": "3108-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "10'8\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "XO Catapult",
+              "action": "fast",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "series": "XO",
+              "variants": [
+                {
+                  "id": "rod-vision-xo-catapult-6100-4",
+                  "code": "6100-4",
+                  "label": "6100-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-xo-catapult-7100-4",
+                  "code": "7100-4",
+                  "label": "7100-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Meri",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "variants": [
+                {
+                  "id": "rod-vision-meri-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-meri-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-meri-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Toka",
+              "material": "graphite",
+              "waterType": "freshwater",
+              "variants": [
+                {
+                  "id": "rod-vision-toka-3106-5",
+                  "code": "3106-5",
+                  "label": "3106-5",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "10'6\"",
+                    "pieces": 5
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-396-4",
+                  "code": "396-4",
+                  "label": "396-4",
+                  "specs": {
+                    "lineWeight": 3,
+                    "length": "9'6\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-480-4",
+                  "code": "480-4",
+                  "label": "480-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "8'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-699-4",
+                  "code": "699-4",
+                  "label": "699-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-793-4",
+                  "code": "793-4",
+                  "label": "793-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'3\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-799-4",
+                  "code": "799-4",
+                  "label": "799-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'9\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-7100-4",
+                  "code": "7100-4",
+                  "label": "7100-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "10'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-893-4",
+                  "code": "893-4",
+                  "label": "893-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'3\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-toka-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Merisuola Predator",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "series": "Merisuola",
+              "variants": [
+                {
+                  "id": "rod-vision-merisuola-predator-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-predator-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-predator-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-predator-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-predator-1290-4",
+                  "code": "1290-4",
+                  "label": "1290-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Merisuola Graphene",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "series": "Merisuola",
+              "variants": [
+                {
+                  "id": "rod-vision-merisuola-graphene-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-graphene-790-4",
+                  "code": "790-4",
+                  "label": "790-4",
+                  "specs": {
+                    "lineWeight": 7,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-graphene-890-4",
+                  "code": "890-4",
+                  "label": "890-4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-graphene-990-4",
+                  "code": "990-4",
+                  "label": "990-4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-graphene-1090-4",
+                  "code": "1090-4",
+                  "label": "1090-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-graphene-1290-4",
+                  "code": "1290-4",
+                  "label": "1290-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Merisuola Musky",
+              "material": "graphite",
+              "waterType": "saltwater",
+              "series": "Merisuola",
+              "variants": [
+                {
+                  "id": "rod-vision-merisuola-musky-1088-4",
+                  "code": "1088-4",
+                  "label": "1088-4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "length": "8'8\"",
+                    "pieces": 4
+                  }
+                },
+                {
+                  "id": "rod-vision-merisuola-musky-1288-4",
+                  "code": "1288-4",
+                  "label": "1288-4",
+                  "specs": {
+                    "lineWeight": 12,
+                    "length": "8'8\"",
+                    "pieces": 4
+                  }
+                }
+              ]
             }
           ]
         }
@@ -6913,6 +7559,171 @@
                   "specs": {
                     "weightClass": "10/11",
                     "dragSystem": "disc drag with audible clicker"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Resonate",
+              "material": "machined aluminium",
+              "series": "classic",
+              "note": "Lightweight bar-stock alloy click-check reel; full-cage frame, all-metal load-bearing components (~0.5 lb click drag). Sizes 2000-4000 for #2-4.",
+              "variants": [
+                {
+                  "id": "reel-hardy-resonate-2000",
+                  "code": "2000",
+                  "label": "2000",
+                  "specs": {
+                    "weightClass": "2",
+                    "arbor": "large",
+                    "dragSystem": "click check"
+                  }
+                },
+                {
+                  "id": "reel-hardy-resonate-3000",
+                  "code": "3000",
+                  "label": "3000",
+                  "specs": {
+                    "weightClass": "3",
+                    "arbor": "large",
+                    "dragSystem": "click check"
+                  }
+                },
+                {
+                  "id": "reel-hardy-resonate-4000",
+                  "code": "4000",
+                  "label": "4000",
+                  "specs": {
+                    "weightClass": "4",
+                    "arbor": "large",
+                    "dragSystem": "click check"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Averon Cassette",
+              "material": "machined aluminium",
+              "series": "performance",
+              "note": "Machined 6061 disc-drag reel with quick-change polycarbonate cassette spools. Open frame 4000-7000, closed frame 9000.",
+              "variants": [
+                {
+                  "id": "reel-hardy-averon-cassette-4000",
+                  "code": "4000",
+                  "label": "4000",
+                  "specs": {
+                    "weightClass": "5",
+                    "dragSystem": "disc drag"
+                  }
+                },
+                {
+                  "id": "reel-hardy-averon-cassette-6000",
+                  "code": "6000",
+                  "label": "6000",
+                  "specs": {
+                    "weightClass": "7",
+                    "dragSystem": "disc drag"
+                  }
+                },
+                {
+                  "id": "reel-hardy-averon-cassette-7000",
+                  "code": "7000",
+                  "label": "7000",
+                  "specs": {
+                    "weightClass": "8",
+                    "dragSystem": "disc drag"
+                  }
+                },
+                {
+                  "id": "reel-hardy-averon-cassette-9000",
+                  "code": "9000",
+                  "label": "9000",
+                  "specs": {
+                    "weightClass": "11",
+                    "dragSystem": "disc drag"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Ultradisc Cassette",
+              "material": "machined aluminium",
+              "series": "performance",
+              "note": "Machined aluminium frame with polycarbonate cassette spools and CLS spool lock; full disc drag, large arbour. Rod classes per retailers (#4/5-#9/11); Hardy product page confirms 4000=WF5 and 9000=WF11.",
+              "variants": [
+                {
+                  "id": "reel-hardy-ultradisc-cassette-4000",
+                  "code": "4000",
+                  "label": "4000",
+                  "specs": {
+                    "weightClass": "4/5",
+                    "arbor": "large",
+                    "dragSystem": "disc drag"
+                  }
+                },
+                {
+                  "id": "reel-hardy-ultradisc-cassette-6000",
+                  "code": "6000",
+                  "label": "6000",
+                  "specs": {
+                    "weightClass": "6/7",
+                    "arbor": "large",
+                    "dragSystem": "disc drag"
+                  }
+                },
+                {
+                  "id": "reel-hardy-ultradisc-cassette-7000",
+                  "code": "7000",
+                  "label": "7000",
+                  "specs": {
+                    "weightClass": "7/8",
+                    "arbor": "large",
+                    "dragSystem": "disc drag"
+                  }
+                },
+                {
+                  "id": "reel-hardy-ultradisc-cassette-9000",
+                  "code": "9000",
+                  "label": "9000",
+                  "specs": {
+                    "weightClass": "9/11",
+                    "arbor": "large",
+                    "dragSystem": "disc drag"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Averon Streamer",
+              "material": "machined aluminium",
+              "series": "performance",
+              "note": "Streamer-specific Averon (developed with Kelly Galloup); extra-large arbour, widened spool rim, minimal incoming check for fast slack pickup. Single 7000 size for class 6-8 rods.",
+              "variants": [
+                {
+                  "id": "reel-hardy-averon-streamer-7000",
+                  "code": "7000",
+                  "label": "7000",
+                  "specs": {
+                    "weightClass": "6/7/8",
+                    "arbor": "large"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Euro Averon",
+              "material": "machined aluminium",
+              "series": "performance",
+              "note": "Euro-nymphing Averon (5000 EN); shallow narrow large-arbour spool, disc drag, supplied with three balance weights (0.6/1.2/1.8 oz) to tune rod balance. Rated #1/2/3.",
+              "variants": [
+                {
+                  "id": "reel-hardy-euro-averon-5000-en",
+                  "code": "5000 EN",
+                  "label": "5000 EN",
+                  "specs": {
+                    "weightClass": "1/2/3",
+                    "arbor": "large",
+                    "dragSystem": "disc drag"
                   }
                 }
               ]
@@ -9091,6 +9902,68 @@
                   "specs": {
                     "weightClass": "7-8",
                     "dragSystem": "disc brake"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Merisuola",
+              "material": "machined aluminium",
+              "variants": [
+                {
+                  "id": "reel-vision-merisuola-8-9",
+                  "code": "8/9",
+                  "label": "8/9",
+                  "specs": {
+                    "weightClass": "8-9",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-vision-merisuola-9-10",
+                  "code": "9/10",
+                  "label": "9/10",
+                  "specs": {
+                    "weightClass": "9-10",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                },
+                {
+                  "id": "reel-vision-merisuola-10-12",
+                  "code": "10/12",
+                  "label": "10/12",
+                  "specs": {
+                    "weightClass": "10-12",
+                    "arbor": "large",
+                    "dragSystem": "sealed carbon"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "XO Click",
+              "material": "machined aluminium",
+              "variants": [
+                {
+                  "id": "reel-vision-xo-click-3-4",
+                  "code": "3/4",
+                  "label": "3/4",
+                  "specs": {
+                    "weightClass": "3-4",
+                    "arbor": "large",
+                    "dragSystem": "click-pawl"
+                  }
+                },
+                {
+                  "id": "reel-vision-xo-click-5-6",
+                  "code": "5/6",
+                  "label": "5/6",
+                  "specs": {
+                    "weightClass": "5-6",
+                    "arbor": "large",
+                    "dragSystem": "click-pawl"
                   }
                 }
               ]
@@ -13376,6 +14249,679 @@
                   }
                 }
               ]
+            },
+            {
+              "model": "Grand Daddy+",
+              "variants": [
+                {
+                  "id": "line-vision-grand-daddy-wf8-float",
+                  "code": "WF8 Float",
+                  "label": "WF8 Float",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf9-float",
+                  "code": "WF9 Float",
+                  "label": "WF9 Float",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf10-float",
+                  "code": "WF10 Float",
+                  "label": "WF10 Float",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf9-slomo",
+                  "code": "WF9 SloMo",
+                  "label": "WF9 SloMo",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf10-slomo",
+                  "code": "WF10 SloMo",
+                  "label": "WF10 SloMo",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf8-intermediate",
+                  "code": "WF8 Intermediate",
+                  "label": "WF8 Intermediate",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf9-intermediate",
+                  "code": "WF9 Intermediate",
+                  "label": "WF9 Intermediate",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf10-intermediate",
+                  "code": "WF10 Intermediate",
+                  "label": "WF10 Intermediate",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf8-sink2-to-sink4",
+                  "code": "WF8 Sink2 to Sink4",
+                  "label": "WF8 Sink2 to Sink4",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf9-sink2-to-sink4",
+                  "code": "WF9 Sink2 to Sink4",
+                  "label": "WF9 Sink2 to Sink4",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-grand-daddy-wf10-sink2-to-sink4",
+                  "code": "WF10 Sink2 to Sink4",
+                  "label": "WF10 Sink2 to Sink4",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Vibe 85+",
+              "note": "8.5 m head; dual AFTM rating (lower value used as lineWeight)",
+              "variants": [
+                {
+                  "id": "line-vision-vibe-85-wf3-4-float",
+                  "code": "WF3-4 Float",
+                  "label": "WF3-4 Float",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-vibe-85-wf4-5-float",
+                  "code": "WF4-5 Float",
+                  "label": "WF4-5 Float",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-vibe-85-wf5-6-float",
+                  "code": "WF5-6 Float",
+                  "label": "WF5-6 Float",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-vibe-85-wf6-7-float",
+                  "code": "WF6-7 Float",
+                  "label": "WF6-7 Float",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-vibe-85-wf7-8-float",
+                  "code": "WF7-8 Float",
+                  "label": "WF7-8 Float",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-vibe-85-wf5-6-sink5-head",
+                  "code": "WF5-6 Sink5 Head",
+                  "label": "WF5-6 Sink5 Head",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Pikemaniac",
+              "variants": [
+                {
+                  "id": "line-vision-pikemaniac-wf8-slow-intermediate",
+                  "code": "WF8 Slow Intermediate",
+                  "label": "WF8 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf9-slow-intermediate",
+                  "code": "WF9 Slow Intermediate",
+                  "label": "WF9 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf10-slow-intermediate",
+                  "code": "WF10 Slow Intermediate",
+                  "label": "WF10 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf8-slomo-to-fast-intermediate",
+                  "code": "WF8 Slomo to Fast Intermediate",
+                  "label": "WF8 Slomo to Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf9-slomo-to-fast-intermediate",
+                  "code": "WF9 Slomo to Fast Intermediate",
+                  "label": "WF9 Slomo to Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf10-slomo-to-fast-intermediate",
+                  "code": "WF10 Slomo to Fast Intermediate",
+                  "label": "WF10 Slomo to Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf8-fast-intermediate-to-sink3",
+                  "code": "WF8 Fast Intermediate to Sink3",
+                  "label": "WF8 Fast Intermediate to Sink3",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf9-fast-intermediate-to-sink3",
+                  "code": "WF9 Fast Intermediate to Sink3",
+                  "label": "WF9 Fast Intermediate to Sink3",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf10-fast-intermediate-to-sink3",
+                  "code": "WF10 Fast Intermediate to Sink3",
+                  "label": "WF10 Fast Intermediate to Sink3",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf9-sink3-to-sink6",
+                  "code": "WF9 Sink3 to Sink6",
+                  "label": "WF9 Sink3 to Sink6",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-pikemaniac-wf10-sink3-to-sink6",
+                  "code": "WF10 Sink3 to Sink6",
+                  "label": "WF10 Sink3 to Sink6",
+                  "specs": {
+                    "lineWeight": 10,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Stillmaniac",
+              "variants": [
+                {
+                  "id": "line-vision-stillmaniac-wf6-slow-intermediate",
+                  "code": "WF6 Slow Intermediate",
+                  "label": "WF6 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf7-slow-intermediate",
+                  "code": "WF7 Slow Intermediate",
+                  "label": "WF7 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf6-clear-intermediate",
+                  "code": "WF6 Clear Intermediate",
+                  "label": "WF6 Clear Intermediate",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf7-clear-intermediate",
+                  "code": "WF7 Clear Intermediate",
+                  "label": "WF7 Clear Intermediate",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf6-fast-intermediate",
+                  "code": "WF6 Fast Intermediate",
+                  "label": "WF6 Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf7-fast-intermediate",
+                  "code": "WF7 Fast Intermediate",
+                  "label": "WF7 Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf6-sink3",
+                  "code": "WF6 Sink3",
+                  "label": "WF6 Sink3",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf7-sink3",
+                  "code": "WF7 Sink3",
+                  "label": "WF7 Sink3",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf6-sink5",
+                  "code": "WF6 Sink5",
+                  "label": "WF6 Sink5",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf7-sink5",
+                  "code": "WF7 Sink5",
+                  "label": "WF7 Sink5",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf6-sink7",
+                  "code": "WF6 Sink7",
+                  "label": "WF6 Sink7",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-stillmaniac-wf7-sink7",
+                  "code": "WF7 Sink7",
+                  "label": "WF7 Sink7",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Meri",
+              "variants": [
+                {
+                  "id": "line-vision-meri-wf6-float-to-slow-intermediate-tip",
+                  "code": "WF6 Float to Slow Intermediate Tip",
+                  "label": "WF6 Float to Slow Intermediate Tip",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf7-float-to-slow-intermediate-tip",
+                  "code": "WF7 Float to Slow Intermediate Tip",
+                  "label": "WF7 Float to Slow Intermediate Tip",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf8-float-to-slow-intermediate-tip",
+                  "code": "WF8 Float to Slow Intermediate Tip",
+                  "label": "WF8 Float to Slow Intermediate Tip",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf6-slow-intermediate",
+                  "code": "WF6 Slow Intermediate",
+                  "label": "WF6 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf7-slow-intermediate",
+                  "code": "WF7 Slow Intermediate",
+                  "label": "WF7 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf8-slow-intermediate",
+                  "code": "WF8 Slow Intermediate",
+                  "label": "WF8 Slow Intermediate",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf7-fast-intermediate",
+                  "code": "WF7 Fast Intermediate",
+                  "label": "WF7 Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf8-fast-intermediate",
+                  "code": "WF8 Fast Intermediate",
+                  "label": "WF8 Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf9-fast-intermediate",
+                  "code": "WF9 Fast Intermediate",
+                  "label": "WF9 Fast Intermediate",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "intermediate"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf7-fast-intermediate-to-sink3-tip",
+                  "code": "WF7 Fast Intermediate to Sink3 Tip",
+                  "label": "WF7 Fast Intermediate to Sink3 Tip",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf8-fast-intermediate-to-sink3-tip",
+                  "code": "WF8 Fast Intermediate to Sink3 Tip",
+                  "label": "WF8 Fast Intermediate to Sink3 Tip",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                },
+                {
+                  "id": "line-vision-meri-wf9-fast-intermediate-to-sink3-tip",
+                  "code": "WF9 Fast Intermediate to Sink3 Tip",
+                  "label": "WF9 Fast Intermediate to Sink3 Tip",
+                  "specs": {
+                    "lineWeight": 9,
+                    "taper": "WF",
+                    "density": "sink-tip"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "XO 85",
+              "series": "XO",
+              "note": "8.5 m short head",
+              "variants": [
+                {
+                  "id": "line-vision-xo-85-wf3-float",
+                  "code": "WF3 Float",
+                  "label": "WF3 Float",
+                  "specs": {
+                    "lineWeight": 3,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf4-float",
+                  "code": "WF4 Float",
+                  "label": "WF4 Float",
+                  "specs": {
+                    "lineWeight": 4,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf5-float",
+                  "code": "WF5 Float",
+                  "label": "WF5 Float",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf6-float",
+                  "code": "WF6 Float",
+                  "label": "WF6 Float",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf7-float",
+                  "code": "WF7 Float",
+                  "label": "WF7 Float",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf8-float",
+                  "code": "WF8 Float",
+                  "label": "WF8 Float",
+                  "specs": {
+                    "lineWeight": 8,
+                    "taper": "WF",
+                    "density": "floating"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf5-sink3",
+                  "code": "WF5 Sink3",
+                  "label": "WF5 Sink3",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf6-sink3",
+                  "code": "WF6 Sink3",
+                  "label": "WF6 Sink3",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf7-sink3",
+                  "code": "WF7 Sink3",
+                  "label": "WF7 Sink3",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf5-sink5",
+                  "code": "WF5 Sink5",
+                  "label": "WF5 Sink5",
+                  "specs": {
+                    "lineWeight": 5,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf6-sink5",
+                  "code": "WF6 Sink5",
+                  "label": "WF6 Sink5",
+                  "specs": {
+                    "lineWeight": 6,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                },
+                {
+                  "id": "line-vision-xo-85-wf7-sink5",
+                  "code": "WF7 Sink5",
+                  "label": "WF7 Sink5",
+                  "specs": {
+                    "lineWeight": 7,
+                    "taper": "WF",
+                    "density": "sinking"
+                  }
+                }
+              ]
             }
           ]
         }
@@ -14984,6 +16530,101 @@
               ]
             }
           ]
+        },
+        {
+          "brand": "Vision",
+          "logo": {
+            "domain": "visionflyfishing.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
+          },
+          "models": [
+            {
+              "model": "Trout",
+              "type": "tapered",
+              "variants": [
+                {
+                  "id": "leader-vision-trout-9-0x",
+                  "code": "9' 0X",
+                  "label": "9' 0X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "0X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-vision-trout-9-1x",
+                  "code": "9' 1X",
+                  "label": "9' 1X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "1X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-vision-trout-9-2x",
+                  "code": "9' 2X",
+                  "label": "9' 2X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "2X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-vision-trout-9-3x",
+                  "code": "9' 3X",
+                  "label": "9' 3X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-vision-trout-9-4x",
+                  "code": "9' 4X",
+                  "label": "9' 4X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-vision-trout-9-5x",
+                  "code": "9' 5X",
+                  "label": "9' 5X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-vision-trout-9-6x",
+                  "code": "9' 6X",
+                  "label": "9' 6X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-vision-trout-9-7x",
+                  "code": "9' 7X",
+                  "label": "9' 7X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "7X",
+                    "material": "nylon"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -15251,6 +16892,76 @@
                     "nominalBreakLb": 1.9,
                     "diameterIn": 0.003,
                     "diameterMm": 0.076
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Hardy",
+          "logo": {
+            "domain": "hardyfishing.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/hardy.png"
+          },
+          "models": [
+            {
+              "model": "Copolymer Tippet",
+              "material": "nylon",
+              "note": "Hardy copolymer (nylon) tippet on 50 m colour-coded spools with in-built cutter. Sizes confirmed from retailer listing (Basin & Bend): 3X, 4X, 4.5X, 5X, 6X, 7X. Per-size diameter and breaking strain were not published on any fetched page, so those numbers are omitted rather than guessed.",
+              "variants": [
+                {
+                  "id": "tippet-hardy-copolymer-tippet-3x",
+                  "code": "3X",
+                  "label": "3X",
+                  "specs": {
+                    "size": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "tippet-hardy-copolymer-tippet-4x",
+                  "code": "4X",
+                  "label": "4X",
+                  "specs": {
+                    "size": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "tippet-hardy-copolymer-tippet-4-5x",
+                  "code": "4.5X",
+                  "label": "4.5X",
+                  "specs": {
+                    "size": "4.5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "tippet-hardy-copolymer-tippet-5x",
+                  "code": "5X",
+                  "label": "5X",
+                  "specs": {
+                    "size": "5X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "tippet-hardy-copolymer-tippet-6x",
+                  "code": "6X",
+                  "label": "6X",
+                  "specs": {
+                    "size": "6X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "tippet-hardy-copolymer-tippet-7x",
+                  "code": "7X",
+                  "label": "7X",
+                  "specs": {
+                    "size": "7X",
+                    "material": "nylon"
                   }
                 }
               ]
@@ -16186,6 +17897,120 @@
                     "diameterIn": 0.004,
                     "diameterMm": 0.1,
                     "nominalBreakLb": 2.5
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Vision",
+          "logo": {
+            "domain": "visionflyfishing.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
+          },
+          "models": [
+            {
+              "model": "Nano Mono",
+              "material": "nylon",
+              "variants": [
+                {
+                  "id": "tippet-vision-nano-mono-0x",
+                  "code": "0X",
+                  "label": "0X",
+                  "specs": {
+                    "size": "0X",
+                    "material": "nylon",
+                    "diameterMm": 0.28,
+                    "nominalBreakLb": 15.9
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-1x",
+                  "code": "1X",
+                  "label": "1X",
+                  "specs": {
+                    "size": "1X",
+                    "material": "nylon",
+                    "diameterMm": 0.26,
+                    "nominalBreakLb": 14.7
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-2x",
+                  "code": "2X",
+                  "label": "2X",
+                  "specs": {
+                    "size": "2X",
+                    "material": "nylon",
+                    "diameterMm": 0.23,
+                    "nominalBreakLb": 10.6
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-3x",
+                  "code": "3X",
+                  "label": "3X",
+                  "specs": {
+                    "size": "3X",
+                    "material": "nylon",
+                    "diameterMm": 0.2,
+                    "nominalBreakLb": 8.1
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-4x",
+                  "code": "4X",
+                  "label": "4X",
+                  "specs": {
+                    "size": "4X",
+                    "material": "nylon",
+                    "diameterMm": 0.17,
+                    "nominalBreakLb": 6
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-5x",
+                  "code": "5X",
+                  "label": "5X",
+                  "specs": {
+                    "size": "5X",
+                    "material": "nylon",
+                    "diameterMm": 0.15,
+                    "nominalBreakLb": 5
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-6x",
+                  "code": "6X",
+                  "label": "6X",
+                  "specs": {
+                    "size": "6X",
+                    "material": "nylon",
+                    "diameterMm": 0.13,
+                    "nominalBreakLb": 3.8
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-7x",
+                  "code": "7X",
+                  "label": "7X",
+                  "specs": {
+                    "size": "7X",
+                    "material": "nylon",
+                    "diameterMm": 0.11,
+                    "nominalBreakLb": 3.3
+                  }
+                },
+                {
+                  "id": "tippet-vision-nano-mono-8x",
+                  "code": "8X",
+                  "label": "8X",
+                  "specs": {
+                    "size": "8X",
+                    "material": "nylon",
+                    "diameterMm": 0.09,
+                    "nominalBreakLb": 2.2
                   }
                 }
               ]
@@ -19490,6 +21315,75 @@
                     "type": "landing net",
                     "mesh": "rubber",
                     "material": "aluminium"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Vision",
+          "logo": {
+            "domain": "visionflyfishing.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
+          },
+          "models": [
+            {
+              "model": "Meri",
+              "variants": [
+                {
+                  "id": "net-vision-meri-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "material": "aluminium"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Rivermaniac",
+              "variants": [
+                {
+                  "id": "net-vision-rivermaniac-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "material": "aluminium"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Nymphmaniac",
+              "variants": [
+                {
+                  "id": "net-vision-nymphmaniac-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "rubber",
+                    "material": "aluminium"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Green Wood / Clear Sili",
+              "variants": [
+                {
+                  "id": "net-vision-green-wood-clear-sili-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "silicone",
+                    "material": "wood"
                   }
                 }
               ]
