@@ -15,13 +15,23 @@ Canonical remote data for AnglerBook, served via GitHub Pages custom domain
 ## URLs
 https://catalog.anglerbook.fun/catalog/{gear,species,beats}.json
 
+## Content rules
+- Brand logos are self-hosted; HAND-SUPPLIED PNGs are the source of truth. Never
+  auto-fetch distributor marks (the Far Bank mark once showed for Sage/Rio/Redington).
+- Species names stay canonical English; apps localize display only.
+
 ## Deploy = GitHub Pages
 Commit to main → Pages builds. Verify BOTH `status=built` AND the commit SHA via
 `gh api repos/GLYSK-OU/AnglerBook-catalog/pages/builds/latest` — status alone can be stale and
-Fastly (Pages CDN) doesn't reliably invalidate on query strings. Use the API, not curl.
+Fastly (Pages CDN) doesn't reliably invalidate on query strings. Verify twice: the API for
+status=built AND the new SHA, then a cache-busting live curl to confirm the CDN actually
+serves it (the query string busts your read, it does not purge Fastly).
 
 ## Commit discipline
-"Just do it" — commit + push directly. Always verify the live canonical before editing files.
+Project-wide one gate (2026-08-19): stage the diff and present it for explicit
+approval before ANY commit, CLAUDE.md and docs included. That approval carries
+the push: push immediately to the working branch (`main` included, no store gate
+here) and verify origin advanced. Always verify the live canonical before editing files.
 
 ## Related
 Apps (both consume all three JSON files): GLYSK-OU/AnglerBook-iOS (~/Developer/AnglerBook-iOS)
@@ -86,13 +96,16 @@ ends with a vault write to the right field — what was decided, what changed, w
 Read the destination folder's `.00` index before writing; confirm every write with the full path
 and byte count.
 
-### Commit gate — non-negotiable
+### Commit gate — non-negotiable (project-wide, 2026-08-19)
 
-- `AnglerBook-iOS` (and its `AnglerBook-WatchOS` submodule) and `AnglerBook-Android`: stage the
-  diff and present it for **explicit approval** before ANY commit; **no push** without a separate
-  explicit approval. Documentation and this file included.
-- `AnglerBook-catalog`, `anglerbook-telemetry`, `AnglerBook-website`, `AnglerBook-buddies`,
-  `AnglerBook-Marketplace`, `AnglerBook-Marketing_Campaign`: just do it.
+- Every AnglerBook repo: stage the diff and present it for **explicit approval** before ANY
+  commit, documentation and this file included. **That approval carries the push**: push
+  immediately, then verify origin advanced. One decision, one gate.
+- Push target: `alpha/next` on the shippable apps (`AnglerBook-iOS` + `AnglerBook-WatchOS`
+  submodule, `AnglerBook-Android`), where `main` moves only behind a deployed test build or
+  an explicit request; the working branch (`main` included) on `AnglerBook-catalog`,
+  `anglerbook-telemetry`, `AnglerBook-website`, `AnglerBook-buddies`,
+  `AnglerBook-Marketplace`, `AnglerBook-Marketing_Campaign`, which have no store gate.
 
 ### The repos
 
