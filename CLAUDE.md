@@ -21,11 +21,15 @@ https://catalog.anglerbook.fun/catalog/{gear,species,beats}.json
 - Species names stay canonical English; apps localize display only.
 
 ## Deploy = GitHub Pages
-Commit to main → Pages builds. Verify BOTH `status=built` AND the commit SHA via
-`gh api repos/GLYSK-OU/AnglerBook-catalog/pages/builds/latest` — status alone can be stale and
-Fastly (Pages CDN) doesn't reliably invalidate on query strings. Verify twice: the API for
-status=built AND the new SHA, then a cache-busting live curl to confirm the CDN actually
-serves it (the query string busts your read, it does not purge Fastly).
+Commit to main → the **Deploy to GitHub Pages** Actions workflow builds. Pages here is
+`build_type: workflow`, so the legacy `pages/builds/latest` API returns 404 — it is not a
+broken deploy, that endpoint simply does not apply. Do not reach for it.
+
+Verify twice. First the run, for BOTH `conclusion=success` AND the new SHA:
+`gh run list --repo GLYSK-OU/AnglerBook-catalog --limit 3 --json headSha,status,conclusion,name`
+Then a cache-busting live curl to confirm the CDN actually serves it — a green run alone can be
+stale, and Fastly (Pages CDN) doesn't reliably invalidate on query strings (the query string
+busts your read, it does not purge Fastly).
 
 ## Commit discipline
 Project-wide one gate (2026-08-19): stage the diff and present it for explicit
