@@ -126,10 +126,6 @@
         },
         {
           "brand": "Hardy",
-          "logo": {
-            "domain": "hardyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/hardy.png"
-          },
           "models": [
             {
               "model": "Marksman",
@@ -1123,10 +1119,6 @@
         },
         {
           "brand": "Loop",
-          "logo": {
-            "domain": "looptackle.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/loop.png"
-          },
           "models": [
             {
               "model": "Cross S1",
@@ -1957,10 +1949,6 @@
         },
         {
           "brand": "Orvis",
-          "logo": {
-            "domain": "orvis.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/orvis.png"
-          },
           "models": [
             {
               "model": "Helios D",
@@ -6356,10 +6344,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "OnkII",
@@ -7298,10 +7282,6 @@
       "brands": [
         {
           "brand": "Hardy",
-          "logo": {
-            "domain": "hardyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/hardy.png"
-          },
           "models": [
             {
               "model": "Ultradisc UDLA",
@@ -7899,10 +7879,6 @@
         },
         {
           "brand": "Loop",
-          "logo": {
-            "domain": "looptackle.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/loop.png"
-          },
           "models": [
             {
               "model": "Opti",
@@ -8223,10 +8199,6 @@
         },
         {
           "brand": "Orvis",
-          "logo": {
-            "domain": "orvis.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/orvis.png"
-          },
           "models": [
             {
               "model": "Mirage",
@@ -8600,10 +8572,6 @@
         },
         {
           "brand": "Ross",
-          "logo": {
-            "domain": "rossreels.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ross.png"
-          },
           "models": [
             {
               "model": "Evolution LTX",
@@ -9731,10 +9699,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "XLV",
@@ -11031,10 +10995,6 @@
         },
         {
           "brand": "Loop",
-          "logo": {
-            "domain": "looptackle.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/loop.png"
-          },
           "models": [
             {
               "model": "Opti Stream",
@@ -13922,10 +13882,6 @@
         },
         {
           "brand": "Scientific Anglers",
-          "logo": {
-            "domain": "scientificanglers.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/scientific-anglers.png"
-          },
           "models": [
             {
               "model": "Amplitude Smooth Trout",
@@ -14139,10 +14095,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "Grand Daddy",
@@ -15094,10 +15046,6 @@
         },
         {
           "brand": "Scientific Anglers",
-          "logo": {
-            "domain": "scientificanglers.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/scientific-anglers.png"
-          },
           "models": [
             {
               "model": "Dacron Backing",
@@ -16572,10 +16520,6 @@
         },
         {
           "brand": "Scientific Anglers",
-          "logo": {
-            "domain": "scientificanglers.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/scientific-anglers.png"
-          },
           "models": [
             {
               "model": "Absolute Trout",
@@ -16662,10 +16606,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "Trout",
@@ -17029,10 +16969,6 @@
         },
         {
           "brand": "Hardy",
-          "logo": {
-            "domain": "hardyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/hardy.png"
-          },
           "models": [
             {
               "model": "Copolymer Tippet",
@@ -17800,10 +17736,6 @@
         },
         {
           "brand": "Scientific Anglers",
-          "logo": {
-            "domain": "scientificanglers.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/scientific-anglers.png"
-          },
           "models": [
             {
               "model": "Absolute Trout",
@@ -17905,10 +17837,6 @@
         },
         {
           "brand": "Trouthunter",
-          "logo": {
-            "domain": "trouthunter.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/trouthunter.png"
-          },
           "models": [
             {
               "model": "Nylon",
@@ -18086,10 +18014,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "Nano Mono",
@@ -18390,10 +18314,6 @@
         },
         {
           "brand": "Montana Fly Company",
-          "logo": {
-            "domain": "montanaflycompany.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/montana-fly-company.png"
-          },
           "models": [
             {
               "model": "Clouser Minnow",
@@ -18499,10 +18419,6 @@
         },
         {
           "brand": "Umpqua",
-          "logo": {
-            "domain": null,
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/umpqua.png"
-          },
           "models": [
             {
               "model": "Parachute Adams",
@@ -18812,10 +18728,6 @@
       "brands": [
         {
           "brand": "Orvis",
-          "logo": {
-            "domain": "orvis.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/orvis.png"
-          },
           "models": [
             {
               "model": "PRO Wader",
@@ -19734,10 +19646,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "Scout Pro",
@@ -20030,10 +19938,6 @@
       "brands": [
         {
           "brand": "Orvis",
-          "logo": {
-            "domain": "orvis.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/orvis.png"
-          },
           "models": [
             {
               "model": "PRO Wading Boot",
@@ -20908,10 +20812,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "Musta",
@@ -21275,10 +21175,6 @@
         },
         {
           "brand": "Orvis",
-          "logo": {
-            "domain": "orvis.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/orvis.png"
-          },
           "models": [
             {
               "model": "Guide Sling",
@@ -21425,10 +21321,6 @@
       "brands": [
         {
           "brand": "Brodin",
-          "logo": {
-            "domain": null,
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/brodin.png"
-          },
           "models": [
             {
               "model": "Ghost Series",
@@ -21488,10 +21380,6 @@
         },
         {
           "brand": "Rising",
-          "logo": {
-            "domain": null,
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/rising.png"
-          },
           "models": [
             {
               "model": "Brookie",
@@ -21551,10 +21439,6 @@
         },
         {
           "brand": "Vision",
-          "logo": {
-            "domain": "visionflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/vision.png"
-          },
           "models": [
             {
               "model": "Meri",
@@ -21629,10 +21513,6 @@
       "brands": [
         {
           "brand": "Dr. Slick",
-          "logo": {
-            "domain": "drslick.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/dr-slick.png"
-          },
           "models": [
             {
               "model": "Nipper",
@@ -21946,10 +21826,6 @@
         },
         {
           "brand": "Tacky",
-          "logo": {
-            "domain": "tackyflyfishing.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/tacky.png"
-          },
           "models": [
             {
               "model": "Original Fly Box",
@@ -22003,10 +21879,6 @@
         },
         {
           "brand": "West Water Products",
-          "logo": {
-            "domain": null,
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/west-water-products.png"
-          },
           "models": [
             {
               "model": "Thingamabobber",
@@ -22035,10 +21907,6 @@
       "brands": [
         {
           "brand": "Orvis",
-          "logo": {
-            "domain": "orvis.com",
-            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/orvis.png"
-          },
           "models": [
             {
               "model": "PRO Wading Jacket",
