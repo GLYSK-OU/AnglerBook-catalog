@@ -1,31 +1,31 @@
 {
   "schemaVersion": "2.0.0",
-  "catalogVersion": "2026.08.16",
-  "generatedAt": "2026-07-03T00:00:00Z",
+  "catalogVersion": "2026.08.23",
+  "generatedAt": "2026-08-23T00:00:00Z",
   "app": "AnglerBook",
   "publisher": "GLYSK OÜ",
   "copyright": "© 2026 GLYSK OÜ. Reference data for the AnglerBook application.",
   "structure": "kind -> brand -> model -> variant(specs)",
   "counts": {
     "kinds": 14,
-    "brands": 50,
-    "models": 266,
-    "variants": 1308,
+    "brands": 72,
+    "models": 373,
+    "variants": 1873,
     "byKind": {
-      "rod": 437,
-      "reel": 151,
-      "line": 276,
-      "backing": 6,
-      "leader": 109,
-      "tippet": 69,
+      "rod": 608,
+      "reel": 223,
+      "line": 439,
+      "backing": 10,
+      "leader": 144,
+      "tippet": 107,
       "fly": 40,
-      "waders": 67,
-      "boots": 81,
-      "pack": 9,
-      "net": 5,
-      "tool": 6,
-      "accessory": 8,
-      "apparel": 44
+      "waders": 90,
+      "boots": 112,
+      "pack": 10,
+      "net": 10,
+      "tool": 11,
+      "accessory": 12,
+      "apparel": 57
     }
   },
   "kinds": [
@@ -6262,6 +6262,90 @@
                   "label": "990-4",
                   "specs": {
                     "lineWeight": 9,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "The Fly Flinger",
+              "action": "medium-fast",
+              "material": "graphite",
+              "series": "entry",
+              "note": "9' 5wt all-round trout rod; ships with a spare tip (2 tips total) and a rod/reel case.",
+              "variants": [
+                {
+                  "id": "rod-ventures-fly-co-the-fly-flinger-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "The Fly Flinger Pro",
+              "action": "fast",
+              "material": "graphite",
+              "series": "performance",
+              "variants": [
+                {
+                  "id": "rod-ventures-fly-co-the-fly-flinger-pro-590-4",
+                  "code": "590-4",
+                  "label": "590-4",
+                  "specs": {
+                    "lineWeight": 5,
+                    "length": "9'0\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "The Riser",
+              "action": "medium",
+              "material": "graphite",
+              "series": "presentation",
+              "note": "Dry-fly presentation rod for small water and spooky fish.",
+              "variants": [
+                {
+                  "id": "rod-ventures-fly-co-the-riser-486-4",
+                  "code": "486-4",
+                  "label": "486-4",
+                  "specs": {
+                    "lineWeight": 4,
+                    "length": "8'6\"",
+                    "pieces": 4
+                  }
+                }
+              ]
+            },
+            {
+              "model": "The Bug Bomber",
+              "action": "fast",
+              "material": "graphite",
+              "series": "versatile",
+              "note": "Streamer and heavy-nymph rod; full-wells grip, dual stripping guides.",
+              "variants": [
+                {
+                  "id": "rod-ventures-fly-co-the-bug-bomber-690-4",
+                  "code": "690-4",
+                  "label": "690-4",
+                  "specs": {
+                    "lineWeight": 6,
                     "length": "9'0\"",
                     "pieces": 4
                   }
@@ -16532,6 +16616,51 @@
           ]
         },
         {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "Superflex Plus Tapered Leader",
+              "type": "tapered",
+              "variants": [
+                {
+                  "id": "leader-ventures-fly-co-superflex-plus-tapered-leader-9-3x",
+                  "code": "9' 3X",
+                  "label": "9' 3X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "3X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-ventures-fly-co-superflex-plus-tapered-leader-9-4x",
+                  "code": "9' 4X",
+                  "label": "9' 4X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "4X",
+                    "material": "nylon"
+                  }
+                },
+                {
+                  "id": "leader-ventures-fly-co-superflex-plus-tapered-leader-9-5x",
+                  "code": "9' 5X",
+                  "label": "9' 5X",
+                  "specs": {
+                    "length": "9'",
+                    "tippetSize": "5X",
+                    "material": "nylon"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "brand": "Vision",
           "logo": {
             "domain": "visionflyfishing.com",
@@ -17897,6 +18026,58 @@
                     "diameterIn": 0.004,
                     "diameterMm": 0.1,
                     "nominalBreakLb": 2.5
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "Superflex Plus+ Tippet",
+              "material": "nylon",
+              "note": "Sold in 50 yd spools. Diameter and breaking strength are nominal X-system values from the catalog reference table; Ventures Fly Co does not publish per-size specifications.",
+              "variants": [
+                {
+                  "id": "tippet-ventures-fly-co-superflex-plus-tippet-4x",
+                  "code": "4X",
+                  "label": "4X",
+                  "specs": {
+                    "size": "4X",
+                    "material": "nylon",
+                    "diameterIn": 0.007,
+                    "diameterMm": 0.18,
+                    "nominalBreakLb": 6.0
+                  }
+                },
+                {
+                  "id": "tippet-ventures-fly-co-superflex-plus-tippet-5x",
+                  "code": "5X",
+                  "label": "5X",
+                  "specs": {
+                    "size": "5X",
+                    "material": "nylon",
+                    "diameterIn": 0.006,
+                    "diameterMm": 0.15,
+                    "nominalBreakLb": 4.75
+                  }
+                },
+                {
+                  "id": "tippet-ventures-fly-co-superflex-plus-tippet-6x",
+                  "code": "6X",
+                  "label": "6X",
+                  "specs": {
+                    "size": "6X",
+                    "material": "nylon",
+                    "diameterIn": 0.005,
+                    "diameterMm": 0.13,
+                    "nominalBreakLb": 3.5
                   }
                 }
               ]
@@ -21208,6 +21389,29 @@
               ]
             }
           ]
+        },
+        {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "VFC Sling Pack",
+              "note": "Capacity not published by the manufacturer.",
+              "variants": [
+                {
+                  "id": "pack-ventures-fly-co-vfc-sling-pack-one-size",
+                  "code": "One Size",
+                  "label": "One Size",
+                  "specs": {
+                    "type": "sling"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -21315,6 +21519,30 @@
                     "type": "landing net",
                     "mesh": "rubber",
                     "material": "aluminium"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "Wooden Silicone Net",
+              "variants": [
+                {
+                  "id": "net-ventures-fly-co-wooden-silicone-net-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "landing net",
+                    "mesh": "silicone",
+                    "material": "wood"
                   }
                 }
               ]
@@ -21494,6 +21722,81 @@
               ]
             }
           ]
+        },
+        {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "Nippers & Knot Tying Tool",
+              "note": "Combined nipper and knot-tying tool.",
+              "variants": [
+                {
+                  "id": "tool-ventures-fly-co-nippers-knot-tying-tool-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "nipper"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Forceps",
+              "variants": [
+                {
+                  "id": "tool-ventures-fly-co-forceps-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "forceps"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Retractor",
+              "variants": [
+                {
+                  "id": "tool-ventures-fly-co-retractor-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "retractor"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Magnetic Net Release",
+              "variants": [
+                {
+                  "id": "tool-ventures-fly-co-magnetic-net-release-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "net release"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Tippet Holder",
+              "variants": [
+                {
+                  "id": "tool-ventures-fly-co-tippet-holder-standard",
+                  "code": "Standard",
+                  "label": "Standard",
+                  "specs": {
+                    "type": "tippet holder"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -21571,6 +21874,51 @@
                   }
                 }
               ]
+            },
+            {
+              "model": "Skinny Water Split Shot",
+              "variants": [
+                {
+                  "id": "accessory-loon-outdoors-skinny-water-split-shot-camo-pack",
+                  "code": "Camo Pack",
+                  "label": "Camo Pack",
+                  "specs": {
+                    "type": "split shot"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Oros",
+          "logo": {
+            "domain": "orosfishing.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/oros.png"
+          },
+          "models": [
+            {
+              "model": "Strike Indicator",
+              "variants": [
+                {
+                  "id": "accessory-oros-strike-indicator-small",
+                  "code": "Small",
+                  "label": "Small",
+                  "specs": {
+                    "type": "strike indicator",
+                    "size": "small"
+                  }
+                },
+                {
+                  "id": "accessory-oros-strike-indicator-medium",
+                  "code": "Medium",
+                  "label": "Medium",
+                  "specs": {
+                    "type": "strike indicator",
+                    "size": "medium"
+                  }
+                }
+              ]
             }
           ]
         },
@@ -21623,6 +21971,28 @@
                   "id": "accessory-tacky-daypack-fly-box-one-size",
                   "code": "One Size",
                   "label": "One Size",
+                  "specs": {
+                    "type": "fly box"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "Waterproof Fly Box",
+              "variants": [
+                {
+                  "id": "accessory-ventures-fly-co-waterproof-fly-box-standard",
+                  "code": "Standard",
+                  "label": "Standard",
                   "specs": {
                     "type": "fly box"
                   }
@@ -22186,6 +22556,163 @@
                     "size": "XL",
                     "type": "sun hoody",
                     "upf": "50+"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand": "Ventures Fly Co",
+          "logo": {
+            "domain": "venturesflyco.com",
+            "url": "https://raw.githubusercontent.com/GLYSK-OU/AnglerBook-catalog/main/catalog/logos/ventures-fly-co.png"
+          },
+          "models": [
+            {
+              "model": "VFC Classic Hat",
+              "note": "Adjustable snapback, one size, curved brim.",
+              "variants": [
+                {
+                  "id": "apparel-ventures-fly-co-vfc-classic-hat-charcoal-black",
+                  "code": "Charcoal/Black",
+                  "label": "Charcoal/Black",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Charcoal/Black"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-vfc-classic-hat-caramel-black",
+                  "code": "Caramel/Black",
+                  "label": "Caramel/Black",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Caramel/Black"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-vfc-classic-hat-loden-black",
+                  "code": "Loden/Black",
+                  "label": "Loden/Black",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Loden/Black"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-vfc-classic-hat-khaki-brown",
+                  "code": "Khaki/Brown",
+                  "label": "Khaki/Brown",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Khaki/Brown"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "VFC Troutline Hat",
+              "note": "Adjustable snapback, one size, trout silhouette PVC patch.",
+              "variants": [
+                {
+                  "id": "apparel-ventures-fly-co-vfc-troutline-hat-black",
+                  "code": "Black",
+                  "label": "Black",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Black"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-vfc-troutline-hat-caramel",
+                  "code": "Caramel",
+                  "label": "Caramel",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Caramel"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-vfc-troutline-hat-loden",
+                  "code": "Loden",
+                  "label": "Loden",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Loden"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-vfc-troutline-hat-olive-camo",
+                  "code": "Olive Camo",
+                  "label": "Olive Camo",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Olive Camo"
+                  }
+                }
+              ]
+            },
+            {
+              "model": "Brown Trout Hat",
+              "note": "Adjustable snapback, one size. Rope variants carry a front rope detail.",
+              "variants": [
+                {
+                  "id": "apparel-ventures-fly-co-brown-trout-hat-khaki-brown",
+                  "code": "Khaki/Brown",
+                  "label": "Khaki/Brown",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Khaki/Brown"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-brown-trout-hat-loden-black",
+                  "code": "Loden/Black",
+                  "label": "Loden/Black",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "snapback hat",
+                    "colour": "Loden/Black"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-brown-trout-hat-rope-khaki-brown",
+                  "code": "Rope - Khaki/Brown",
+                  "label": "Rope - Khaki/Brown",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "rope hat",
+                    "colour": "Khaki/Brown"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-brown-trout-hat-rope-beige-brown",
+                  "code": "Rope - Beige/Brown",
+                  "label": "Rope - Beige/Brown",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "rope hat",
+                    "colour": "Beige/Brown"
+                  }
+                },
+                {
+                  "id": "apparel-ventures-fly-co-brown-trout-hat-rope-tan-loden",
+                  "code": "Rope - Tan/Loden",
+                  "label": "Rope - Tan/Loden",
+                  "specs": {
+                    "size": "One Size",
+                    "type": "rope hat",
+                    "colour": "Tan/Loden"
                   }
                 }
               ]
