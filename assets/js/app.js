@@ -105,7 +105,7 @@
   }
   function setStat(name, val) {
     var node = $('[data-stat="' + name + '"]');
-    if (node) node.textContent = (val != null ? val : "—");
+    if (node) node.textContent = (val != null ? Number(val).toLocaleString("en-IE") : "—");
   }
 
   // ---- Filters ----------------------------------------------------------

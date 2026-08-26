@@ -3,15 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AnglerBook · Gear Archive</title>
-  <meta name="description" content="AnglerBook Gear Archive — browse the fly-fishing gear catalog by GLYSK OÜ. Rods, reels, lines, flies, waders and more. Manufacturers can submit their catalog." />
+  <title>AnglerBook Gear Archive — The Fly-Fishing Gear Reference</title>
+  <meta name="description" content="The public reference for fly-fishing gear: 72 brand lines, 373 models, 1,873 variants across 14 categories, regenerated daily. Browse rods, reels, lines, flies, waders and more, or submit your catalogue as a manufacturer. By GLYSK OÜ." />
+  <link rel="canonical" href="https://catalog.anglerbook.fun/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AnglerBook Gear Archive — The Fly-Fishing Gear Reference" />
+  <meta property="og:description" content="72 brand lines, 373 models, 1,873 variants across 14 categories, regenerated daily. Free and public." />
+  <meta property="og:url" content="https://catalog.anglerbook.fun/" />
   <meta name="theme-color" content="#15362A" />
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Outfit:wght@300;400;600&display=swap" />
   <link rel="stylesheet" href="assets/css/styles.css?v=4" />
   <script src="assets/theme.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "AnglerBook Gear Archive",
+    "description": "Structured reference of fly-fishing gear: 72 brand lines, 373 models, 1,873 variants across 14 categories, regenerated daily. Specification conventions normalised across manufacturers.",
+    "url": "https://catalog.anglerbook.fun/",
+    "creator": { "@type": "Organization", "name": "GLYSK OÜ", "url": "https://www.glysk.eu" },
+    "isAccessibleForFree": true,
+    "distribution": [
+      { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://catalog.anglerbook.fun/catalog/gear.json" },
+      { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://catalog.anglerbook.fun/catalog/species.json" },
+      { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://catalog.anglerbook.fun/catalog/beats.json" }
+    ]
+  }
+  </script>
 </head>
 <body>
   <!-- Reusable AB shield logo -->
@@ -19,17 +40,17 @@
     <symbol id="ab-shield" viewBox="0 0 100 116">
       <defs>
         <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#2F6B4F" />
-          <stop offset="1" stop-color="#1C4636" />
+          <stop offset="0" stop-color="#16543C" />
+          <stop offset="1" stop-color="#0A2C20" />
         </linearGradient>
       </defs>
       <path d="M12 13 C12 9.7 14.7 7 18 7 L82 7 C85.3 7 88 9.7 88 13 L88 53 C88 80 69 94 50 109 C31 94 12 80 12 53 Z"
-            fill="url(#shieldGrad)" stroke="#EFE9DA" stroke-width="3" />
+            fill="url(#shieldGrad)" stroke="#F7F2E6" stroke-width="3" />
       <path d="M17.2 15.4 C17.2 13 19 11.6 21 11.6 L79 11.6 C81 11.6 82.8 13 82.8 15.4 L82.8 52 C82.8 77 65.5 90 50 102.6 C34.5 90 17.2 77 17.2 52 Z"
-            fill="none" stroke="#EFE9DA" stroke-width="1.4" opacity="0.85" />
-      <text x="50" y="61" text-anchor="middle" font-family="Oswald, 'Arial Narrow', sans-serif"
-            font-weight="700" font-size="46" letter-spacing="-1.5" fill="#EFE9DA">AB</text>
-      <g stroke="#EFE9DA" fill="none" stroke-width="2.2" stroke-linecap="round">
+            fill="none" stroke="#F7F2E6" stroke-width="1.4" opacity="0.85" />
+      <text x="50" y="61" text-anchor="middle" font-family="'Big Shoulders Display', 'Arial Narrow', sans-serif"
+            font-weight="700" font-size="46" letter-spacing="-1.5" fill="#F7F2E6">AB</text>
+      <g stroke="#F7F2E6" fill="none" stroke-width="2.2" stroke-linecap="round">
         <path d="M22 77 Q31 71 40 77 T58 77 T76 77" />
         <path d="M22 85 Q31 79 40 85 T58 85 T76 85" opacity="0.7" />
         <path d="M25 92 Q33 86.5 41 92 T57 92 T73 92" opacity="0.55" />
@@ -59,21 +80,27 @@
       <div class="brand-lockup">
         <svg class="shield shield-lg" width="88" height="102" viewBox="0 0 100 116" aria-hidden="true"><use href="#ab-shield" /></svg>
         <p class="wordmark">AnglerBook</p>
-        <p class="tagline">An app made with love for fishing · <strong>by GLYSK OÜ</strong></p>
+        <p class="tagline">The public reference for fly-fishing gear · <strong>by GLYSK OÜ</strong></p>
       </div>
 
       <h1>The Fly-Fishing Gear Archive</h1>
       <p class="hero-sub">
         A structured, searchable reference of real fly-fishing gear — rods, reels, lines,
-        flies, waders and more. Browse the catalog as an angler, or submit your line-up as a manufacturer.
+        flies, waders and more, with specification conventions normalised across
+        manufacturers and the whole archive regenerated daily. Browse it as an angler,
+        cite it as a reference, or submit your line-up as a manufacturer.
       </p>
       <dl class="hero-stats" id="hero-stats" aria-label="Catalog totals">
-        <div><dt>Kinds</dt><dd data-stat="kinds">—</dd></div>
-        <div><dt>Brands</dt><dd data-stat="brands">—</dd></div>
-        <div><dt>Models</dt><dd data-stat="models">—</dd></div>
-        <div><dt>Variants</dt><dd data-stat="variants">—</dd></div>
+        <div><dt>Kinds</dt><dd data-stat="kinds">14</dd></div>
+        <div><dt>Brand lines</dt><dd data-stat="brands">72</dd></div>
+        <div><dt>Models</dt><dd data-stat="models">373</dd></div>
+        <div><dt>Variants</dt><dd data-stat="variants">1,873</dd></div>
       </dl>
       <p class="hero-meta" id="hero-meta"></p>
+      <div class="hero-ctas">
+        <button type="button" class="btn btn-primary" onclick="document.getElementById('submit-dialog').showModal()">Submit your catalog</button>
+        <a class="btn btn-ghost" href="https://trade.anglerbook.fun" rel="noopener">Market Insight for the trade</a>
+      </div>
     </div>
   </section>
 
@@ -126,6 +153,27 @@
       <h2>Reference</h2>
       <p class="section-sub">Sizing systems and conventions used throughout the archive.</p>
       <div class="reference-grid" id="reference-grid"></div>
+    </div>
+  </section>
+
+  <section class="reference-section" id="beyond">
+    <div class="wrap">
+      <h2>The archive at work</h2>
+      <p class="section-sub">Free and public. Two things are built on it.</p>
+      <div class="xref-grid">
+        <a class="xref-card" href="https://anglerbook.fun" rel="noopener">
+          <h3>The AnglerBook app</h3>
+          <p>Every gear locker and flybox in AnglerBook is backed by this archive — brand
+          badges, spec suggestions and fly data come from the same files you browse here.</p>
+        </a>
+        <a class="xref-card" href="https://trade.anglerbook.fun" rel="noopener">
+          <h3>Market Insight</h3>
+          <p>The archive is the decode reference behind AnglerBook Market Insight: it is
+          what turns a raw gear entry into comparable specifications, reported by
+          specification and never by brand. Manufacturers who submit their lines sharpen
+          the decoding for the whole market.</p>
+        </a>
+      </div>
     </div>
   </section>
 
